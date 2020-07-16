@@ -54,13 +54,7 @@ using a 3rd party encryption software"
   tag rid: 'SV-72599r1_rule'
   tag stig_id: 'SRG-APP-000428-DB-000386'
   tag fix_id: nil
-  tag cci: "CCI-002475
-The information system implements cryptographic mechanisms to prevent
-unauthorized modification of organization-defined information at rest on
-organization-defined information system components.
-NIST SP 800-53 Revision 4 :: SC-28 (1)
-
-"
+  tag ccii: CCI-002475
   tag nist: 'SC-28 (1)'
 end
 

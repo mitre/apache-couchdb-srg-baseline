@@ -40,14 +40,7 @@ all non-organizational users who log onto the system."
   tag rid: 'SV-42818r3_rule'
   tag stig_id: 'SRG-APP-000180-DB-000115'
   tag fix_id: nil
-  tag cci: "CCI-000804
-The information system uniquely identifies and authenticates non-organizational
-users (or processes acting on behalf of non-organizational users).
-NIST SP 800-53 :: IA-8
-NIST SP 800-53A :: IA-8.1
-NIST SP 800-53 Revision 4 :: IA-8
-
-"
+  tag ccii: CCI-000804
   tag nist: 'IA-8'
 end
 

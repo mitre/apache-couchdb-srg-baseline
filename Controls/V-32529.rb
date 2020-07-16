@@ -38,14 +38,7 @@ system state information in the event of a system failure."
   tag rid: 'SV-42866r3_rule'
   tag stig_id: 'SRG-APP-000226-DB-000147'
   tag fix_id: nil
-  tag cci: "CCI-001665
-The information system preserves organization-defined system state information
-in the event of a system failure.
-NIST SP 800-53 :: SC-24
-NIST SP 800-53A :: SC-24.1 (v)
-NIST SP 800-53 Revision 4 :: SC-24
-
-"
+  tag ccii: CCI-001665
   tag nist: 'SC-24'
 end
 

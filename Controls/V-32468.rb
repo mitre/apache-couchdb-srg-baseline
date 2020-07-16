@@ -43,14 +43,7 @@ passwords are hashed and if it is not, then it is done then.
   tag rid: 'SV-42805r3_rule'
   tag stig_id: 'SRG-APP-000171-DB-000074'
   tag fix_id: nil
-  tag cci: "CCI-000196
-The information system, for password-based authentication, stores only
-encrypted representations of passwords.
-NIST SP 800-53 :: IA-5 (1) (c)
-NIST SP 800-53A :: IA-5 (1).1 (v)
-NIST SP 800-53 Revision 4 :: IA-5 (1) (c)
-
-"
+  tag ccii: CCI-000196
   tag nist: 'IA-5 (1) (c)'
 end
 

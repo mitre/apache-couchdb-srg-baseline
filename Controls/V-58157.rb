@@ -37,14 +37,7 @@ applicable (NA).
   tag rid: 'SV-72587r1_rule'
   tag stig_id: 'SRG-APP-000416-DB-000380'
   tag fix_id: nil
-  tag cci: "CCI-002450
-The information system implements organization-defined cryptographic uses and
-type of cryptography required for each use in accordance with applicable
-federal laws, Executive Orders, directives, policies, regulations, and
-standards.
-NIST SP 800-53 Revision 4 :: SC-13
-
-"
+  tag ccii: CCI-002450
   tag nist: 'SC-13'
 end
 

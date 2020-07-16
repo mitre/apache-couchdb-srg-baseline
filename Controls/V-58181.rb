@@ -83,13 +83,7 @@ implement protections against code injection."
   tag rid: 'SV-72611r2_rule'
   tag stig_id: 'SRG-APP-000251-DB-000392'
   tag fix_id: nil
-  tag cci: "CCI-001310
-The information system checks the validity of organization-defined inputs.
-NIST SP 800-53 :: SI-10
-NIST SP 800-53A :: SI-10.1
-NIST SP 800-53 Revision 4 :: SI-10
-
-"
+  tag ccii: CCI-001310
   tag nist: 'SI-10'
 end
 

@@ -52,15 +52,7 @@ system identification in error messages."
   tag rid: 'SV-42907r4_rule'
   tag stig_id: 'SRG-APP-000266-DB-000162'
   tag fix_id: nil
-  tag cci: "CCI-001312
-The information system generates error messages that provide information
-necessary for corrective actions without revealing information that could be
-exploited by adversaries.
-NIST SP 800-53 :: SI-11 b
-NIST SP 800-53A :: SI-11.1 (iii)
-NIST SP 800-53 Revision 4 :: SI-11 a
-
-"
+  tag ccii: CCI-001312
   tag nist: 'SI-11 a'
 end
 

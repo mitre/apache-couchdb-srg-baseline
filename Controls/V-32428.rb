@@ -50,14 +50,7 @@ protovols, and servies."
   tag rid: 'SV-42765r3_rule'
   tag stig_id: 'SRG-APP-000142-DB-000094'
   tag fix_id: nil
-  tag cci: "CCI-000382
-The organization configures the information system to prohibit or restrict the
-use of organization defined functions, ports, protocols, and/or services.
-NIST SP 800-53 :: CM-7
-NIST SP 800-53A :: CM-7.1 (iii)
-NIST SP 800-53 Revision 4 :: CM-7 b
-
-"
+  tag ccii: CCI-000382
   tag nist: 'CM-7 b'
 end
 

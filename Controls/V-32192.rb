@@ -71,14 +71,7 @@ methods."
   tag rid: 'SV-42509r3_rule'
   tag stig_id: 'SRG-APP-000023-DB-000001'
   tag fix_id: nil
-  tag cci: "CCI-000015
-The organization employs automated mechanisms to support the information system
-account management functions.
-NIST SP 800-53 :: AC-2 (1)
-NIST SP 800-53A :: AC-2 (1).1
-NIST SP 800-53 Revision 4 :: AC-2 (1)
-
-"
+  tag ccii: CCI-000015
   tag nist: 'AC-2 (1)'
 end
 

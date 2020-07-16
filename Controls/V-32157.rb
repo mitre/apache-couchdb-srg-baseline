@@ -62,15 +62,7 @@ and/or account types.
   tag rid: 'SV-42474r3_rule'
   tag stig_id: 'SRG-APP-000001-DB-000031'
   tag fix_id: nil
-  tag cci: "CCI-000054
-The information system limits the number of concurrent sessions for each
-organization-defined account and/or account type to an organization-defined
-number of sessions.
-NIST SP 800-53 :: AC-10
-NIST SP 800-53A :: AC-10.1 (ii)
-NIST SP 800-53 Revision 4 :: AC-10
-
-"
+  tag ccii: CCI-000054
   tag nist: 'AC-10'
 end
 

@@ -60,14 +60,7 @@ system failure."
   tag rid: 'SV-42865r3_rule'
   tag stig_id: 'SRG-APP-000225-DB-000153'
   tag fix_id: nil
-  tag cci: "CCI-001190
-The information system fails to an organization-defined known-state for
-organization-defined types of failures.
-NIST SP 800-53 :: SC-24
-NIST SP 800-53A :: SC-24.1 (iv)
-NIST SP 800-53 Revision 4 :: SC-24
-
-"
+  tag ccii: CCI-001190
   tag nist: 'SC-24'
 end
 

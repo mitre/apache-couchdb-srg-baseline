@@ -33,13 +33,7 @@ and DTMs and IAVMs."
   tag rid: 'SV-72561r1_rule'
   tag stig_id: 'SRG-APP-000516-DB-000363'
   tag fix_id: nil
-  tag cci: "CCI-000366
-The organization implements the security configuration settings.
-NIST SP 800-53 :: CM-6 b
-NIST SP 800-53A :: CM-6.1 (iv)
-NIST SP 800-53 Revision 4 :: CM-6 b
-
-"
+  tag ccii: CCI-000366
   tag nist: 'CM-6 b'
 end
 

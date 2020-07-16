@@ -6,7 +6,6 @@ control 'V-32365' do
 investigation. To be sure of capturing all activity during those periods when
 session auditing is in use, it needs to be in operation for the whole time the
 DBMS is running."
-  desc  'rationale', ''
   desc  'check', "
      Check CouchDB settings and documentation initiate session auditing upon
 startup.
@@ -32,13 +31,7 @@ privileges/permissions are retrieved.
   tag rid: 'SV-42702r2_rule'
   tag stig_id: 'SRG-APP-000092-DB-000208'
   tag fix_id: nil
-  tag cci: "CCI-001464
-The information system initiates session audits at system start-up.
-NIST SP 800-53 :: AU-14 (1)
-NIST SP 800-53A :: AU-14 (1).1
-NIST SP 800-53 Revision 4 :: AU-14 (1)
-
-"
+  tag ccii: CCI-001464
   tag nist: 'AU-14 (1)'
 end
 

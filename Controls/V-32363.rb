@@ -32,15 +32,7 @@ ISSM (or individuals or roles appointed by the ISSM), this is a finding.
   tag rid: 'SV-42700r3_rule'
   tag stig_id: 'SRG-APP-000090-DB-000065'
   tag fix_id: nil
-  tag cci: "CCI-000171
-The information system allows organization-defined personnel or roles to select
-which auditable events are to be audited by specific components of the
-information system.
-NIST SP 800-53 :: AU-12 b
-NIST SP 800-53A :: AU-12.1 (iii)
-NIST SP 800-53 Revision 4 :: AU-12 b
-
-"
+  tag ccii: CCI-000171
   tag nist: 'AU-12 b'
 end
 

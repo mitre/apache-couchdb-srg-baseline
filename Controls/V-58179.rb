@@ -49,13 +49,7 @@ typed parameters, modify the code to do so."
   tag rid: 'SV-72609r2_rule'
   tag stig_id: 'SRG-APP-000251-DB-000391'
   tag fix_id: nil
-  tag cci: "CCI-001310
-The information system checks the validity of organization-defined inputs.
-NIST SP 800-53 :: SI-10
-NIST SP 800-53A :: SI-10.1
-NIST SP 800-53 Revision 4 :: SI-10
-
-"
+  tag ccii: CCI-001310
   tag nist: 'SI-10'
 end
 

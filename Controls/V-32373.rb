@@ -40,14 +40,7 @@ information to establish the sources (origins) of the events.
   tag rid: 'SV-42710r3_rule'
   tag stig_id: 'SRG-APP-000099-DB-000043'
   tag fix_id: nil
-  tag cci: "CCI-000134
-The information system generates audit records containing information that
-establishes the outcome of the event.
-NIST SP 800-53 :: AU-3
-NIST SP 800-53A :: AU-3.1
-NIST SP 800-53 Revision 4 :: AU-3
-
-"
+  tag ccii: CCI-000134
   tag nist: 'AU-3'
 end
 

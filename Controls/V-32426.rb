@@ -53,14 +53,7 @@ following:
   tag rid: 'SV-42763r4_rule'
   tag stig_id: 'SRG-APP-000141-DB-000092'
   tag fix_id: nil
-  tag cci: "CCI-000381
-The organization configures the information system to provide only essential
-capabilities.
-NIST SP 800-53 :: CM-7
-NIST SP 800-53A :: CM-7.1 (ii)
-NIST SP 800-53 Revision 4 :: CM-7 a
-
-"
+  tag ccii: CCI-000381
   tag nist: 'CM-7 a'
 end
 

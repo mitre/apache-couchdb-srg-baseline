@@ -37,14 +37,7 @@ categories of information are deleted.
   tag rid: 'SV-72533r1_rule'
   tag stig_id: 'SRG-APP-000502-DB-000348'
   tag fix_id: nil
-  tag cci: "CCI-000172
-The information system generates audit records for the events defined in AU-2 d
-with the content defined in AU-3.
-NIST SP 800-53 :: AU-12 c
-NIST SP 800-53A :: AU-12.1 (iv)
-NIST SP 800-53 Revision 4 :: AU-12 c
-
-"
+  tag ccii: CCI-000172
   tag nist: 'AU-12 c'
 end
 

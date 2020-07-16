@@ -50,15 +50,7 @@ authentication secrets."
   tag rid: 'SV-42816r4_rule'
   tag stig_id: 'SRG-APP-000178-DB-000083'
   tag fix_id: nil
-  tag cci: "CCI-000206
-The information system obscures feedback of authentication information during
-the authentication process to protect the information from possible
-exploitation/use by unauthorized individuals.
-NIST SP 800-53 :: IA-6
-NIST SP 800-53A :: IA-6.1
-NIST SP 800-53 Revision 4 :: IA-6
-
-"
+  tag ccii: CCI-000206
   tag nist: 'IA-6'
 end
 

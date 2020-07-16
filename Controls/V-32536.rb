@@ -49,13 +49,7 @@ objects and code implementing application logic."
   tag rid: 'SV-42873r3_rule'
   tag stig_id: 'SRG-APP-000233-DB-000124'
   tag fix_id: nil
-  tag cci: "CCI-001084
-The information system isolates security functions from nonsecurity functions.
-NIST SP 800-53 :: SC-3
-NIST SP 800-53A :: SC-3.1 (ii)
-NIST SP 800-53 Revision 4 :: SC-3
-
-"
+  tag ccii: CCI-001084
   tag nist: 'SC-3'
 end
 

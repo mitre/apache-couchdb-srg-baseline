@@ -45,14 +45,7 @@ record storage capacity. "
   tag rid: 'SV-72487r1_rule'
   tag stig_id: 'SRG-APP-000359-DB-000319'
   tag fix_id: nil
-  tag cci: "CCI-001855
-The information system provides a warning to organization-defined personnel,
-roles, and/or locations within organization-defined time period when allocated
-audit record storage volume reaches organization-defined percentage of
-repository maximum audit record storage capacity.
-NIST SP 800-53 Revision 4 :: AU-5 (1)
-
-"
+  tag ccii: CCI-001855
   tag nist: 'AU-5 (1)'
 end
 

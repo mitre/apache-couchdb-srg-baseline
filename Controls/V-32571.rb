@@ -55,14 +55,7 @@ to view them."
   tag rid: 'SV-42908r5_rule'
   tag stig_id: 'SRG-APP-000267-DB-000163'
   tag fix_id: nil
-  tag cci: "CCI-001314
-The information system reveals error messages only to organization-defined
-personnel or roles.
-NIST SP 800-53 :: SI-11 c
-NIST SP 800-53A :: SI-11.1 (iv)
-NIST SP 800-53 Revision 4 :: SI-11 b
-
-"
+  tag ccii: CCI-001314
   tag nist: 'SI-11 b'
 end
 

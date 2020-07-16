@@ -56,12 +56,7 @@ responds to invalid input.
   tag rid: 'SV-72613r2_rule'
   tag stig_id: 'SRG-APP-000447-DB-000393'
   tag fix_id: nil
-  tag cci: "CCI-002754
-The information system behaves in a predictable and documented manner that
-reflects organizational and system objectives when invalid inputs are received.
-NIST SP 800-53 Revision 4 :: SI-10 (3)
-
-"
+  tag ccii: CCI-002754
   tag nist: 'SI-10 (3)'
 end
 

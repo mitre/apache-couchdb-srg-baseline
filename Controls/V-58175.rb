@@ -39,12 +39,7 @@ Unused software is removed when updated."
   tag rid: 'SV-72605r1_rule'
   tag stig_id: 'SRG-APP-000454-DB-000389'
   tag fix_id: nil
-  tag cci: "CCI-002617
-The organization removes organization-defined software components (e.g.,
-previous versions) after updated versions have been installed.
-NIST SP 800-53 Revision 4 :: SI-2 (6)
-
-"
+  tag ccii: CCI-002617
   tag nist: 'SI-2 (6)'
 end
 

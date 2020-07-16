@@ -59,12 +59,7 @@ to ensure privilege elevation is used only as required.
   tag rid: 'SV-72451r2_rule'
   tag stig_id: 'SRG-APP-000342-DB-000302'
   tag fix_id: nil
-  tag cci: "CCI-002233
-The information system prevents organization-defined software from executing at
-higher privilege levels than users executing the software.
-NIST SP 800-53 Revision 4 :: AC-6 (8)
-
-"
+  tag ccii: CCI-002233
   tag nist: 'AC-6 (8)'
 end
 

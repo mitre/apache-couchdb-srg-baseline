@@ -36,12 +36,7 @@ executing process.
   tag rid: 'SV-72603r1_rule'
   tag stig_id: 'SRG-APP-000431-DB-000388'
   tag fix_id: nil
-  tag cci: "CCI-002530
-The information system maintains a separate execution domain for each executing
-process.
-NIST SP 800-53 Revision 4 :: SC-39
-
-"
+  tag ccii: CCI-002530
   tag nist: 'SC-39'
 end
 

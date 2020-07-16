@@ -64,13 +64,7 @@ files:
   tag rid: 'SV-42732r3_rule'
   tag stig_id: 'SRG-APP-000120-DB-000061'
   tag fix_id: nil
-  tag cci: "CCI-000164
-The information system protects audit information from unauthorized deletion.
-NIST SP 800-53 :: AU-9
-NIST SP 800-53A :: AU-9.1
-NIST SP 800-53 Revision 4 :: AU-9
-
-"
+  tag ccii: CCI-000164
   tag nist: 'AU-9'
 end
 

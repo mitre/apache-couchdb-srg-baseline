@@ -45,11 +45,7 @@ configuration of database(s).
   tag rid: 'SV-72557r1_rule'
   tag stig_id: 'SRG-APP-000381-DB-000361'
   tag fix_id: nil
-  tag cci: "CCI-001814
-The Information system supports auditing of the enforcement actions.
-NIST SP 800-53 Revision 4 :: CM-5 (1)
-
-"
+  tag ccii: CCI-001814
   tag nist: 'CM-5 (1)'
 end
 

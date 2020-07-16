@@ -45,14 +45,7 @@ finding.
   tag rid: 'SV-72559r1_rule'
   tag stig_id: 'SRG-APP-000133-DB-000362'
   tag fix_id: nil
-  tag cci: "CCI-001499
-The organization limits privileges to change software resident within software
-libraries.
-NIST SP 800-53 :: CM-5 (6)
-NIST SP 800-53A :: CM-5 (6).1
-NIST SP 800-53 Revision 4 :: CM-5 (6)
-
-"
+  tag ccii: CCI-001499
   tag nist: 'CM-5 (6)'
 end
 

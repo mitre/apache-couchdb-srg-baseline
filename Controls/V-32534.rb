@@ -42,14 +42,7 @@ using a 3rd party encryption software"
   tag rid: 'SV-42871r4_rule'
   tag stig_id: 'SRG-APP-000231-DB-000154'
   tag fix_id: nil
-  tag cci: "CCI-001199
-The information system protects the confidentiality and/or integrity of
-organization-defined information at rest.
-NIST SP 800-53 :: SC-28
-NIST SP 800-53A :: SC-28.1
-NIST SP 800-53 Revision 4 :: SC-28
-
-"
+  tag ccii: CCI-001199
   tag nist: 'SC-28'
 end
 

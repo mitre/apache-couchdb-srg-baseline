@@ -44,16 +44,7 @@ in section 9.1:
   tag rid: 'SV-42817r3_rule'
   tag stig_id: 'SRG-APP-000179-DB-000114'
   tag fix_id: nil
-  tag cci: "CCI-000803
-The information system implements mechanisms for authentication to a
-cryptographic module that meet the requirements of applicable federal laws,
-Executive Orders, directives, policies, regulations, standards, and guidance
-for such authentication.
-NIST SP 800-53 :: IA-7
-NIST SP 800-53A :: IA-7.1
-NIST SP 800-53 Revision 4 :: IA-7
-
-"
+  tag ccii: CCI-000803
   tag nist: 'IA-7'
 end
 

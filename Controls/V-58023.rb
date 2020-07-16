@@ -71,13 +71,7 @@ functionality."
   tag rid: 'SV-72453r1_rule'
   tag stig_id: 'SRG-APP-000340-DB-000304'
   tag fix_id: nil
-  tag cci: "CCI-002235
-The information system prevents non-privileged users from executing privileged
-functions to include disabling, circumventing, or altering implemented security
-safeguards/countermeasures.
-NIST SP 800-53 Revision 4 :: AC-6 (10)
-
-"
+  tag ccii: CCI-002235
   tag nist: 'AC-6 (10)'
 end
 

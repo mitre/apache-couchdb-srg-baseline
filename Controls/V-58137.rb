@@ -32,12 +32,7 @@ lifetime of cached authenticators.
   tag rid: 'SV-72567r1_rule'
   tag stig_id: 'SRG-APP-000400-DB-000367'
   tag fix_id: nil
-  tag cci: "CCI-002007
-The information system prohibits the use of cached authenticators after an
-organization defined time period.
-NIST SP 800-53 Revision 4 :: IA-5 (13)
-
-"
+  tag ccii: CCI-002007
   tag nist: 'IA-5 (13)'
 end
 

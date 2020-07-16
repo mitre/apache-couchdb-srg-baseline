@@ -46,15 +46,7 @@ in the case of an auditing failure.
   tag rid: 'SV-42720r3_rule'
   tag stig_id: 'SRG-APP-000109-DB-000049'
   tag fix_id: nil
-  tag cci: "CCI-000140
-The information system takes organization-defined actions upon audit failure
-(e.g., shut down information system, overwrite oldest audit records, stop
-generating audit records).
-NIST SP 800-53 :: AU-5 b
-NIST SP 800-53A :: AU-5.1 (iv)
-NIST SP 800-53 Revision 4 :: AU-5 b
-
-"
+  tag ccii: CCI-000140
   tag nist: 'AU-5 b'
 end
 

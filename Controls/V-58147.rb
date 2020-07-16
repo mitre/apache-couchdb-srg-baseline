@@ -60,12 +60,7 @@ reauthorization occur.
   tag rid: 'SV-72577r1_rule'
   tag stig_id: 'SRG-APP-000389-DB-000372'
   tag fix_id: nil
-  tag cci: "CCI-002038
-The organization requires users to reauthenticate when organization-defined
-circumstances or situations requiring reauthentication.
-NIST SP 800-53 Revision 4 :: IA-11
-
-"
+  tag ccii: CCI-002038
   tag nist: 'IA-11'
 end
 

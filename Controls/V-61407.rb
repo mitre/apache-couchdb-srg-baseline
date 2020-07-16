@@ -53,14 +53,7 @@ following format:
   tag rid: 'SV-75897r3_rule'
   tag stig_id: 'SRG-APP-000164-DB-000401'
   tag fix_id: nil
-  tag cci: "CCI-000192
-The information system enforces password complexity by the minimum number of
-upper case characters used.
-NIST SP 800-53 :: IA-5 (1) (a)
-NIST SP 800-53A :: IA-5 (1).1 (v)
-NIST SP 800-53 Revision 4 :: IA-5 (1) (a)
-
-"
+  tag ccii: CCI-000192
   tag nist: 'IA-5 (1) (a)'
 end
 

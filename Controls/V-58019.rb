@@ -56,12 +56,7 @@ configuration of the application(s) using the database."
   tag rid: 'SV-72449r1_rule'
   tag stig_id: 'SRG-APP-000328-DB-000301'
   tag fix_id: nil
-  tag cci: "CCI-002165
-The information system enforces organization-defined discretionary access
-control policies over defined subjects and objects.
-NIST SP 800-53 Revision 4 :: AC-3 (4)
-
-"
+  tag ccii: CCI-002165
   tag nist: 'AC-3 (4)'
 end
 

@@ -47,12 +47,7 @@ formerly GMT), this is a finding.
   tag rid: 'SV-72493r1_rule'
   tag stig_id: 'SRG-APP-000374-DB-000322'
   tag fix_id: nil
-  tag cci: "CCI-001890
-The information system records time stamps for audit records that can be mapped
-to Coordinated Universal Time (UTC) or Greenwich Mean Time (GMT).
-NIST SP 800-53 Revision 4 :: AU-8 b
-
-"
+  tag ccii: CCI-001890
   tag nist: 'AU-8 b'
 end
 

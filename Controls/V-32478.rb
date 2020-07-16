@@ -33,14 +33,7 @@ CouchDB user account."
   tag rid: 'SV-42815r3_rule'
   tag stig_id: 'SRG-APP-000177-DB-000069'
   tag fix_id: nil
-  tag cci: "CCI-000187
-The information system, for PKI-based authentication, maps the authenticated
-identity to the account of the individual or group.
-NIST SP 800-53 :: IA-5 (2)
-NIST SP 800-53A :: IA-5 (2).1
-NIST SP 800-53 Revision 4 :: IA-5 (2) (c)
-
-"
+  tag ccii: CCI-000187
   tag nist: 'IA-5 (2) (c)'
 end
 

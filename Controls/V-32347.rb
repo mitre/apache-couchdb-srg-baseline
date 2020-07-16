@@ -46,15 +46,7 @@ performed organization-defined actions.
   tag rid: 'SV-42684r4_rule'
   tag stig_id: 'SRG-APP-000080-DB-000063'
   tag fix_id: nil
-  tag cci: "CCI-000166
-The information system protects against an individual (or process acting on
-behalf of an individual) falsely denying having performed organization-defined
-actions to be covered by non-repudiation.
-NIST SP 800-53 :: AU-10
-NIST SP 800-53A :: AU-10.1
-NIST SP 800-53 Revision 4 :: AU-10
-
-"
+  tag ccii: CCI-000166
   tag nist: 'AU-10'
 end
 

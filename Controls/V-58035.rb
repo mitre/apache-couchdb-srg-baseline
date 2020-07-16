@@ -44,13 +44,7 @@ manually terminate a session initiated by that user."
   tag rid: 'SV-72465r1_rule'
   tag stig_id: 'SRG-APP-000296-DB-000306'
   tag fix_id: nil
-  tag cci: "CCI-002363
-The information system provides a logout capability for user-initiated
-communications sessions whenever authentication is used to gain access to
-organization-defined information resources.
-NIST SP 800-53 Revision 4 :: AC-12 (1)
-
-"
+  tag ccii: CCI-002363
   tag nist: 'AC-12 (1)'
 end
 

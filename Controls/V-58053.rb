@@ -44,12 +44,7 @@ accordance with organization-defined audit record storage requirements."
   tag rid: 'SV-72483r1_rule'
   tag stig_id: 'SRG-APP-000357-DB-000316'
   tag fix_id: nil
-  tag cci: "CCI-001849
-The organization allocates audit record storage capacity in accordance with
-organization-defined audit record storage requirements.
-NIST SP 800-53 Revision 4 :: AU-4
-
-"
+  tag ccii: CCI-001849
   tag nist: 'AU-4'
 end
 

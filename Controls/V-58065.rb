@@ -48,12 +48,7 @@ data, with a minimum granularity of one second, this is a finding.
   tag rid: 'SV-72495r1_rule'
   tag stig_id: 'SRG-APP-000375-DB-000323'
   tag fix_id: nil
-  tag cci: "CCI-001889
-The information system records time stamps for audit records that meets
-organization-defined granularity of time measurement.
-NIST SP 800-53 Revision 4 :: AU-8 b
-
-"
+  tag ccii: CCI-001889
   tag nist: 'AU-8 b'
 end
 

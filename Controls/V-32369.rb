@@ -50,14 +50,7 @@ establish when the events occurred, this is a finding.
   tag rid: 'SV-42706r3_rule'
   tag stig_id: 'SRG-APP-000096-DB-000040'
   tag fix_id: nil
-  tag cci: "CCI-000131
-The information system generates audit records containing information that
-establishes when an event occurred.
-NIST SP 800-53 :: AU-3
-NIST SP 800-53A :: AU-3.1
-NIST SP 800-53 Revision 4 :: AU-3
-
-"
+  tag ccii: CCI-000131
   tag nist: 'AU-3'
 end
 

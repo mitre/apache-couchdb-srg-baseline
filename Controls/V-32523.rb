@@ -68,14 +68,7 @@ termination event.
   tag rid: 'SV-42860r2_rule'
   tag stig_id: 'SRG-APP-000220-DB-000149'
   tag fix_id: nil
-  tag cci: "CCI-001185
-The information system invalidates session identifiers upon user logout or
-other session termination.
-NIST SP 800-53 :: SC-23 (1)
-NIST SP 800-53A :: SC-23 (1).1
-NIST SP 800-53 Revision 4 :: SC-23 (1)
-
-"
+  tag ccii: CCI-001185
   tag nist: 'SC-23 (1)'
 end
 

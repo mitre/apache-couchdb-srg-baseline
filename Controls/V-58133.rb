@@ -29,13 +29,7 @@ servies."
   tag rid: 'SV-72563r1_rule'
   tag stig_id: 'SRG-APP-000383-DB-000364'
   tag fix_id: nil
-  tag cci: "CCI-001762
-The organization disables organization-defined functions, ports, protocols, and
-services within the information system deemed to be unnecessary and/or
-nonsecure.
-NIST SP 800-53 Revision 4 :: CM-7 (1) (b)
-
-"
+  tag ccii: CCI-001762
   tag nist: 'CM-7 (1) (b)'
 end
 

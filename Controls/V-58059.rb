@@ -50,13 +50,7 @@ appropriate support staff of all audit log failures.
   tag rid: 'SV-72489r2_rule'
   tag stig_id: 'SRG-APP-000360-DB-000320'
   tag fix_id: nil
-  tag cci: "CCI-001858
-The information system provides a real-time alert in organization-defined
-real-time period to organization-defined personnel, roles, and/or locations
-when organization-defined audit failure events requiring real-time alerts occur.
-NIST SP 800-53 Revision 4 :: AU-5 (2)
-
-"
+  tag ccii: CCI-001858
   tag nist: 'AU-5 (2)'
 end
 

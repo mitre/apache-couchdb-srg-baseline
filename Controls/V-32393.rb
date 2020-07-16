@@ -64,13 +64,7 @@ files:
   tag rid: 'SV-42730r3_rule'
   tag stig_id: 'SRG-APP-000118-DB-000059'
   tag fix_id: nil
-  tag cci: "CCI-000162
-The information system protects audit information from unauthorized access.
-NIST SP 800-53 :: AU-9
-NIST SP 800-53A :: AU-9.1
-NIST SP 800-53 Revision 4 :: AU-9
-
-"
+  tag ccii: CCI-000162
   tag nist: 'AU-9'
 end
 

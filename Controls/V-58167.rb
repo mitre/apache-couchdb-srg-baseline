@@ -41,12 +41,7 @@ PKI end-entity certificates."
   tag rid: 'SV-72597r1_rule'
   tag stig_id: 'SRG-APP-000427-DB-000385'
   tag fix_id: nil
-  tag cci: "CCI-002470
-The information system only allows the use of organization-defined certificate
-authorities for verification of the establishment of protected sessions.
-NIST SP 800-53 Revision 4 :: SC-23 (5)
-
-"
+  tag ccii: CCI-002470
   tag nist: 'SC-23 (5)'
 end
 

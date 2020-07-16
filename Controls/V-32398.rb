@@ -50,13 +50,7 @@ file>
   tag rid: 'SV-42735r3_rule'
   tag stig_id: 'SRG-APP-000122-DB-000203'
   tag fix_id: nil
-  tag cci: "CCI-001494
-The information system protects audit tools from unauthorized modification.
-NIST SP 800-53 :: AU-9
-NIST SP 800-53A :: AU-9.1
-NIST SP 800-53 Revision 4 :: AU-9
-
-"
+  tag ccii: CCI-001494
   tag nist: 'AU-9'
 end
 

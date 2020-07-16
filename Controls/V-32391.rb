@@ -48,14 +48,7 @@ with the internal system clock used by the operating system.
   tag rid: 'SV-42728r3_rule'
   tag stig_id: 'SRG-APP-000116-DB-000057'
   tag fix_id: nil
-  tag cci: "CCI-000159
-The information system uses internal system clocks to generate time stamps for
-audit records.
-NIST SP 800-53 :: AU-8
-NIST SP 800-53A :: AU-8.1
-NIST SP 800-53 Revision 4 :: AU-8 a
-
-"
+  tag ccii: CCI-000159
   tag nist: 'AU-8 a'
 end
 

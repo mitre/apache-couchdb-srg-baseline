@@ -48,13 +48,7 @@ this should be implemented and recorded by organization in their defined plan.
   tag rid: 'SV-72469r1_rule'
   tag stig_id: 'SRG-APP-000313-DB-000309'
   tag fix_id: nil
-  tag cci: "CCI-002263
-The organization provides the means to associate organization-defined types of
-security attributes having organization-defined security attribute values with
-information in process.
-NIST SP 800-53 Revision 4 :: AC-16 a
-
-"
+  tag ccii: CCI-002263
   tag nist: 'AC-16 a'
 end
 

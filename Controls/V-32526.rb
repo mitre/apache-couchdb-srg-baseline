@@ -36,14 +36,7 @@ identifiers that are system-generated."
   tag rid: 'SV-42863r2_rule'
   tag stig_id: 'SRG-APP-000223-DB-000168'
   tag fix_id: nil
-  tag cci: "CCI-001664
-The information system recognizes only session identifiers that are
-system-generated.
-NIST SP 800-53 :: SC-23 (3)
-NIST SP 800-53A :: SC-23 (3).1 (ii)
-NIST SP 800-53 Revision 4 :: SC-23 (3)
-
-"
+  tag ccii: CCI-001664
   tag nist: 'SC-23 (3)'
 end
 

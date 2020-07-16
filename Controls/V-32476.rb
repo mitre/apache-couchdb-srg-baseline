@@ -63,14 +63,7 @@ and authorized users.
   tag rid: 'SV-42813r3_rule'
   tag stig_id: 'SRG-APP-000176-DB-000068'
   tag fix_id: nil
-  tag cci: "CCI-000186
-The information system, for PKI-based authentication enforces authorized access
-to the corresponding private key.
-NIST SP 800-53 :: IA-5 (2)
-NIST SP 800-53A :: IA-5 (2).1
-NIST SP 800-53 Revision 4 :: IA-5 (2)
-
-"
+  tag ccii: CCI-000186
   tag nist: 'IA-5 (2)'
 end
 

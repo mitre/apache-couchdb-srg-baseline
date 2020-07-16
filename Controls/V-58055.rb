@@ -54,12 +54,7 @@ stand-alone systems.
   tag rid: 'SV-72485r1_rule'
   tag stig_id: 'SRG-APP-000515-DB-000318'
   tag fix_id: nil
-  tag cci: "CCI-001851
-The information system off-loads audit records per organization-defined
-frequency onto a different system or media than the system being audited.
-NIST SP 800-53 Revision 4 :: AU-4 (1)
-
-"
+  tag ccii: CCI-001851
   tag nist: 'AU-4 (1)'
 end
 

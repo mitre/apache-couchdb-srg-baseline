@@ -42,15 +42,7 @@ record.
   tag rid: 'SV-42711r3_rule'
   tag stig_id: 'SRG-APP-000100-DB-000201'
   tag fix_id: nil
-  tag cci: "CCI-001487
-The information system generates audit records containing information that
-establishes the identity of any individuals or subjects associated with the
-event.
-NIST SP 800-53 :: AU-3
-NIST SP 800-53A :: AU-3.1
-NIST SP 800-53 Revision 4 :: AU-3
-
-"
+  tag ccii: CCI-001487
   tag nist: 'AU-3'
 end
 

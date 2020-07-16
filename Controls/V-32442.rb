@@ -40,14 +40,7 @@ all organizational users who log on/connect to the system."
   tag rid: 'SV-42779r4_rule'
   tag stig_id: 'SRG-APP-000148-DB-000103'
   tag fix_id: nil
-  tag cci: "CCI-000764
-The information system uniquely identifies and authenticates organizational
-users (or processes acting on behalf of organizational users).
-NIST SP 800-53 :: IA-2
-NIST SP 800-53A :: IA-2.1
-NIST SP 800-53 Revision 4 :: IA-2
-
-"
+  tag ccii: CCI-000764
   tag nist: 'IA-2'
 end
 

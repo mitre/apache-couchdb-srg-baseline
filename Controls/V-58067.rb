@@ -42,15 +42,7 @@ finding.
   tag rid: 'SV-72497r1_rule'
   tag stig_id: 'SRG-APP-000353-DB-000324'
   tag fix_id: nil
-  tag cci: "CCI-001914
-The information system provides the capability for organization-defined
-individuals or roles to change the auditing to be performed on
-organization-defined information system components based on
-organization-defined selectable event criteria within organization-defined time
-thresholds.
-NIST SP 800-53 Revision 4 :: AU-12 (3)
-
-"
+  tag ccii: CCI-001914
   tag nist: 'AU-12 (3)'
 end
 

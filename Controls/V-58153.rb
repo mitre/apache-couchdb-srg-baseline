@@ -37,12 +37,7 @@ infrastructure must leverage transmission protection mechanisms.
   tag rid: 'SV-72583r1_rule'
   tag stig_id: 'SRG-APP-000441-DB-000378'
   tag fix_id: nil
-  tag cci: "CCI-002420
-The information system maintains the confidentiality and/or integrity of
-information during preparation for transmission.
-NIST SP 800-53 Revision 4 :: SC-8 (2)
-
-"
+  tag ccii: CCI-002420
   tag nist: 'SC-8 (2)'
 end
 

@@ -54,15 +54,7 @@ for audit events identified by type, location, or subject, this is a finding.
   tag rid: 'SV-42712r4_rule'
   tag stig_id: 'SRG-APP-000101-DB-000044'
   tag fix_id: nil
-  tag cci: "CCI-000135
-The information system generates audit records containing the
-organization-defined additional, more detailed information that is to be
-included in the audit records.
-NIST SP 800-53 :: AU-3 (1)
-NIST SP 800-53A :: AU-3 (1).1 (ii)
-NIST SP 800-53 Revision 4 :: AU-3 (1)
-
-"
+  tag ccii: CCI-000135
   tag nist: 'AU-3 (1)'
 end
 

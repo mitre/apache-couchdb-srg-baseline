@@ -66,15 +66,7 @@ finding.
   tag rid: 'SV-42520r3_rule'
   tag stig_id: 'SRG-APP-000033-DB-000084'
   tag fix_id: nil
-  tag cci: "CCI-000213
-The information system enforces approved authorizations for logical access to
-information and system resources in accordance with applicable access control
-policies.
-NIST SP 800-53 :: AC-3
-NIST SP 800-53A :: AC-3.1
-NIST SP 800-53 Revision 4 :: AC-3
-
-"
+  tag ccii: CCI-000213
   tag nist: 'AC-3'
 end
 

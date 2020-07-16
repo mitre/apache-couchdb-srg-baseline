@@ -46,12 +46,7 @@ organization-defined conditions or trigger events requiring session termination.
   tag rid: 'SV-72455r1_rule'
   tag stig_id: 'SRG-APP-000295-DB-000305'
   tag fix_id: nil
-  tag cci: "CCI-002361
-The information system automatically terminates a user session after
-organization-defined conditions or trigger events requiring session disconnect.
-NIST SP 800-53 Revision 4 :: AC-12
-
-"
+  tag ccii: CCI-002361
   tag nist: 'AC-12'
 end
 

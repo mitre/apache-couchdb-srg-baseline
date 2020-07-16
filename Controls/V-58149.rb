@@ -36,14 +36,7 @@ process or user from unauthorized access by another user or process.
   tag rid: 'SV-72579r1_rule'
   tag stig_id: 'SRG-APP-000243-DB-000373'
   tag fix_id: nil
-  tag cci: "CCI-001090
-The information system prevents unauthorized and unintended information
-transfer via shared system resources.
-NIST SP 800-53 :: SC-4
-NIST SP 800-53A :: SC-4.1
-NIST SP 800-53 Revision 4 :: SC-4
-
-"
+  tag ccii: CCI-001090
   tag nist: 'SC-4'
 end
 

@@ -43,14 +43,7 @@ man-in-the-middle attacks that guess at session identifier values are enabled.
   tag rid: 'SV-72595r1_rule'
   tag stig_id: 'SRG-APP-000224-DB-000384'
   tag fix_id: nil
-  tag cci: "CCI-001188
-The information system generates unique session identifiers for each session
-with organization-defined randomness requirements.
-NIST SP 800-53 :: SC-23 (4)
-NIST SP 800-53A :: SC-23 (4).1 (ii)
-NIST SP 800-53 Revision 4 :: SC-23 (3)
-
-"
+  tag ccii: CCI-001188
   tag nist: 'SC-23 (3)'
 end
 

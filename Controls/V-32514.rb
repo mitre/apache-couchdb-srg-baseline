@@ -52,14 +52,7 @@ attributes to users that do not require it.
   tag rid: 'SV-42851r3_rule'
   tag stig_id: 'SRG-APP-000211-DB-000122'
   tag fix_id: nil
-  tag cci: "CCI-001082
-The information system separates user functionality (including user interface
-services) from information system management functionality.
-NIST SP 800-53 :: SC-2
-NIST SP 800-53A :: SC-2.1
-NIST SP 800-53 Revision 4 :: SC-2
-
-"
+  tag ccii: CCI-001082
   tag nist: 'SC-2'
 end
 

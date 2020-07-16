@@ -49,15 +49,7 @@ certification path validation.
   tag rid: 'SV-42812r3_rule'
   tag stig_id: 'SRG-APP-000175-DB-000067'
   tag fix_id: nil
-  tag cci: "CCI-000185
-The information system, for PKI-based authentication validates certifications
-by constructing and verifying a certification path to an accepted trust anchor
-including checking certificate status information.
-NIST SP 800-53 :: IA-5 (2)
-NIST SP 800-53A :: IA-5 (2).1
-NIST SP 800-53 Revision 4 :: IA-5 (2) (a)
-
-"
+  tag ccii: CCI-000185
   tag nist: 'IA-5 (2) (a)'
 end
 

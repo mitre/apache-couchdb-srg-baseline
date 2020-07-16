@@ -62,12 +62,7 @@ finding.
   tag rid: 'SV-72565r1_rule'
   tag stig_id: 'SRG-APP-000378-DB-000365'
   tag fix_id: nil
-  tag cci: "CCI-001812
-The information system prohibits user installation of software without explicit
-privileged status.
-NIST SP 800-53 Revision 4 :: CM-11 (2)
-
-"
+  tag ccii: CCI-001812
   tag nist: 'CM-11 (2)'
 end
 

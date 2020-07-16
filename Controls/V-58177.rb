@@ -49,12 +49,7 @@ within the time frame defined for each patch.
   tag rid: 'SV-72607r1_rule'
   tag stig_id: 'SRG-APP-000456-DB-000390'
   tag fix_id: nil
-  tag cci: "CCI-002605
-The organization installs security-relevant software updates within
-organization-defined time period of the release of the updates
-NIST SP 800-53 Revision 4 :: SI-2 c
-
-"
+  tag ccii: CCI-002605
   tag nist: 'SI-2 c'
 end
 

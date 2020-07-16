@@ -54,15 +54,7 @@ finding.
   tag rid: 'SV-42699r3_rule'
   tag stig_id: 'SRG-APP-000089-DB-000064'
   tag fix_id: nil
-  tag cci: "CCI-000169
-The information system provides audit record generation capability for the
-auditable events defined in AU-2 a at organization-defined information system
-components.
-NIST SP 800-53 :: AU-12 a
-NIST SP 800-53A :: AU-12.1 (ii)
-NIST SP 800-53 Revision 4 :: AU-12 a
-
-"
+  tag ccii: CCI-000169
   tag nist: 'AU-12 a'
 end
 
