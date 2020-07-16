@@ -39,6 +39,6 @@ Unused software is removed when updated."
   tag stig_id: "SRG-APP-000454-DB-000389"
   tag fix_id: nil
   tag cci: ["CCI-002617"]
-  tag nist: ["SI-2 (6)"]
+  tag nist: ["SI-2 (6)", "Rev_4"]
 end
 

@@ -46,6 +46,6 @@ organization-defined conditions or trigger events requiring session termination.
   tag stig_id: "SRG-APP-000295-DB-000305"
   tag fix_id: nil
   tag cci: ["CCI-002361"]
-  tag nist: ["AC-12"]
+  tag nist: ["AC-12", "Rev_4"]
 end
 

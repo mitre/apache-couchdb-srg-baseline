@@ -33,6 +33,6 @@ and DTMs and IAVMs."
   tag stig_id: "SRG-APP-000516-DB-000363"
   tag fix_id: nil
   tag cci: ["CCI-000366"]
-  tag nist: ["CM-6 b"]
+  tag nist: ["CM-6 b", "Rev_4"]
 end
 

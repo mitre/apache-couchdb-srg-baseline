@@ -54,6 +54,6 @@ for audit events identified by type, location, or subject, this is a finding.
   tag stig_id: "SRG-APP-000101-DB-000044"
   tag fix_id: nil
   tag cci: ["CCI-000135"]
-  tag nist: ["AU-3 (1)"]
+  tag nist: ["AU-3 (1)", "Rev_4"]
 end
 

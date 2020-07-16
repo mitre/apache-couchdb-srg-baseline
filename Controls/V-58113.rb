@@ -46,6 +46,6 @@ logons/connections by the same user from different workstations occur.
   tag stig_id: "SRG-APP-000506-DB-000353"
   tag fix_id: nil
   tag cci: ["CCI-000172"]
-  tag nist: ["AU-12 c"]
+  tag nist: ["AU-12 c", "Rev_4"]
 end
 

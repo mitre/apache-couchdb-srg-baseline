@@ -36,6 +36,6 @@ administrators with a need to know are permitted to read/view these files.
   tag stig_id: "SRG-APP-000243-DB-000374"
   tag fix_id: nil
   tag cci: ["CCI-001090"]
-  tag nist: ["SC-4"]
+  tag nist: ["SC-4", "Rev_4"]
 end
 

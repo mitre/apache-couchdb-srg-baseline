@@ -54,6 +54,6 @@ stand-alone systems.
   tag stig_id: "SRG-APP-000515-DB-000318"
   tag fix_id: nil
   tag cci: ["CCI-001851"]
-  tag nist: ["AU-4 (1)"]
+  tag nist: ["AU-4 (1)", "Rev_4"]
 end
 

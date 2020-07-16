@@ -49,6 +49,6 @@ objects and code implementing application logic."
   tag stig_id: "SRG-APP-000233-DB-000124"
   tag fix_id: nil
   tag cci: ["CCI-001084"]
-  tag nist: ["SC-3"]
+  tag nist: ["SC-3", "Rev_4"]
 end
 

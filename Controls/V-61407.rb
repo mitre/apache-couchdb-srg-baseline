@@ -53,6 +53,6 @@ following format:
   tag stig_id: "SRG-APP-000164-DB-000401"
   tag fix_id: nil
   tag cci: ["CCI-000192"]
-  tag nist: ["IA-5 (1) (a)"]
+  tag nist: ["IA-5 (1) (a)", "Rev_4"]
 end
 

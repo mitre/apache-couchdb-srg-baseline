@@ -59,6 +59,6 @@ to ensure privilege elevation is used only as required.
   tag stig_id: "SRG-APP-000342-DB-000302"
   tag fix_id: nil
   tag cci: ["CCI-002233"]
-  tag nist: ["AC-6 (8)"]
+  tag nist: ["AC-6 (8)", "Rev_4"]
 end
 

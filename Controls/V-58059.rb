@@ -50,6 +50,6 @@ appropriate support staff of all audit log failures.
   tag stig_id: "SRG-APP-000360-DB-000320"
   tag fix_id: nil
   tag cci: ["CCI-001858"]
-  tag nist: ["AU-5 (2)"]
+  tag nist: ["AU-5 (2)", "Rev_4"]
 end
 

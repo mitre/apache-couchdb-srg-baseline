@@ -60,6 +60,6 @@ system failure."
   tag stig_id: "SRG-APP-000225-DB-000153"
   tag fix_id: nil
   tag cci: ["CCI-001190"]
-  tag nist: ["SC-24"]
+  tag nist: ["SC-24", "Rev_4"]
 end
 

@@ -43,6 +43,6 @@ part of the audit record.
   tag stig_id: "SRG-APP-000097-DB-000041"
   tag fix_id: nil
   tag cci: ["CCI-000132"]
-  tag nist: ["AU-3"]
+  tag nist: ["AU-3", "Rev_4"]
 end
 

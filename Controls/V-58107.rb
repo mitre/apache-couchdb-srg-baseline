@@ -30,6 +30,6 @@ connections occur.
   tag stig_id: "SRG-APP-000503-DB-000350"
   tag fix_id: nil
   tag cci: ["CCI-000172"]
-  tag nist: ["AU-12 c"]
+  tag nist: ["AU-12 c", "Rev_4"]
 end
 

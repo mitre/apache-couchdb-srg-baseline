@@ -50,6 +50,6 @@ file>
   tag stig_id: "SRG-APP-000122-DB-000203"
   tag fix_id: nil
   tag cci: ["CCI-001494"]
-  tag nist: ["AU-9"]
+  tag nist: ["AU-9", "Rev_4"]
 end
 

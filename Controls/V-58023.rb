@@ -71,6 +71,6 @@ functionality."
   tag stig_id: "SRG-APP-000340-DB-000304"
   tag fix_id: nil
   tag cci: ["CCI-002235"]
-  tag nist: ["AC-6 (10)"]
+  tag nist: ["AC-6 (10)", "Rev_4"]
 end
 

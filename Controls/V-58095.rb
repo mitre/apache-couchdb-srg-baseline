@@ -41,6 +41,6 @@ classification levels/security levels) are accessed, this is a finding.
   tag stig_id: "SRG-APP-000494-DB-000344"
   tag fix_id: nil
   tag cci: ["CCI-000172"]
-  tag nist: ["AU-12 c"]
+  tag nist: ["AU-12 c", "Rev_4"]
 end
 

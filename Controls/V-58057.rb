@@ -45,6 +45,6 @@ record storage capacity. "
   tag stig_id: "SRG-APP-000359-DB-000319"
   tag fix_id: nil
   tag cci: ["CCI-001855"]
-  tag nist: ["AU-5 (1)"]
+  tag nist: ["AU-5 (1)", "Rev_4"]
 end
 

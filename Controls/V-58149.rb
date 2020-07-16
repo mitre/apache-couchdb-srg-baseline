@@ -36,6 +36,6 @@ process or user from unauthorized access by another user or process.
   tag stig_id: "SRG-APP-000243-DB-000373"
   tag fix_id: nil
   tag cci: ["CCI-001090"]
-  tag nist: ["SC-4"]
+  tag nist: ["SC-4", "Rev_4"]
 end
 

@@ -47,6 +47,6 @@ formerly GMT), this is a finding.
   tag stig_id: "SRG-APP-000374-DB-000322"
   tag fix_id: nil
   tag cci: ["CCI-001890"]
-  tag nist: ["AU-8 b"]
+  tag nist: ["AU-8 b", "Rev_4"]
 end
 

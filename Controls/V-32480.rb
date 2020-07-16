@@ -44,6 +44,6 @@ in section 9.1:
   tag stig_id: "SRG-APP-000179-DB-000114"
   tag fix_id: nil
   tag cci: ["CCI-000803"]
-  tag nist: ["IA-7"]
+  tag nist: ["IA-7", "Rev_4"]
 end
 

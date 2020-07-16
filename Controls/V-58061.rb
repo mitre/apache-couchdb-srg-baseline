@@ -59,6 +59,6 @@ oldest existing records, in the case of an auditing failure.
   tag stig_id: "SRG-APP-000109-DB-000321"
   tag fix_id: nil
   tag cci: ["CCI-000140"]
-  tag nist: ["AU-5 b"]
+  tag nist: ["AU-5 b", "Rev_4"]
 end
 

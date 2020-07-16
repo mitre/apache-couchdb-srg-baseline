@@ -44,6 +44,6 @@ manually terminate a session initiated by that user."
   tag stig_id: "SRG-APP-000296-DB-000306"
   tag fix_id: nil
   tag cci: ["CCI-002363"]
-  tag nist: ["AC-12 (1)"]
+  tag nist: ["AC-12 (1)", "Rev_4"]
 end
 

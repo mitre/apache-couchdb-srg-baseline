@@ -74,6 +74,6 @@ database columns and tables that require them for data integrity.
   tag stig_id: "SRG-APP-000251-DB-000160"
   tag fix_id: nil
   tag cci: ["CCI-001310"]
-  tag nist: ["SI-10"]
+  tag nist: ["SI-10", "Rev_4"]
 end
 

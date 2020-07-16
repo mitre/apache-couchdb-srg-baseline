@@ -49,6 +49,6 @@ certification path validation.
   tag stig_id: "SRG-APP-000175-DB-000067"
   tag fix_id: nil
   tag cci: ["CCI-000185"]
-  tag nist: ["IA-5 (2) (a)"]
+  tag nist: ["IA-5 (2) (a)", "Rev_4"]
 end
 

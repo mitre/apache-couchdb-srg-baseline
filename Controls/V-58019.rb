@@ -56,6 +56,6 @@ configuration of the application(s) using the database."
   tag stig_id: "SRG-APP-000328-DB-000301"
   tag fix_id: nil
   tag cci: ["CCI-002165"]
-  tag nist: ["AC-3 (4)"]
+  tag nist: ["AC-3 (4)", "Rev_4"]
 end
 

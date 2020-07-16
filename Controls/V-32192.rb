@@ -71,6 +71,6 @@ methods."
   tag stig_id: "SRG-APP-000023-DB-000001"
   tag fix_id: nil
   tag cci: ["CCI-000015"]
-  tag nist: ["AC-2 (1)"]
+  tag nist: ["AC-2 (1)", "Rev_4"]
 end
 

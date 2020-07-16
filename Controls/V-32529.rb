@@ -38,6 +38,6 @@ system state information in the event of a system failure."
   tag stig_id: "SRG-APP-000226-DB-000147"
   tag fix_id: nil
   tag cci: ["CCI-001665"]
-  tag nist: ["SC-24"]
+  tag nist: ["SC-24", "Rev_4"]
 end
 

@@ -54,6 +54,6 @@ using a 3rd party encryption software"
   tag stig_id: "SRG-APP-000428-DB-000386"
   tag fix_id: nil
   tag cci: ["CCI-002475"]
-  tag nist: ["SC-28 (1)"]
+  tag nist: ["SC-28 (1)", "Rev_4"]
 end
 

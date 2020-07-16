@@ -62,6 +62,6 @@ and/or account types.
   tag stig_id: "SRG-APP-000001-DB-000031"
   tag fix_id: nil
   tag cci: ["CCI-000054"]
-  tag nist: ["AC-10"]
+  tag nist: ["AC-10", "Rev_4"]
 end
 

@@ -52,6 +52,6 @@ system identification in error messages."
   tag stig_id: "SRG-APP-000266-DB-000162"
   tag fix_id: nil
   tag cci: ["CCI-001312"]
-  tag nist: ["SI-11 a"]
+  tag nist: ["SI-11 a", "Rev_4"]
 end
 

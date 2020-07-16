@@ -32,6 +32,6 @@ privileges/permissions are retrieved.
   tag stig_id: "SRG-APP-000092-DB-000208"
   tag fix_id: nil
   tag cci: ["CCI-001464"]
-  tag nist: ["AU-14 (1)"]
+  tag nist: ["AU-14 (1)", "Rev_4"]
 end
 

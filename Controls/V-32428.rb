@@ -50,6 +50,6 @@ protovols, and servies."
   tag stig_id: "SRG-APP-000142-DB-000094"
   tag fix_id: nil
   tag cci: ["CCI-000382"]
-  tag nist: ["CM-7 b"]
+  tag nist: ["CM-7 b", "Rev_4"]
 end
 

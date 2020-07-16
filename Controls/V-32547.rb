@@ -41,6 +41,6 @@ locations."
   tag stig_id: "SRG-APP-000243-DB-000128"
   tag fix_id: nil
   tag cci: ["CCI-001090"]
-  tag nist: ["SC-4"]
+  tag nist: ["SC-4", "Rev_4"]
 end
 

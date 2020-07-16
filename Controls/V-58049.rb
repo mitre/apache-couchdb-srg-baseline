@@ -42,6 +42,6 @@ a centralized log management system. Configure loging to be enabled"
   tag stig_id: "SRG-APP-000356-DB-000314"
   tag fix_id: nil
   tag cci: ["CCI-001844"]
-  tag nist: ["AU-3 (2)"]
+  tag nist: ["AU-3 (2)", "Rev_4"]
 end
 

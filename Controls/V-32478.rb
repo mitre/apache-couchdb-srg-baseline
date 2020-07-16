@@ -33,6 +33,6 @@ CouchDB user account."
   tag stig_id: "SRG-APP-000177-DB-000069"
   tag fix_id: nil
   tag cci: ["CCI-000187"]
-  tag nist: ["IA-5 (2) (c)"]
+  tag nist: ["IA-5 (2) (c)", "Rev_4"]
 end
 

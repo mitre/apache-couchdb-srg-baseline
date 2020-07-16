@@ -68,6 +68,6 @@ termination event.
   tag stig_id: "SRG-APP-000220-DB-000149"
   tag fix_id: nil
   tag cci: ["CCI-001185"]
-  tag nist: ["SC-23 (1)"]
+  tag nist: ["SC-23 (1)", "Rev_4"]
 end
 

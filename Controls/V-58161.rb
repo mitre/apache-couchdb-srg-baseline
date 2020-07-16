@@ -33,6 +33,6 @@ modules must be validated and certified by NIST as FIPS-compliant.
   tag stig_id: "SRG-APP-000514-DB-000382"
   tag fix_id: nil
   tag cci: ["CCI-002450"]
-  tag nist: ["SC-13"]
+  tag nist: ["SC-13", "Rev_4"]
 end
 

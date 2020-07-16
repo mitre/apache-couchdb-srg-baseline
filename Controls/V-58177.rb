@@ -49,6 +49,6 @@ within the time frame defined for each patch.
   tag stig_id: "SRG-APP-000456-DB-000390"
   tag fix_id: nil
   tag cci: ["CCI-002605"]
-  tag nist: ["SI-2 c"]
+  tag nist: ["SI-2 c", "Rev_4"]
 end
 

@@ -32,6 +32,6 @@ ISSM (or individuals or roles appointed by the ISSM), this is a finding.
   tag stig_id: "SRG-APP-000090-DB-000065"
   tag fix_id: nil
   tag cci: ["CCI-000171"]
-  tag nist: ["AU-12 b"]
+  tag nist: ["AU-12 b", "Rev_4"]
 end
 

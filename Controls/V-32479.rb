@@ -50,6 +50,6 @@ authentication secrets."
   tag stig_id: "SRG-APP-000178-DB-000083"
   tag fix_id: nil
   tag cci: ["CCI-000206"]
-  tag nist: ["IA-6"]
+  tag nist: ["IA-6", "Rev_4"]
 end
 

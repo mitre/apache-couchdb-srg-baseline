@@ -60,6 +60,6 @@ reauthorization occur.
   tag stig_id: "SRG-APP-000389-DB-000372"
   tag fix_id: nil
   tag cci: ["CCI-002038"]
-  tag nist: ["IA-11"]
+  tag nist: ["IA-11", "Rev_4"]
 end
 

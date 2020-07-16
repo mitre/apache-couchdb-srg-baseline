@@ -83,6 +83,6 @@ implement protections against code injection."
   tag stig_id: "SRG-APP-000251-DB-000392"
   tag fix_id: nil
   tag cci: ["CCI-001310"]
-  tag nist: ["SI-10"]
+  tag nist: ["SI-10", "Rev_4"]
 end
 

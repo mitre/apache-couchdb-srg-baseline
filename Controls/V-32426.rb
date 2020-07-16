@@ -53,6 +53,6 @@ following:
   tag stig_id: "SRG-APP-000141-DB-000092"
   tag fix_id: nil
   tag cci: ["CCI-000381"]
-  tag nist: ["CM-7 a"]
+  tag nist: ["CM-7 a", "Rev_4"]
 end
 

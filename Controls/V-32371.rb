@@ -48,6 +48,6 @@ information to establish the sources (origins) of the events.
   tag stig_id: "SRG-APP-000098-DB-000042"
   tag fix_id: nil
   tag cci: ["CCI-000133"]
-  tag nist: ["AU-3"]
+  tag nist: ["AU-3", "Rev_4"]
 end
 

@@ -32,6 +32,6 @@ lifetime of cached authenticators.
   tag stig_id: "SRG-APP-000400-DB-000367"
   tag fix_id: nil
   tag cci: ["CCI-002007"]
-  tag nist: ["IA-5 (13)"]
+  tag nist: ["IA-5 (13)", "Rev_4"]
 end
 

@@ -66,6 +66,6 @@ finding.
   tag stig_id: "SRG-APP-000033-DB-000084"
   tag fix_id: nil
   tag cci: ["CCI-000213"]
-  tag nist: ["AC-3"]
+  tag nist: ["AC-3", "Rev_4"]
 end
 

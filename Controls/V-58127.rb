@@ -45,6 +45,6 @@ configuration of database(s).
   tag stig_id: "SRG-APP-000381-DB-000361"
   tag fix_id: nil
   tag cci: ["CCI-001814"]
-  tag nist: ["CM-5 (1)"]
+  tag nist: ["CM-5 (1)", "Rev_4"]
 end
 

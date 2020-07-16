@@ -48,6 +48,6 @@ with the internal system clock used by the operating system.
   tag stig_id: "SRG-APP-000116-DB-000057"
   tag fix_id: nil
   tag cci: ["CCI-000159"]
-  tag nist: ["AU-8 a"]
+  tag nist: ["AU-8 a", "Rev_4"]
 end
 

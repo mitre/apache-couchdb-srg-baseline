@@ -40,6 +40,6 @@ are deleted.
   tag stig_id: "SRG-APP-000499-DB-000330"
   tag fix_id: nil
   tag cci: ["CCI-000172"]
-  tag nist: ["AU-12 c"]
+  tag nist: ["AU-12 c", "Rev_4"]
 end
 

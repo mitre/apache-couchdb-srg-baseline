@@ -56,6 +56,6 @@ responds to invalid input.
   tag stig_id: "SRG-APP-000447-DB-000393"
   tag fix_id: nil
   tag cci: ["CCI-002754"]
-  tag nist: ["SI-10 (3)"]
+  tag nist: ["SI-10 (3)", "Rev_4"]
 end
 

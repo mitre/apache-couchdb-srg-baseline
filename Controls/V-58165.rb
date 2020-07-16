@@ -43,6 +43,6 @@ man-in-the-middle attacks that guess at session identifier values are enabled.
   tag stig_id: "SRG-APP-000224-DB-000384"
   tag fix_id: nil
   tag cci: ["CCI-001188"]
-  tag nist: ["SC-23 (3)"]
+  tag nist: ["SC-23 (3)", "Rev_4"]
 end
 

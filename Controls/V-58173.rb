@@ -36,6 +36,6 @@ executing process.
   tag stig_id: "SRG-APP-000431-DB-000388"
   tag fix_id: nil
   tag cci: ["CCI-002530"]
-  tag nist: ["SC-39"]
+  tag nist: ["SC-39", "Rev_4"]
 end
 

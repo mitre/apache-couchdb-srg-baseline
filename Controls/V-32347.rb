@@ -46,6 +46,6 @@ performed organization-defined actions.
   tag stig_id: "SRG-APP-000080-DB-000063"
   tag fix_id: nil
   tag cci: ["CCI-000166"]
-  tag nist: ["AU-10"]
+  tag nist: ["AU-10", "Rev_4"]
 end
 

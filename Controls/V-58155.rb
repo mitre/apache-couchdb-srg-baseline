@@ -39,6 +39,6 @@ must leverage protection mechanisms.
   tag stig_id: "SRG-APP-000442-DB-000379"
   tag fix_id: nil
   tag cci: ["CCI-002422"]
-  tag nist: ["SC-8 (2)"]
+  tag nist: ["SC-8 (2)", "Rev_4"]
 end
 

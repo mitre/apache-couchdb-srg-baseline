@@ -45,6 +45,6 @@ passwords are hashed and if it is not, then it is done then.
   tag stig_id: "SRG-APP-000172-DB-000075"
   tag fix_id: nil
   tag cci: ["CCI-000197"]
-  tag nist: ["IA-5 (1) (c)"]
+  tag nist: ["IA-5 (1) (c)", "Rev_4"]
 end
 

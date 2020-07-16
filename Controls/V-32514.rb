@@ -52,6 +52,6 @@ attributes to users that do not require it.
   tag stig_id: "SRG-APP-000211-DB-000122"
   tag fix_id: nil
   tag cci: ["CCI-001082"]
-  tag nist: ["SC-2"]
+  tag nist: ["SC-2", "Rev_4"]
 end
 

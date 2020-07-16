@@ -41,6 +41,6 @@ PKI end-entity certificates."
   tag stig_id: "SRG-APP-000427-DB-000385"
   tag fix_id: nil
   tag cci: ["CCI-002470"]
-  tag nist: ["SC-23 (5)"]
+  tag nist: ["SC-23 (5)", "Rev_4"]
 end
 

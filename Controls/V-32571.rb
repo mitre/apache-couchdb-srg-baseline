@@ -55,6 +55,6 @@ to view them."
   tag stig_id: "SRG-APP-000267-DB-000163"
   tag fix_id: nil
   tag cci: ["CCI-001314"]
-  tag nist: ["SI-11 b"]
+  tag nist: ["SI-11 b", "Rev_4"]
 end
 

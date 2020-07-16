@@ -58,6 +58,6 @@ physical protection.
   tag stig_id: "SRG-APP-000429-DB-000387"
   tag fix_id: nil
   tag cci: ["CCI-002476"]
-  tag nist: ["SC-28 (1)"]
+  tag nist: ["SC-28 (1)", "Rev_4"]
 end
 

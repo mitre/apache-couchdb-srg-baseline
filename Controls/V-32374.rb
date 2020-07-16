@@ -42,6 +42,6 @@ record.
   tag stig_id: "SRG-APP-000100-DB-000201"
   tag fix_id: nil
   tag cci: ["CCI-001487"]
-  tag nist: ["AU-3"]
+  tag nist: ["AU-3", "Rev_4"]
 end
 

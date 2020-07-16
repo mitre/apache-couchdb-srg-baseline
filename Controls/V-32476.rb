@@ -63,6 +63,6 @@ and authorized users.
   tag stig_id: "SRG-APP-000176-DB-000068"
   tag fix_id: nil
   tag cci: ["CCI-000186"]
-  tag nist: ["IA-5 (2)"]
+  tag nist: ["IA-5 (2)", "Rev_4"]
 end
 

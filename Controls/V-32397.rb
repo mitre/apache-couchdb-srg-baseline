@@ -55,6 +55,6 @@ file>
   tag stig_id: "SRG-APP-000121-DB-000202"
   tag fix_id: nil
   tag cci: ["CCI-001493"]
-  tag nist: ["AU-9"]
+  tag nist: ["AU-9", "Rev_4"]
 end
 

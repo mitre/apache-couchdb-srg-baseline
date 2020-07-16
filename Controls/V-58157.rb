@@ -37,6 +37,6 @@ applicable (NA).
   tag stig_id: "SRG-APP-000416-DB-000380"
   tag fix_id: nil
   tag cci: ["CCI-002450"]
-  tag nist: ["SC-13"]
+  tag nist: ["SC-13", "Rev_4"]
 end
 

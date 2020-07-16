@@ -40,6 +40,6 @@ all non-organizational users who log onto the system."
   tag stig_id: "SRG-APP-000180-DB-000115"
   tag fix_id: nil
   tag cci: ["CCI-000804"]
-  tag nist: ["IA-8"]
+  tag nist: ["IA-8", "Rev_4"]
 end
 

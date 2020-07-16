@@ -52,6 +52,6 @@ this should be implemented and recorded by organization in their defined plan.
   tag stig_id: "SRG-APP-000314-DB-000310"
   tag fix_id: nil
   tag cci: ["CCI-002264"]
-  tag nist: ["AC-16 a"]
+  tag nist: ["AC-16 a", "Rev_4"]
 end
 

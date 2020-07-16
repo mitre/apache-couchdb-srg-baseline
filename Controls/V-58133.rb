@@ -29,6 +29,6 @@ servies."
   tag stig_id: "SRG-APP-000383-DB-000364"
   tag fix_id: nil
   tag cci: ["CCI-001762"]
-  tag nist: ["CM-7 (1) (b)"]
+  tag nist: ["CM-7 (1) (b)", "Rev_4"]
 end
 

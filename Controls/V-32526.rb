@@ -36,6 +36,6 @@ identifiers that are system-generated."
   tag stig_id: "SRG-APP-000223-DB-000168"
   tag fix_id: nil
   tag cci: ["CCI-001664"]
-  tag nist: ["SC-23 (3)"]
+  tag nist: ["SC-23 (3)", "Rev_4"]
 end
 

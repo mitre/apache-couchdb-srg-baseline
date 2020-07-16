@@ -44,6 +44,6 @@ accordance with organization-defined audit record storage requirements."
   tag stig_id: "SRG-APP-000357-DB-000316"
   tag fix_id: nil
   tag cci: ["CCI-001849"]
-  tag nist: ["AU-4"]
+  tag nist: ["AU-4", "Rev_4"]
 end
 

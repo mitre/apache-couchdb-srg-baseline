@@ -45,6 +45,6 @@ occur.
   tag stig_id: "SRG-APP-000498-DB-000347"
   tag fix_id: nil
   tag cci: ["CCI-000172"]
-  tag nist: ["AU-12 c"]
+  tag nist: ["AU-12 c", "Rev_4"]
 end
 

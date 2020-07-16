@@ -42,6 +42,6 @@ finding.
   tag stig_id: "SRG-APP-000353-DB-000324"
   tag fix_id: nil
   tag cci: ["CCI-001914"]
-  tag nist: ["AU-12 (3)"]
+  tag nist: ["AU-12 (3)", "Rev_4"]
 end
 

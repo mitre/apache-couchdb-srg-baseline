@@ -48,6 +48,6 @@ data, with a minimum granularity of one second, this is a finding.
   tag stig_id: "SRG-APP-000375-DB-000323"
   tag fix_id: nil
   tag cci: ["CCI-001889"]
-  tag nist: ["AU-8 b"]
+  tag nist: ["AU-8 b", "Rev_4"]
 end
 
