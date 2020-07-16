@@ -38,13 +38,13 @@ finding.
 [\"user1\",\"user2\"],\"roles\": [\"developers\"]}}'
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000133-DB-000362'
-  tag gid: 'V-58129'
-  tag rid: 'SV-72559r1_rule'
-  tag stig_id: 'SRG-APP-000133-DB-000362'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000133-DB-000362"
+  tag gid: "V-58129"
+  tag rid: "SV-72559r1_rule"
+  tag stig_id: "SRG-APP-000133-DB-000362"
   tag fix_id: nil
-  tag ccii: CCI-001499
-  tag nist: 'CM-5 (6)'
+  tag cci: ["CCI-001499"]
+  tag nist: ["CM-5 (6)"]
 end
 

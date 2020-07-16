@@ -30,13 +30,13 @@ categories of information are deleted.
     # set level = info
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000502-DB-000348'
-  tag gid: 'V-58103'
-  tag rid: 'SV-72533r1_rule'
-  tag stig_id: 'SRG-APP-000502-DB-000348'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000502-DB-000348"
+  tag gid: "V-58103"
+  tag rid: "SV-72533r1_rule"
+  tag stig_id: "SRG-APP-000502-DB-000348"
   tag fix_id: nil
-  tag ccii: CCI-000172
-  tag nist: 'AU-12 c'
+  tag cci: ["CCI-000172"]
+  tag nist: ["AU-12 c"]
 end
 

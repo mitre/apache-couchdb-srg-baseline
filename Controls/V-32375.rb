@@ -47,13 +47,13 @@ for audit events identified by type, location, or subject, this is a finding.
     # set level = info
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000101-DB-000044'
-  tag gid: 'V-32375'
-  tag rid: 'SV-42712r4_rule'
-  tag stig_id: 'SRG-APP-000101-DB-000044'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000101-DB-000044"
+  tag gid: "V-32375"
+  tag rid: "SV-42712r4_rule"
+  tag stig_id: "SRG-APP-000101-DB-000044"
   tag fix_id: nil
-  tag ccii: CCI-000135
-  tag nist: 'AU-3 (1)'
+  tag cci: ["CCI-000135"]
+  tag nist: ["AU-3 (1)"]
 end
 

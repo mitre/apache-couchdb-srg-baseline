@@ -47,13 +47,13 @@ SA to demonstrate filesystem or disk level encryption.
   desc  'fix', "Either handled by device/ filesystem level encryption (OS) or
 using a 3rd party encryption software"
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000428-DB-000386'
-  tag gid: 'V-58169'
-  tag rid: 'SV-72599r1_rule'
-  tag stig_id: 'SRG-APP-000428-DB-000386'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000428-DB-000386"
+  tag gid: "V-58169"
+  tag rid: "SV-72599r1_rule"
+  tag stig_id: "SRG-APP-000428-DB-000386"
   tag fix_id: nil
-  tag ccii: CCI-002475
-  tag nist: 'SC-28 (1)'
+  tag cci: ["CCI-002475"]
+  tag nist: ["SC-28 (1)"]
 end
 

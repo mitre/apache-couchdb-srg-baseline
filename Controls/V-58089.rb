@@ -34,13 +34,13 @@ modify security objects occur.
     # set level = info
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000496-DB-000335'
-  tag gid: 'V-58089'
-  tag rid: 'SV-72519r1_rule'
-  tag stig_id: 'SRG-APP-000496-DB-000335'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000496-DB-000335"
+  tag gid: "V-58089"
+  tag rid: "SV-72519r1_rule"
+  tag stig_id: "SRG-APP-000496-DB-000335"
   tag fix_id: nil
-  tag ccii: CCI-000172
-  tag nist: 'AU-12 c'
+  tag cci: ["CCI-000172"]
+  tag nist: ["AU-12 c"]
 end
 

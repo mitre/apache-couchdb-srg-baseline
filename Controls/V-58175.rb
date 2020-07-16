@@ -32,13 +32,13 @@ finding.
   desc  'fix', "Use package managers (RPM or apt-get) for installing CouchDB.
 Unused software is removed when updated."
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000454-DB-000389'
-  tag gid: 'V-58175'
-  tag rid: 'SV-72605r1_rule'
-  tag stig_id: 'SRG-APP-000454-DB-000389'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000454-DB-000389"
+  tag gid: "V-58175"
+  tag rid: "SV-72605r1_rule"
+  tag stig_id: "SRG-APP-000454-DB-000389"
   tag fix_id: nil
-  tag ccii: CCI-002617
-  tag nist: 'SI-2 (6)'
+  tag cci: ["CCI-002617"]
+  tag nist: ["SI-2 (6)"]
 end
 

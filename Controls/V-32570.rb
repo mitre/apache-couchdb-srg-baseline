@@ -45,13 +45,13 @@ is a finding.
 application code not to divulge sensitive information or information useful for
 system identification in error messages."
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000266-DB-000162'
-  tag gid: 'V-32570'
-  tag rid: 'SV-42907r4_rule'
-  tag stig_id: 'SRG-APP-000266-DB-000162'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000266-DB-000162"
+  tag gid: "V-32570"
+  tag rid: "SV-42907r4_rule"
+  tag stig_id: "SRG-APP-000266-DB-000162"
   tag fix_id: nil
-  tag ccii: CCI-001312
-  tag nist: 'SI-11 a'
+  tag cci: ["CCI-001312"]
+  tag nist: ["SI-11 a"]
 end
 

@@ -43,13 +43,13 @@ after - the authentication process, this is a finding.
 feature associated with the CouchDB databse so that it does not display
 authentication secrets."
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000178-DB-000083'
-  tag gid: 'V-32479'
-  tag rid: 'SV-42816r4_rule'
-  tag stig_id: 'SRG-APP-000178-DB-000083'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000178-DB-000083"
+  tag gid: "V-32479"
+  tag rid: "SV-42816r4_rule"
+  tag stig_id: "SRG-APP-000178-DB-000083"
   tag fix_id: nil
-  tag ccii: CCI-000206
-  tag nist: 'IA-6'
+  tag cci: ["CCI-000206"]
+  tag nist: ["IA-6"]
 end
 

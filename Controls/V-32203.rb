@@ -59,13 +59,13 @@ finding.
 [\"user1\",\"user2\"],\"roles\": [\"developers\"]}}'
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000033-DB-000084'
-  tag gid: 'V-32203'
-  tag rid: 'SV-42520r3_rule'
-  tag stig_id: 'SRG-APP-000033-DB-000084'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000033-DB-000084"
+  tag gid: "V-32203"
+  tag rid: "SV-42520r3_rule"
+  tag stig_id: "SRG-APP-000033-DB-000084"
   tag fix_id: nil
-  tag ccii: CCI-000213
-  tag nist: 'AC-3'
+  tag cci: ["CCI-000213"]
+  tag nist: ["AC-3"]
 end
 

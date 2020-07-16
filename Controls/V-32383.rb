@@ -39,13 +39,13 @@ in the case of an auditing failure.
 
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000109-DB-000049'
-  tag gid: 'V-32383'
-  tag rid: 'SV-42720r3_rule'
-  tag stig_id: 'SRG-APP-000109-DB-000049'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000109-DB-000049"
+  tag gid: "V-32383"
+  tag rid: "SV-42720r3_rule"
+  tag stig_id: "SRG-APP-000109-DB-000049"
   tag fix_id: nil
-  tag ccii: CCI-000140
-  tag nist: 'AU-5 b'
+  tag cci: ["CCI-000140"]
+  tag nist: ["AU-5 b"]
 end
 

@@ -26,13 +26,13 @@ settings, this is a finding.
 and implementation guidance, including STIGs, NSA configuration guides, CTOs,
 and DTMs and IAVMs."
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000516-DB-000363'
-  tag gid: 'V-58131'
-  tag rid: 'SV-72561r1_rule'
-  tag stig_id: 'SRG-APP-000516-DB-000363'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000516-DB-000363"
+  tag gid: "V-58131"
+  tag rid: "SV-72561r1_rule"
+  tag stig_id: "SRG-APP-000516-DB-000363"
   tag fix_id: nil
-  tag ccii: CCI-000366
-  tag nist: 'CM-6 b'
+  tag cci: ["CCI-000366"]
+  tag nist: ["CM-6 b"]
 end
 

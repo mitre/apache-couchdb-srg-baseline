@@ -46,13 +46,13 @@ following format:
     # sudo restart couchdb
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000164-DB-000401'
-  tag gid: 'V-61407'
-  tag rid: 'SV-75897r3_rule'
-  tag stig_id: 'SRG-APP-000164-DB-000401'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000164-DB-000401"
+  tag gid: "V-61407"
+  tag rid: "SV-75897r3_rule"
+  tag stig_id: "SRG-APP-000164-DB-000401"
   tag fix_id: nil
-  tag ccii: CCI-000192
-  tag nist: 'IA-5 (1) (a)'
+  tag cci: ["CCI-000192"]
+  tag nist: ["IA-5 (1) (a)"]
 end
 

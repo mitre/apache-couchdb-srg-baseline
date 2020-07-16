@@ -34,13 +34,13 @@ is a finding
 certificate authority. Configure CouchDB to accept only DoD and DoD-approved
 PKI end-entity certificates."
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000427-DB-000385'
-  tag gid: 'V-58167'
-  tag rid: 'SV-72597r1_rule'
-  tag stig_id: 'SRG-APP-000427-DB-000385'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000427-DB-000385"
+  tag gid: "V-58167"
+  tag rid: "SV-72597r1_rule"
+  tag stig_id: "SRG-APP-000427-DB-000385"
   tag fix_id: nil
-  tag ccii: CCI-002470
-  tag nist: 'SC-23 (5)'
+  tag cci: ["CCI-002470"]
+  tag nist: ["SC-23 (5)"]
 end
 

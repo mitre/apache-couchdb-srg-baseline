@@ -57,13 +57,13 @@ files:
       # sudo chmod 600 <Log File>
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000118-DB-000059'
-  tag gid: 'V-32393'
-  tag rid: 'SV-42730r3_rule'
-  tag stig_id: 'SRG-APP-000118-DB-000059'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000118-DB-000059"
+  tag gid: "V-32393"
+  tag rid: "SV-42730r3_rule"
+  tag stig_id: "SRG-APP-000118-DB-000059"
   tag fix_id: nil
-  tag ccii: CCI-000162
-  tag nist: 'AU-9'
+  tag cci: ["CCI-000162"]
+  tag nist: ["AU-9"]
 end
 

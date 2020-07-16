@@ -53,13 +53,13 @@ failure, CouchDB will roll back open transactions to a consistent state, to
 include a security configuration that is at least as restrictive as before the
 system failure."
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000225-DB-000153'
-  tag gid: 'V-32528'
-  tag rid: 'SV-42865r3_rule'
-  tag stig_id: 'SRG-APP-000225-DB-000153'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000225-DB-000153"
+  tag gid: "V-32528"
+  tag rid: "SV-42865r3_rule"
+  tag stig_id: "SRG-APP-000225-DB-000153"
   tag fix_id: nil
-  tag ccii: CCI-001190
-  tag nist: 'SC-24'
+  tag cci: ["CCI-001190"]
+  tag nist: ["SC-24"]
 end
 

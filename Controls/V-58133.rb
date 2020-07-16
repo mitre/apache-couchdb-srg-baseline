@@ -22,13 +22,13 @@ a finding.
   desc  'fix', "Disable nonsecure network functions, ports, protovols, and
 servies."
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000383-DB-000364'
-  tag gid: 'V-58133'
-  tag rid: 'SV-72563r1_rule'
-  tag stig_id: 'SRG-APP-000383-DB-000364'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000383-DB-000364"
+  tag gid: "V-58133"
+  tag rid: "SV-72563r1_rule"
+  tag stig_id: "SRG-APP-000383-DB-000364"
   tag fix_id: nil
-  tag ccii: CCI-001762
-  tag nist: 'CM-7 (1) (b)'
+  tag cci: ["CCI-001762"]
+  tag nist: ["CM-7 (1) (b)"]
 end
 

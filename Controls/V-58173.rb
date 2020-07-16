@@ -29,13 +29,13 @@ executing process.
     If this is a configurable feature, configure CouchDB to implement it.
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000431-DB-000388'
-  tag gid: 'V-58173'
-  tag rid: 'SV-72603r1_rule'
-  tag stig_id: 'SRG-APP-000431-DB-000388'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000431-DB-000388"
+  tag gid: "V-58173"
+  tag rid: "SV-72603r1_rule"
+  tag stig_id: "SRG-APP-000431-DB-000388"
   tag fix_id: nil
-  tag ccii: CCI-002530
-  tag nist: 'SC-39'
+  tag cci: ["CCI-002530"]
+  tag nist: ["SC-39"]
 end
 

@@ -42,13 +42,13 @@ a finding.
 separate database, schema, or other separate security domain from database
 objects and code implementing application logic."
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000233-DB-000124'
-  tag gid: 'V-32536'
-  tag rid: 'SV-42873r3_rule'
-  tag stig_id: 'SRG-APP-000233-DB-000124'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000233-DB-000124"
+  tag gid: "V-32536"
+  tag rid: "SV-42873r3_rule"
+  tag stig_id: "SRG-APP-000233-DB-000124"
   tag fix_id: nil
-  tag ccii: CCI-001084
-  tag nist: 'SC-3'
+  tag cci: ["CCI-001084"]
+  tag nist: ["SC-3"]
 end
 

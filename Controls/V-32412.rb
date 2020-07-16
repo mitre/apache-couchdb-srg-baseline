@@ -36,13 +36,13 @@ database objects.
 
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000133-DB-000200'
-  tag gid: 'V-32412'
-  tag rid: 'SV-42749r3_rule'
-  tag stig_id: 'SRG-APP-000133-DB-000200'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000133-DB-000200"
+  tag gid: "V-32412"
+  tag rid: "SV-42749r3_rule"
+  tag stig_id: "SRG-APP-000133-DB-000200"
   tag fix_id: nil
-  tag ccii: CCI-001499
-  tag nist: 'CM-5 (6)'
+  tag cci: ["CCI-001499"]
+  tag nist: ["CM-5 (6)"]
 end
 

@@ -37,13 +37,13 @@ enforce it, this is a finding.
   desc  'fix', "Where relevant, modify the configuration to allow the user to
 manually terminate a session initiated by that user."
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000296-DB-000306'
-  tag gid: 'V-58035'
-  tag rid: 'SV-72465r1_rule'
-  tag stig_id: 'SRG-APP-000296-DB-000306'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000296-DB-000306"
+  tag gid: "V-58035"
+  tag rid: "SV-72465r1_rule"
+  tag stig_id: "SRG-APP-000296-DB-000306"
   tag fix_id: nil
-  tag ccii: CCI-002363
-  tag nist: 'AC-12 (1)'
+  tag cci: ["CCI-002363"]
+  tag nist: ["AC-12 (1)"]
 end
 

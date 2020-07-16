@@ -41,13 +41,13 @@ this should be implemented and recorded by organization in their defined plan.
     If security labeling is defined, but not present, it must be added.
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000313-DB-000309'
-  tag gid: 'V-58039'
-  tag rid: 'SV-72469r1_rule'
-  tag stig_id: 'SRG-APP-000313-DB-000309'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000313-DB-000309"
+  tag gid: "V-58039"
+  tag rid: "SV-72469r1_rule"
+  tag stig_id: "SRG-APP-000313-DB-000309"
   tag fix_id: nil
-  tag ccii: CCI-002263
-  tag nist: 'AC-16 a'
+  tag cci: ["CCI-002263"]
+  tag nist: ["AC-16 a"]
 end
 

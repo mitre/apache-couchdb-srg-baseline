@@ -26,13 +26,13 @@ modules must be validated and certified by NIST as FIPS-compliant.
     # sed -i 's/0/1/g' /proc/sys/crypto/fips_enabled
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000514-DB-000381'
-  tag gid: 'V-58159'
-  tag rid: 'SV-72589r1_rule'
-  tag stig_id: 'SRG-APP-000514-DB-000381'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000514-DB-000381"
+  tag gid: "V-58159"
+  tag rid: "SV-72589r1_rule"
+  tag stig_id: "SRG-APP-000514-DB-000381"
   tag fix_id: nil
-  tag ccii: CCI-002450
-  tag nist: 'SC-13'
+  tag cci: ["CCI-002450"]
+  tag nist: ["SC-13"]
 end
 

@@ -32,13 +32,13 @@ delete security objects occur.
     # set level = info
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000501-DB-000337'
-  tag gid: 'V-58093'
-  tag rid: 'SV-72523r1_rule'
-  tag stig_id: 'SRG-APP-000501-DB-000337'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000501-DB-000337"
+  tag gid: "V-58093"
+  tag rid: "SV-72523r1_rule"
+  tag stig_id: "SRG-APP-000501-DB-000337"
   tag fix_id: nil
-  tag ccii: CCI-000172
-  tag nist: 'AU-12 c'
+  tag cci: ["CCI-000172"]
+  tag nist: ["AU-12 c"]
 end
 

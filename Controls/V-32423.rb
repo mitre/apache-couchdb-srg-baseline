@@ -42,13 +42,13 @@ objects, and files from CouchDB.
 the configure script.
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000141-DB-000090'
-  tag gid: 'V-32423'
-  tag rid: 'SV-42760r3_rule'
-  tag stig_id: 'SRG-APP-000141-DB-000090'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000141-DB-000090"
+  tag gid: "V-32423"
+  tag rid: "SV-42760r3_rule"
+  tag stig_id: "SRG-APP-000141-DB-000090"
   tag fix_id: nil
-  tag ccii: CCI-000381
-  tag nist: 'CM-7 a'
+  tag cci: ["CCI-000381"]
+  tag nist: ["CM-7 a"]
 end
 

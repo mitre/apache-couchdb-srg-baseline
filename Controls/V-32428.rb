@@ -43,13 +43,13 @@ finding.
   desc  'fix', "Prohibit/restrict nonsecure network functions, ports,
 protovols, and servies."
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000142-DB-000094'
-  tag gid: 'V-32428'
-  tag rid: 'SV-42765r3_rule'
-  tag stig_id: 'SRG-APP-000142-DB-000094'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000142-DB-000094"
+  tag gid: "V-32428"
+  tag rid: "SV-42765r3_rule"
+  tag stig_id: "SRG-APP-000142-DB-000094"
   tag fix_id: nil
-  tag ccii: CCI-000382
-  tag nist: 'CM-7 b'
+  tag cci: ["CCI-000382"]
+  tag nist: ["CM-7 b"]
 end
 

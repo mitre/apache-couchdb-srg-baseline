@@ -43,13 +43,13 @@ establish when the events occurred, this is a finding.
     # set writer = <path to log file>
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000096-DB-000040'
-  tag gid: 'V-32369'
-  tag rid: 'SV-42706r3_rule'
-  tag stig_id: 'SRG-APP-000096-DB-000040'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000096-DB-000040"
+  tag gid: "V-32369"
+  tag rid: "SV-42706r3_rule"
+  tag stig_id: "SRG-APP-000096-DB-000040"
   tag fix_id: nil
-  tag ccii: CCI-000131
-  tag nist: 'AU-3'
+  tag cci: ["CCI-000131"]
+  tag nist: ["AU-3"]
 end
 

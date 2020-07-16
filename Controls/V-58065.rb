@@ -41,13 +41,13 @@ data, with a minimum granularity of one second, this is a finding.
     # set writer = <path to log file>
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000375-DB-000323'
-  tag gid: 'V-58065'
-  tag rid: 'SV-72495r1_rule'
-  tag stig_id: 'SRG-APP-000375-DB-000323'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000375-DB-000323"
+  tag gid: "V-58065"
+  tag rid: "SV-72495r1_rule"
+  tag stig_id: "SRG-APP-000375-DB-000323"
   tag fix_id: nil
-  tag ccii: CCI-001889
-  tag nist: 'AU-8 b'
+  tag cci: ["CCI-001889"]
+  tag nist: ["AU-8 b"]
 end
 

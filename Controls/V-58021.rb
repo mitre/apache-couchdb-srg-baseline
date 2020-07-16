@@ -52,13 +52,13 @@ external modules invoked by CouchDB, and the application(s) using the database,
 to ensure privilege elevation is used only as required.
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000342-DB-000302'
-  tag gid: 'V-58021'
-  tag rid: 'SV-72451r2_rule'
-  tag stig_id: 'SRG-APP-000342-DB-000302'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000342-DB-000302"
+  tag gid: "V-58021"
+  tag rid: "SV-72451r2_rule"
+  tag stig_id: "SRG-APP-000342-DB-000302"
   tag fix_id: nil
-  tag ccii: CCI-002233
-  tag nist: 'AC-6 (8)'
+  tag cci: ["CCI-002233"]
+  tag nist: ["AC-6 (8)"]
 end
 

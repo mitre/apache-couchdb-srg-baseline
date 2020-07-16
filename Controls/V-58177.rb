@@ -42,13 +42,13 @@ within the time frame defined for each patch.
   "
   desc  'fix', 'Update version of CouchDB'
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000456-DB-000390'
-  tag gid: 'V-58177'
-  tag rid: 'SV-72607r1_rule'
-  tag stig_id: 'SRG-APP-000456-DB-000390'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000456-DB-000390"
+  tag gid: "V-58177"
+  tag rid: "SV-72607r1_rule"
+  tag stig_id: "SRG-APP-000456-DB-000390"
   tag fix_id: nil
-  tag ccii: CCI-002605
-  tag nist: 'SI-2 c'
+  tag cci: ["CCI-002605"]
+  tag nist: ["SI-2 c"]
 end
 

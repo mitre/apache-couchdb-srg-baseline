@@ -35,13 +35,13 @@ transferred to a centralized log management system, this is a finding.
 CouchDB audit records are written directly to or systematically transferred to
 a centralized log management system. Configure loging to be enabled"
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000356-DB-000314'
-  tag gid: 'V-58049'
-  tag rid: 'SV-72479r1_rule'
-  tag stig_id: 'SRG-APP-000356-DB-000314'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000356-DB-000314"
+  tag gid: "V-58049"
+  tag rid: "SV-72479r1_rule"
+  tag stig_id: "SRG-APP-000356-DB-000314"
   tag fix_id: nil
-  tag ccii: CCI-001844
-  tag nist: 'AU-3 (2)'
+  tag cci: ["CCI-001844"]
+  tag nist: ["AU-3 (2)"]
 end
 

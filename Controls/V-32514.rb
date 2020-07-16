@@ -45,13 +45,13 @@ functionality.
 attributes to users that do not require it.
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000211-DB-000122'
-  tag gid: 'V-32514'
-  tag rid: 'SV-42851r3_rule'
-  tag stig_id: 'SRG-APP-000211-DB-000122'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000211-DB-000122"
+  tag gid: "V-32514"
+  tag rid: "SV-42851r3_rule"
+  tag stig_id: "SRG-APP-000211-DB-000122"
   tag fix_id: nil
-  tag ccii: CCI-001082
-  tag nist: 'SC-2'
+  tag cci: ["CCI-001082"]
+  tag nist: ["SC-2"]
 end
 

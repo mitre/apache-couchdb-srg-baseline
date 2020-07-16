@@ -52,13 +52,13 @@ failure.
 oldest existing records, in the case of an auditing failure.
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000109-DB-000321'
-  tag gid: 'V-58061'
-  tag rid: 'SV-72491r1_rule'
-  tag stig_id: 'SRG-APP-000109-DB-000321'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000109-DB-000321"
+  tag gid: "V-58061"
+  tag rid: "SV-72491r1_rule"
+  tag stig_id: "SRG-APP-000109-DB-000321"
   tag fix_id: nil
-  tag ccii: CCI-000140
-  tag nist: 'AU-5 b'
+  tag cci: ["CCI-000140"]
+  tag nist: ["AU-5 b"]
 end
 

@@ -41,13 +41,13 @@ information to establish the sources (origins) of the events.
     # set level = info
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000098-DB-000042'
-  tag gid: 'V-32371'
-  tag rid: 'SV-42708r3_rule'
-  tag stig_id: 'SRG-APP-000098-DB-000042'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000098-DB-000042"
+  tag gid: "V-32371"
+  tag rid: "SV-42708r3_rule"
+  tag stig_id: "SRG-APP-000098-DB-000042"
   tag fix_id: nil
-  tag ccii: CCI-000133
-  tag nist: 'AU-3'
+  tag cci: ["CCI-000133"]
+  tag nist: ["AU-3"]
 end
 

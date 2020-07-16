@@ -34,13 +34,13 @@ classification levels/security levels) are modified, this is a finding.
     # set level = info
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000498-DB-000346'
-  tag gid: 'V-58099'
-  tag rid: 'SV-72529r1_rule'
-  tag stig_id: 'SRG-APP-000498-DB-000346'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000498-DB-000346"
+  tag gid: "V-58099"
+  tag rid: "SV-72529r1_rule"
+  tag stig_id: "SRG-APP-000498-DB-000346"
   tag fix_id: nil
-  tag ccii: CCI-000172
-  tag nist: 'AU-12 c'
+  tag cci: ["CCI-000172"]
+  tag nist: ["AU-12 c"]
 end
 

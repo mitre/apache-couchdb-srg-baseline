@@ -39,13 +39,13 @@ organization-defined conditions or trigger events requiring session termination.
 
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000295-DB-000305'
-  tag gid: 'V-58025'
-  tag rid: 'SV-72455r1_rule'
-  tag stig_id: 'SRG-APP-000295-DB-000305'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000295-DB-000305"
+  tag gid: "V-58025"
+  tag rid: "SV-72455r1_rule"
+  tag stig_id: "SRG-APP-000295-DB-000305"
   tag fix_id: nil
-  tag ccii: CCI-002361
-  tag nist: 'AC-12'
+  tag cci: ["CCI-002361"]
+  tag nist: ["AC-12"]
 end
 

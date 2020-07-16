@@ -56,13 +56,13 @@ and authorized users.
 
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000176-DB-000068'
-  tag gid: 'V-32476'
-  tag rid: 'SV-42813r3_rule'
-  tag stig_id: 'SRG-APP-000176-DB-000068'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000176-DB-000068"
+  tag gid: "V-32476"
+  tag rid: "SV-42813r3_rule"
+  tag stig_id: "SRG-APP-000176-DB-000068"
   tag fix_id: nil
-  tag ccii: CCI-000186
-  tag nist: 'IA-5 (2)'
+  tag cci: ["CCI-000186"]
+  tag nist: ["IA-5 (2)"]
 end
 

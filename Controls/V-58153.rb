@@ -30,13 +30,13 @@ infrastructure must leverage transmission protection mechanisms.
     # set \"enable=true\"
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000441-DB-000378'
-  tag gid: 'V-58153'
-  tag rid: 'SV-72583r1_rule'
-  tag stig_id: 'SRG-APP-000441-DB-000378'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000441-DB-000378"
+  tag gid: "V-58153"
+  tag rid: "SV-72583r1_rule"
+  tag stig_id: "SRG-APP-000441-DB-000378"
   tag fix_id: nil
-  tag ccii: CCI-002420
-  tag nist: 'SC-8 (2)'
+  tag cci: ["CCI-002420"]
+  tag nist: ["SC-8 (2)"]
 end
 

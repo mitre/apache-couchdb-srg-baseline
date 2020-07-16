@@ -43,13 +43,13 @@ file>
       # sudo chmod 600 <Configuration file>
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000122-DB-000203'
-  tag gid: 'V-32398'
-  tag rid: 'SV-42735r3_rule'
-  tag stig_id: 'SRG-APP-000122-DB-000203'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000122-DB-000203"
+  tag gid: "V-32398"
+  tag rid: "SV-42735r3_rule"
+  tag stig_id: "SRG-APP-000122-DB-000203"
   tag fix_id: nil
-  tag ccii: CCI-001494
-  tag nist: 'AU-9'
+  tag cci: ["CCI-001494"]
+  tag nist: ["AU-9"]
 end
 

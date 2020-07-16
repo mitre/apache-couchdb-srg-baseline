@@ -51,13 +51,13 @@ party encryption software
 physical protection.
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000429-DB-000387'
-  tag gid: 'V-58171'
-  tag rid: 'SV-72601r1_rule'
-  tag stig_id: 'SRG-APP-000429-DB-000387'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000429-DB-000387"
+  tag gid: "V-58171"
+  tag rid: "SV-72601r1_rule"
+  tag stig_id: "SRG-APP-000429-DB-000387"
   tag fix_id: nil
-  tag ccii: CCI-002476
-  tag nist: 'SC-28 (1)'
+  tag cci: ["CCI-002476"]
+  tag nist: ["SC-28 (1)"]
 end
 

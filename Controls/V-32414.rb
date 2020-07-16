@@ -32,13 +32,13 @@ this is a finding.
   desc  'fix', "Develop, document, and implement procedures to restrict and
 track use of CouchDB software installation account."
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000133-DB-000198'
-  tag gid: 'V-32414'
-  tag rid: 'SV-42751r3_rule'
-  tag stig_id: 'SRG-APP-000133-DB-000198'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000133-DB-000198"
+  tag gid: "V-32414"
+  tag rid: "SV-42751r3_rule"
+  tag stig_id: "SRG-APP-000133-DB-000198"
   tag fix_id: nil
-  tag ccii: CCI-001499
-  tag nist: 'CM-5 (6)'
+  tag cci: ["CCI-001499"]
+  tag nist: ["CM-5 (6)"]
 end
 

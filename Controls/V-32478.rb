@@ -26,13 +26,13 @@ a finding.
   desc  'fix', "Configure CouchDB to map the authenticated identity directly to
 CouchDB user account."
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000177-DB-000069'
-  tag gid: 'V-32478'
-  tag rid: 'SV-42815r3_rule'
-  tag stig_id: 'SRG-APP-000177-DB-000069'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000177-DB-000069"
+  tag gid: "V-32478"
+  tag rid: "SV-42815r3_rule"
+  tag stig_id: "SRG-APP-000177-DB-000069"
   tag fix_id: nil
-  tag ccii: CCI-000187
-  tag nist: 'IA-5 (2) (c)'
+  tag cci: ["CCI-000187"]
+  tag nist: ["IA-5 (2) (c)"]
 end
 

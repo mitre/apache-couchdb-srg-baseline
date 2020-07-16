@@ -31,13 +31,13 @@ support them.
 the configure script.
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000141-DB-000091'
-  tag gid: 'V-32424'
-  tag rid: 'SV-42761r3_rule'
-  tag stig_id: 'SRG-APP-000141-DB-000091'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000141-DB-000091"
+  tag gid: "V-32424"
+  tag rid: "SV-42761r3_rule"
+  tag stig_id: "SRG-APP-000141-DB-000091"
   tag fix_id: nil
-  tag ccii: CCI-000381
-  tag nist: 'CM-7 a'
+  tag cci: ["CCI-000381"]
+  tag nist: ["CM-7 a"]
 end
 

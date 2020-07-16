@@ -25,13 +25,13 @@ lifetime of cached authenticators.
     # Set the \x91auth_cache_size\x92 variable = 50
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000400-DB-000367'
-  tag gid: 'V-58137'
-  tag rid: 'SV-72567r1_rule'
-  tag stig_id: 'SRG-APP-000400-DB-000367'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000400-DB-000367"
+  tag gid: "V-58137"
+  tag rid: "SV-72567r1_rule"
+  tag stig_id: "SRG-APP-000400-DB-000367"
   tag fix_id: nil
-  tag ccii: CCI-002007
-  tag nist: 'IA-5 (13)'
+  tag cci: ["CCI-002007"]
+  tag nist: ["IA-5 (13)"]
 end
 

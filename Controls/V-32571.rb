@@ -48,13 +48,13 @@ view them, this is a finding.
 application code not to display detailed error messages to those not authorized
 to view them."
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000267-DB-000163'
-  tag gid: 'V-32571'
-  tag rid: 'SV-42908r5_rule'
-  tag stig_id: 'SRG-APP-000267-DB-000163'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000267-DB-000163"
+  tag gid: "V-32571"
+  tag rid: "SV-42908r5_rule"
+  tag stig_id: "SRG-APP-000267-DB-000163"
   tag fix_id: nil
-  tag ccii: CCI-001314
-  tag nist: 'SI-11 b'
+  tag cci: ["CCI-001314"]
+  tag nist: ["SI-11 b"]
 end
 

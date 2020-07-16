@@ -42,13 +42,13 @@ parameters, this is a finding.
 the objective could practically be satisfied by static execution with strongly
 typed parameters, modify the code to do so."
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000251-DB-000391'
-  tag gid: 'V-58179'
-  tag rid: 'SV-72609r2_rule'
-  tag stig_id: 'SRG-APP-000251-DB-000391'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000251-DB-000391"
+  tag gid: "V-58179"
+  tag rid: "SV-72609r2_rule"
+  tag stig_id: "SRG-APP-000251-DB-000391"
   tag fix_id: nil
-  tag ccii: CCI-001310
-  tag nist: 'SI-10'
+  tag cci: ["CCI-001310"]
+  tag nist: ["SI-10"]
 end
 

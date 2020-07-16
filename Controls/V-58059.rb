@@ -43,13 +43,13 @@ appropriate support staff of all audit log failures.
     # set write_delay = 0
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000360-DB-000320'
-  tag gid: 'V-58059'
-  tag rid: 'SV-72489r2_rule'
-  tag stig_id: 'SRG-APP-000360-DB-000320'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000360-DB-000320"
+  tag gid: "V-58059"
+  tag rid: "SV-72489r2_rule"
+  tag stig_id: "SRG-APP-000360-DB-000320"
   tag fix_id: nil
-  tag ccii: CCI-001858
-  tag nist: 'AU-5 (2)'
+  tag cci: ["CCI-001858"]
+  tag nist: ["AU-5 (2)"]
 end
 

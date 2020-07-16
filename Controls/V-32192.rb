@@ -64,13 +64,13 @@ any other principals, this is a finding.
 auth-method of gss, sspi, or ldap. Or discuss with management other approved
 methods."
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000023-DB-000001'
-  tag gid: 'V-32192'
-  tag rid: 'SV-42509r3_rule'
-  tag stig_id: 'SRG-APP-000023-DB-000001'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000023-DB-000001"
+  tag gid: "V-32192"
+  tag rid: "SV-42509r3_rule"
+  tag stig_id: "SRG-APP-000023-DB-000001"
   tag fix_id: nil
-  tag ccii: CCI-000015
-  tag nist: 'AC-2 (1)'
+  tag cci: ["CCI-000015"]
+  tag nist: ["AC-2 (1)"]
 end
 

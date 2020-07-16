@@ -33,13 +33,13 @@ this is a finding.
   desc  'fix', "Configure DBMS settings to uniquely identify and authenticate
 all non-organizational users who log onto the system."
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000180-DB-000115'
-  tag gid: 'V-32481'
-  tag rid: 'SV-42818r3_rule'
-  tag stig_id: 'SRG-APP-000180-DB-000115'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000180-DB-000115"
+  tag gid: "V-32481"
+  tag rid: "SV-42818r3_rule"
+  tag stig_id: "SRG-APP-000180-DB-000115"
   tag fix_id: nil
-  tag ccii: CCI-000804
-  tag nist: 'IA-8'
+  tag cci: ["CCI-000804"]
+  tag nist: ["IA-8"]
 end
 

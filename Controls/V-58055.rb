@@ -47,13 +47,13 @@ stand-alone systems.
     Ensure logging is enabled
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000515-DB-000318'
-  tag gid: 'V-58055'
-  tag rid: 'SV-72485r1_rule'
-  tag stig_id: 'SRG-APP-000515-DB-000318'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000515-DB-000318"
+  tag gid: "V-58055"
+  tag rid: "SV-72485r1_rule"
+  tag stig_id: "SRG-APP-000515-DB-000318"
   tag fix_id: nil
-  tag ccii: CCI-001851
-  tag nist: 'AU-4 (1)'
+  tag cci: ["CCI-001851"]
+  tag nist: ["AU-4 (1)"]
 end
 

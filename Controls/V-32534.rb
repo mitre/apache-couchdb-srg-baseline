@@ -35,13 +35,13 @@ not found, this is a finding.
   desc  'fix', "Either handled by device/ filesystem level encryption (OS) or
 using a 3rd party encryption software"
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000231-DB-000154'
-  tag gid: 'V-32534'
-  tag rid: 'SV-42871r4_rule'
-  tag stig_id: 'SRG-APP-000231-DB-000154'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000231-DB-000154"
+  tag gid: "V-32534"
+  tag rid: "SV-42871r4_rule"
+  tag stig_id: "SRG-APP-000231-DB-000154"
   tag fix_id: nil
-  tag ccii: CCI-001199
-  tag nist: 'SC-28'
+  tag cci: ["CCI-001199"]
+  tag nist: ["SC-28"]
 end
 

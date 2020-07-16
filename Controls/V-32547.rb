@@ -34,13 +34,13 @@ development/test systems to comply with the organization-defined data transfer
 policy, and to ensure copies of production data are not left in unsecured
 locations."
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000243-DB-000128'
-  tag gid: 'V-32547'
-  tag rid: 'SV-42884r3_rule'
-  tag stig_id: 'SRG-APP-000243-DB-000128'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000243-DB-000128"
+  tag gid: "V-32547"
+  tag rid: "SV-42884r3_rule"
+  tag stig_id: "SRG-APP-000243-DB-000128"
   tag fix_id: nil
-  tag ccii: CCI-001090
-  tag nist: 'SC-4'
+  tag cci: ["CCI-001090"]
+  tag nist: ["SC-4"]
 end
 

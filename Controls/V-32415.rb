@@ -51,13 +51,13 @@ manipulated by malicious users.
 [\"user1\",\"user2\"],\"roles\": [\"developers\"]}}'
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000133-DB-000179'
-  tag gid: 'V-32415'
-  tag rid: 'SV-42752r3_rule'
-  tag stig_id: 'SRG-APP-000133-DB-000179'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000133-DB-000179"
+  tag gid: "V-32415"
+  tag rid: "SV-42752r3_rule"
+  tag stig_id: "SRG-APP-000133-DB-000179"
   tag fix_id: nil
-  tag ccii: CCI-001499
-  tag nist: 'CM-5 (6)'
+  tag cci: ["CCI-001499"]
+  tag nist: ["CM-5 (6)"]
 end
 

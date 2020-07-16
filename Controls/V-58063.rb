@@ -40,13 +40,13 @@ formerly GMT), this is a finding.
     #writer = <path to log file>
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000374-DB-000322'
-  tag gid: 'V-58063'
-  tag rid: 'SV-72493r1_rule'
-  tag stig_id: 'SRG-APP-000374-DB-000322'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000374-DB-000322"
+  tag gid: "V-58063"
+  tag rid: "SV-72493r1_rule"
+  tag stig_id: "SRG-APP-000374-DB-000322"
   tag fix_id: nil
-  tag ccii: CCI-001890
-  tag nist: 'AU-8 b'
+  tag cci: ["CCI-001890"]
+  tag nist: ["AU-8 b"]
 end
 

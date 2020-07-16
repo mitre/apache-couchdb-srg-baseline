@@ -36,13 +36,13 @@ occur.
     # set level = info
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000502-DB-000349'
-  tag gid: 'V-58105'
-  tag rid: 'SV-72535r1_rule'
-  tag stig_id: 'SRG-APP-000502-DB-000349'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000502-DB-000349"
+  tag gid: "V-58105"
+  tag rid: "SV-72535r1_rule"
+  tag stig_id: "SRG-APP-000502-DB-000349"
   tag fix_id: nil
-  tag ccii: CCI-000172
-  tag nist: 'AU-12 c'
+  tag cci: ["CCI-000172"]
+  tag nist: ["AU-12 c"]
 end
 

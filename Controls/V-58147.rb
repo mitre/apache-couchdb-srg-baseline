@@ -53,13 +53,13 @@ users are always required to re-authenticate when the specified cases needing
 reauthorization occur.
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000389-DB-000372'
-  tag gid: 'V-58147'
-  tag rid: 'SV-72577r1_rule'
-  tag stig_id: 'SRG-APP-000389-DB-000372'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000389-DB-000372"
+  tag gid: "V-58147"
+  tag rid: "SV-72577r1_rule"
+  tag stig_id: "SRG-APP-000389-DB-000372"
   tag fix_id: nil
-  tag ccii: CCI-002038
-  tag nist: 'IA-11'
+  tag cci: ["CCI-002038"]
+  tag nist: ["IA-11"]
 end
 

@@ -42,13 +42,13 @@ certification path validation, this is a finding.
 certification path validation.
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000175-DB-000067'
-  tag gid: 'V-32475'
-  tag rid: 'SV-42812r3_rule'
-  tag stig_id: 'SRG-APP-000175-DB-000067'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000175-DB-000067"
+  tag gid: "V-32475"
+  tag rid: "SV-42812r3_rule"
+  tag stig_id: "SRG-APP-000175-DB-000067"
   tag fix_id: nil
-  tag ccii: CCI-000185
-  tag nist: 'IA-5 (2) (a)'
+  tag cci: ["CCI-000185"]
+  tag nist: ["IA-5 (2) (a)"]
 end
 

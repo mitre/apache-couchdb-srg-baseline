@@ -38,13 +38,13 @@ capacity, this is a finding.
 staff when allocated audit record storage volume reaches 75% of maximum audit
 record storage capacity. "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000359-DB-000319'
-  tag gid: 'V-58057'
-  tag rid: 'SV-72487r1_rule'
-  tag stig_id: 'SRG-APP-000359-DB-000319'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000359-DB-000319"
+  tag gid: "V-58057"
+  tag rid: "SV-72487r1_rule"
+  tag stig_id: "SRG-APP-000359-DB-000319"
   tag fix_id: nil
-  tag ccii: CCI-001855
-  tag nist: 'AU-5 (1)'
+  tag cci: ["CCI-001855"]
+  tag nist: ["AU-5 (1)"]
 end
 

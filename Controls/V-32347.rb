@@ -39,13 +39,13 @@ performed organization-defined actions.
     # set level = info
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000080-DB-000063'
-  tag gid: 'V-32347'
-  tag rid: 'SV-42684r4_rule'
-  tag stig_id: 'SRG-APP-000080-DB-000063'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000080-DB-000063"
+  tag gid: "V-32347"
+  tag rid: "SV-42684r4_rule"
+  tag stig_id: "SRG-APP-000080-DB-000063"
   tag fix_id: nil
-  tag ccii: CCI-000166
-  tag nist: 'AU-10'
+  tag cci: ["CCI-000166"]
+  tag nist: ["AU-10"]
 end
 

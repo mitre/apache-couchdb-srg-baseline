@@ -67,13 +67,13 @@ database columns and tables that require them for data integrity.
     Do not allow general users direct console access to CouchDB.
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000251-DB-000160'
-  tag gid: 'V-32555'
-  tag rid: 'SV-42892r4_rule'
-  tag stig_id: 'SRG-APP-000251-DB-000160'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000251-DB-000160"
+  tag gid: "V-32555"
+  tag rid: "SV-42892r4_rule"
+  tag stig_id: "SRG-APP-000251-DB-000160"
   tag fix_id: nil
-  tag ccii: CCI-001310
-  tag nist: 'SI-10'
+  tag cci: ["CCI-001310"]
+  tag nist: ["SI-10"]
 end
 

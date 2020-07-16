@@ -35,13 +35,13 @@ record.
     # set level = info
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000100-DB-000201'
-  tag gid: 'V-32374'
-  tag rid: 'SV-42711r3_rule'
-  tag stig_id: 'SRG-APP-000100-DB-000201'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000100-DB-000201"
+  tag gid: "V-32374"
+  tag rid: "SV-42711r3_rule"
+  tag stig_id: "SRG-APP-000100-DB-000201"
   tag fix_id: nil
-  tag ccii: CCI-001487
-  tag nist: 'AU-3'
+  tag cci: ["CCI-001487"]
+  tag nist: ["AU-3"]
 end
 

@@ -49,13 +49,13 @@ implemented in the security configuration, this is a finding.
 configuration of the database and DBMS, and, if applicable, the security
 configuration of the application(s) using the database."
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000328-DB-000301'
-  tag gid: 'V-58019'
-  tag rid: 'SV-72449r1_rule'
-  tag stig_id: 'SRG-APP-000328-DB-000301'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000328-DB-000301"
+  tag gid: "V-58019"
+  tag rid: "SV-72449r1_rule"
+  tag stig_id: "SRG-APP-000328-DB-000301"
   tag fix_id: nil
-  tag ccii: CCI-002165
-  tag nist: 'AC-3 (4)'
+  tag cci: ["CCI-002165"]
+  tag nist: ["AC-3 (4)"]
 end
 

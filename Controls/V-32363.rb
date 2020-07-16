@@ -25,13 +25,13 @@ ISSM (or individuals or roles appointed by the ISSM), this is a finding.
     # set level = info
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000090-DB-000065'
-  tag gid: 'V-32363'
-  tag rid: 'SV-42700r3_rule'
-  tag stig_id: 'SRG-APP-000090-DB-000065'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000090-DB-000065"
+  tag gid: "V-32363"
+  tag rid: "SV-42700r3_rule"
+  tag stig_id: "SRG-APP-000090-DB-000065"
   tag fix_id: nil
-  tag ccii: CCI-000171
-  tag nist: 'AU-12 b'
+  tag cci: ["CCI-000171"]
+  tag nist: ["AU-12 b"]
 end
 

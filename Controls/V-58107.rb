@@ -23,13 +23,13 @@ connections occur.
     # set level = info
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000503-DB-000350'
-  tag gid: 'V-58107'
-  tag rid: 'SV-72537r1_rule'
-  tag stig_id: 'SRG-APP-000503-DB-000350'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000503-DB-000350"
+  tag gid: "V-58107"
+  tag rid: "SV-72537r1_rule"
+  tag stig_id: "SRG-APP-000503-DB-000350"
   tag fix_id: nil
-  tag ccii: CCI-000172
-  tag nist: 'AU-12 c'
+  tag cci: ["CCI-000172"]
+  tag nist: ["AU-12 c"]
 end
 

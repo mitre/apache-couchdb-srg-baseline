@@ -33,13 +33,13 @@ are modified.
     # set level = info
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000495-DB-000328'
-  tag gid: 'V-58075'
-  tag rid: 'SV-72505r2_rule'
-  tag stig_id: 'SRG-APP-000495-DB-000328'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000495-DB-000328"
+  tag gid: "V-58075"
+  tag rid: "SV-72505r2_rule"
+  tag stig_id: "SRG-APP-000495-DB-000328"
   tag fix_id: nil
-  tag ccii: CCI-000172
-  tag nist: 'AU-12 c'
+  tag cci: ["CCI-000172"]
+  tag nist: ["AU-12 c"]
 end
 

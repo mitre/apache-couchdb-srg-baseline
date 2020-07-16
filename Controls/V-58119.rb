@@ -39,13 +39,13 @@ objects occur.
     # set level = info
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000507-DB-000356'
-  tag gid: 'V-58119'
-  tag rid: 'SV-72549r1_rule'
-  tag stig_id: 'SRG-APP-000507-DB-000356'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000507-DB-000356"
+  tag gid: "V-58119"
+  tag rid: "SV-72549r1_rule"
+  tag stig_id: "SRG-APP-000507-DB-000356"
   tag fix_id: nil
-  tag ccii: CCI-000172
-  tag nist: 'AU-12 c'
+  tag cci: ["CCI-000172"]
+  tag nist: ["AU-12 c"]
 end
 

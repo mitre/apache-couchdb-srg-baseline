@@ -44,13 +44,13 @@ information to establish what type of events occurred.
     # set level = info
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000095-DB-000039'
-  tag gid: 'V-32368'
-  tag rid: 'SV-42705r3_rule'
-  tag stig_id: 'SRG-APP-000095-DB-000039'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000095-DB-000039"
+  tag gid: "V-32368"
+  tag rid: "SV-42705r3_rule"
+  tag stig_id: "SRG-APP-000095-DB-000039"
   tag fix_id: nil
-  tag ccii: CCI-000130
-  tag nist: 'AU-3'
+  tag cci: ["CCI-000130"]
+  tag nist: ["AU-3"]
 end
 

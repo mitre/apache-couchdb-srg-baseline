@@ -41,13 +41,13 @@ with the internal system clock used by the operating system.
 with the internal system clock used by the operating system.
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000116-DB-000057'
-  tag gid: 'V-32391'
-  tag rid: 'SV-42728r3_rule'
-  tag stig_id: 'SRG-APP-000116-DB-000057'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000116-DB-000057"
+  tag gid: "V-32391"
+  tag rid: "SV-42728r3_rule"
+  tag stig_id: "SRG-APP-000116-DB-000057"
   tag fix_id: nil
-  tag ccii: CCI-000159
-  tag nist: 'AU-8 a'
+  tag cci: ["CCI-000159"]
+  tag nist: ["AU-8 a"]
 end
 

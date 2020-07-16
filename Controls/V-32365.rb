@@ -25,13 +25,13 @@ privileges/permissions are retrieved.
     # set level = info
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000092-DB-000208'
-  tag gid: 'V-32365'
-  tag rid: 'SV-42702r2_rule'
-  tag stig_id: 'SRG-APP-000092-DB-000208'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000092-DB-000208"
+  tag gid: "V-32365"
+  tag rid: "SV-42702r2_rule"
+  tag stig_id: "SRG-APP-000092-DB-000208"
   tag fix_id: nil
-  tag ccii: CCI-001464
-  tag nist: 'AU-14 (1)'
+  tag cci: ["CCI-001464"]
+  tag nist: ["AU-14 (1)"]
 end
 

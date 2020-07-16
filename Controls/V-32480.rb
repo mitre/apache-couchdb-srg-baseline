@@ -37,13 +37,13 @@ in section 9.1:
     http://csrc.nist.gov/groups/STM/cmvp/documents/140-1/140sp/140sp1758.pdf
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000179-DB-000114'
-  tag gid: 'V-32480'
-  tag rid: 'SV-42817r3_rule'
-  tag stig_id: 'SRG-APP-000179-DB-000114'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000179-DB-000114"
+  tag gid: "V-32480"
+  tag rid: "SV-42817r3_rule"
+  tag stig_id: "SRG-APP-000179-DB-000114"
   tag fix_id: nil
-  tag ccii: CCI-000803
-  tag nist: 'IA-7'
+  tag cci: ["CCI-000803"]
+  tag nist: ["IA-7"]
 end
 

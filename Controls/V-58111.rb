@@ -35,13 +35,13 @@ time for user access to the database(s).
     # set level = info
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000505-DB-000352'
-  tag gid: 'V-58111'
-  tag rid: 'SV-72541r1_rule'
-  tag stig_id: 'SRG-APP-000505-DB-000352'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000505-DB-000352"
+  tag gid: "V-58111"
+  tag rid: "SV-72541r1_rule"
+  tag stig_id: "SRG-APP-000505-DB-000352"
   tag fix_id: nil
-  tag ccii: CCI-000172
-  tag nist: 'AU-12 c'
+  tag cci: ["CCI-000172"]
+  tag nist: ["AU-12 c"]
 end
 

@@ -61,13 +61,13 @@ termination event.
     # Set os_process_timeout to be 5000
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000220-DB-000149'
-  tag gid: 'V-32523'
-  tag rid: 'SV-42860r2_rule'
-  tag stig_id: 'SRG-APP-000220-DB-000149'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000220-DB-000149"
+  tag gid: "V-32523"
+  tag rid: "SV-42860r2_rule"
+  tag stig_id: "SRG-APP-000220-DB-000149"
   tag fix_id: nil
-  tag ccii: CCI-001185
-  tag nist: 'SC-23 (1)'
+  tag cci: ["CCI-001185"]
+  tag nist: ["SC-23 (1)"]
 end
 

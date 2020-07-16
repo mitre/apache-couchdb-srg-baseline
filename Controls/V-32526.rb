@@ -29,13 +29,13 @@ this is a finding.
   desc  'fix', "Utilize a CouchDB product that only recognizes session
 identifiers that are system-generated."
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000223-DB-000168'
-  tag gid: 'V-32526'
-  tag rid: 'SV-42863r2_rule'
-  tag stig_id: 'SRG-APP-000223-DB-000168'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000223-DB-000168"
+  tag gid: "V-32526"
+  tag rid: "SV-42863r2_rule"
+  tag stig_id: "SRG-APP-000223-DB-000168"
   tag fix_id: nil
-  tag ccii: CCI-001664
-  tag nist: 'SC-23 (3)'
+  tag cci: ["CCI-001664"]
+  tag nist: ["SC-23 (3)"]
 end
 

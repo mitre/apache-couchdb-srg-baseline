@@ -29,13 +29,13 @@ administrators with a need to know are permitted to read/view these files.
     # grep \"admin_only_all_dbs\" default.ini
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000243-DB-000374'
-  tag gid: 'V-58151'
-  tag rid: 'SV-72581r1_rule'
-  tag stig_id: 'SRG-APP-000243-DB-000374'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000243-DB-000374"
+  tag gid: "V-58151"
+  tag rid: "SV-72581r1_rule"
+  tag stig_id: "SRG-APP-000243-DB-000374"
   tag fix_id: nil
-  tag ccii: CCI-001090
-  tag nist: 'SC-4'
+  tag cci: ["CCI-001090"]
+  tag nist: ["SC-4"]
 end
 

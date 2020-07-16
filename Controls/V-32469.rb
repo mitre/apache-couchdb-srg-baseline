@@ -38,13 +38,13 @@ is not there, this is a finding.
 passwords are hashed and if it is not, then it is done then.
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000172-DB-000075'
-  tag gid: 'V-32469'
-  tag rid: 'SV-42806r3_rule'
-  tag stig_id: 'SRG-APP-000172-DB-000075'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000172-DB-000075"
+  tag gid: "V-32469"
+  tag rid: "SV-42806r3_rule"
+  tag stig_id: "SRG-APP-000172-DB-000075"
   tag fix_id: nil
-  tag ccii: CCI-000197
-  tag nist: 'IA-5 (1) (c)'
+  tag cci: ["CCI-000197"]
+  tag nist: ["IA-5 (1) (c)"]
 end
 

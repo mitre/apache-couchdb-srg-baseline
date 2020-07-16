@@ -52,13 +52,13 @@ software that currently shares the CouchDB software library directory.
 files in separate DASD pools from other mainframe application
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000133-DB-000199'
-  tag gid: 'V-32413'
-  tag rid: 'SV-42750r3_rule'
-  tag stig_id: 'SRG-APP-000133-DB-000199'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000133-DB-000199"
+  tag gid: "V-32413"
+  tag rid: "SV-42750r3_rule"
+  tag stig_id: "SRG-APP-000133-DB-000199"
   tag fix_id: nil
-  tag ccii: CCI-001499
-  tag nist: 'CM-5 (6)'
+  tag cci: ["CCI-001499"]
+  tag nist: ["CM-5 (6)"]
 end
 

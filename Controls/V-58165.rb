@@ -36,13 +36,13 @@ man-in-the-middle attacks that guess at session identifier values are enabled.
     # set \"enable=true\"
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000224-DB-000384'
-  tag gid: 'V-58165'
-  tag rid: 'SV-72595r1_rule'
-  tag stig_id: 'SRG-APP-000224-DB-000384'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000224-DB-000384"
+  tag gid: "V-58165"
+  tag rid: "SV-72595r1_rule"
+  tag stig_id: "SRG-APP-000224-DB-000384"
   tag fix_id: nil
-  tag ccii: CCI-001188
-  tag nist: 'SC-23 (3)'
+  tag cci: ["CCI-001188"]
+  tag nist: ["SC-23 (3)"]
 end
 

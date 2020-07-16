@@ -32,13 +32,13 @@ must leverage protection mechanisms.
     # set \"enable=true\"
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000442-DB-000379'
-  tag gid: 'V-58155'
-  tag rid: 'SV-72585r1_rule'
-  tag stig_id: 'SRG-APP-000442-DB-000379'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000442-DB-000379"
+  tag gid: "V-58155"
+  tag rid: "SV-72585r1_rule"
+  tag stig_id: "SRG-APP-000442-DB-000379"
   tag fix_id: nil
-  tag ccii: CCI-002422
-  tag nist: 'SC-8 (2)'
+  tag cci: ["CCI-002422"]
+  tag nist: ["SC-8 (2)"]
 end
 

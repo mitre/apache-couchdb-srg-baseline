@@ -30,13 +30,13 @@ applicable (NA).
     # set \"enable=true\"
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000416-DB-000380'
-  tag gid: 'V-58157'
-  tag rid: 'SV-72587r1_rule'
-  tag stig_id: 'SRG-APP-000416-DB-000380'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000416-DB-000380"
+  tag gid: "V-58157"
+  tag rid: "SV-72587r1_rule"
+  tag stig_id: "SRG-APP-000416-DB-000380"
   tag fix_id: nil
-  tag ccii: CCI-002450
-  tag nist: 'SC-13'
+  tag cci: ["CCI-002450"]
+  tag nist: ["SC-13"]
 end
 

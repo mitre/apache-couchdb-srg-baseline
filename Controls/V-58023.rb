@@ -64,13 +64,13 @@ privileged, this is a finding.
   desc  'fix', "Configure CouchDB security to protect all privileged
 functionality."
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000340-DB-000304'
-  tag gid: 'V-58023'
-  tag rid: 'SV-72453r1_rule'
-  tag stig_id: 'SRG-APP-000340-DB-000304'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000340-DB-000304"
+  tag gid: "V-58023"
+  tag rid: "SV-72453r1_rule"
+  tag stig_id: "SRG-APP-000340-DB-000304"
   tag fix_id: nil
-  tag ccii: CCI-002235
-  tag nist: 'AC-6 (10)'
+  tag cci: ["CCI-002235"]
+  tag nist: ["AC-6 (10)"]
 end
 

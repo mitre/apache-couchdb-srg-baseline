@@ -34,13 +34,13 @@ to add privileges/permissions occur.
     # set level = info
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000495-DB-000327'
-  tag gid: 'V-58073'
-  tag rid: 'SV-72503r2_rule'
-  tag stig_id: 'SRG-APP-000495-DB-000327'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000495-DB-000327"
+  tag gid: "V-58073"
+  tag rid: "SV-72503r2_rule"
+  tag stig_id: "SRG-APP-000495-DB-000327"
   tag fix_id: nil
-  tag ccii: CCI-000172
-  tag nist: 'AU-12 c'
+  tag cci: ["CCI-000172"]
+  tag nist: ["AU-12 c"]
 end
 

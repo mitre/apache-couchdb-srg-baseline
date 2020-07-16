@@ -55,13 +55,13 @@ and/or account types.
     # set \"max_connections\" equal to the organization defined amount.
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000001-DB-000031'
-  tag gid: 'V-32157'
-  tag rid: 'SV-42474r3_rule'
-  tag stig_id: 'SRG-APP-000001-DB-000031'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000001-DB-000031"
+  tag gid: "V-32157"
+  tag rid: "SV-42474r3_rule"
+  tag stig_id: "SRG-APP-000001-DB-000031"
   tag fix_id: nil
-  tag ccii: CCI-000054
-  tag nist: 'AC-10'
+  tag cci: ["CCI-000054"]
+  tag nist: ["AC-10"]
 end
 

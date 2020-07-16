@@ -49,13 +49,13 @@ responds to invalid input.
     # set level = info
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000447-DB-000393'
-  tag gid: 'V-58183'
-  tag rid: 'SV-72613r2_rule'
-  tag stig_id: 'SRG-APP-000447-DB-000393'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000447-DB-000393"
+  tag gid: "V-58183"
+  tag rid: "SV-72613r2_rule"
+  tag stig_id: "SRG-APP-000447-DB-000393"
   tag fix_id: nil
-  tag ccii: CCI-002754
-  tag nist: 'SI-10 (3)'
+  tag cci: ["CCI-002754"]
+  tag nist: ["SI-10 (3)"]
 end
 

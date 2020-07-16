@@ -38,13 +38,13 @@ configuration of database(s).
     # set level = info
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000381-DB-000361'
-  tag gid: 'V-58127'
-  tag rid: 'SV-72557r1_rule'
-  tag stig_id: 'SRG-APP-000381-DB-000361'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000381-DB-000361"
+  tag gid: "V-58127"
+  tag rid: "SV-72557r1_rule"
+  tag stig_id: "SRG-APP-000381-DB-000361"
   tag fix_id: nil
-  tag ccii: CCI-001814
-  tag nist: 'CM-5 (1)'
+  tag cci: ["CCI-001814"]
+  tag nist: ["CM-5 (1)"]
 end
 

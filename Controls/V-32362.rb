@@ -47,13 +47,13 @@ finding.
     # set level = info
   "
   impact 0.5
-  tag severity: 'medium'
-  tag gtitle: 'SRG-APP-000089-DB-000064'
-  tag gid: 'V-32362'
-  tag rid: 'SV-42699r3_rule'
-  tag stig_id: 'SRG-APP-000089-DB-000064'
+  tag severity: "medium"
+  tag gtitle: "SRG-APP-000089-DB-000064"
+  tag gid: "V-32362"
+  tag rid: "SV-42699r3_rule"
+  tag stig_id: "SRG-APP-000089-DB-000064"
   tag fix_id: nil
-  tag ccii: CCI-000169
-  tag nist: 'AU-12 a'
+  tag cci: ["CCI-000169"]
+  tag nist: ["AU-12 a"]
 end
 
