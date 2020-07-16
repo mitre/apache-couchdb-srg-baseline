@@ -28,7 +28,6 @@ unsafe are open to attack through those ports, protocols, and services. This
 can allow unauthorized access to the database and through the database to other
 components of the information system.
   "
-  desc  'rationale', ''
   desc  'check', "
     Review the organization-defined network functions, ports, protocols, and
 services deemed by to be nonsecure, in accord with the Ports, Protocols, and

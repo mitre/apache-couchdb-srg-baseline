@@ -20,7 +20,6 @@ immediately to avoid further downtime or unaudited transactions.
 these messages immediately (i.e., the time from event detection to alert occurs
 in seconds or less).
   "
-  desc  'rationale', ''
   desc  'check', "
     Review the CouchDB database documentation and deployed configuration to
 verify that the database is configured to provide an immediate real-time alert

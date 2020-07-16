@@ -24,7 +24,6 @@ domain and with additional access controls.
 presented on an interface available for users, information on DBMS settings may
 be inadvertently made available to the user.
   "
-  desc  'rationale', ''
   desc  'check', "
     Check DBMS settings and vendor documentation to verify that administrative
 functionality is separate from user functionality.

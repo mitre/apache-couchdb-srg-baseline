@@ -15,7 +15,6 @@ is the standard method for protecting passwords during transmission.
 to discovery by unauthorized users. Disclosure of passwords may easily lead to
 unauthorized access to the database.
   "
-  desc  'rationale', ''
   desc  'check', "
     Review the CouchDB database settings relating to passwords are used for
 authentication, CouchDB must transmit only encrypted representations of

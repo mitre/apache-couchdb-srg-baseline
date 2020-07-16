@@ -23,7 +23,6 @@ are meant to provide simple examples of coding specific functions and are not
 developed to prevent vulnerabilities from being introduced to the DBMS and host
 system.
   "
-  desc  'rationale', ''
   desc  'check', "
      Review vendor documentation and vendor websites to identify
 vendor-provided demonstration or sample databases, database applications,

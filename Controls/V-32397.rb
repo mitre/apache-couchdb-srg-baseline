@@ -23,7 +23,6 @@ view and manipulate audit information system activity and records.
 logs for system weaknesses or weaknesses in the auditing itself. An attacker
 could also manipulate logs to hide evidence of malicious activity.
   "
-  desc  'rationale', ''
   desc  'check', "
     Review the access permissions to tools used to view or modify audit log
 configurations. These tools may include features within CouchDB itself or

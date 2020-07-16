@@ -10,7 +10,6 @@ attempted, it must be logged.
     To aid in diagnosis, it is necessary to keep track of failed attempts in
 addition to the successful ones.
   "
-  desc  'rationale', ''
   desc  'check', "
     Review the CouchDB database documentation and deployed configuration to
 verify that the database is configured to log audit records for  when

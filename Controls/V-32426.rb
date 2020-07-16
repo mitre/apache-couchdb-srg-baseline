@@ -23,7 +23,6 @@ by DBMS product, OS, and the nature of the component and may include DBMS
 configuration settings, OS service settings, OS file access security, and DBMS
 user/role permissions.
   "
-  desc  'rationale', ''
   desc  'check', "
      To list all installed packages, as the system administrator, run the
 following:

@@ -17,7 +17,6 @@ source audit tools needed to successfully view and manipulate audit information
 system activity and records. Audit tools include custom queries and report
 generators.
   "
-  desc  'rationale', ''
   desc  'check', "
     Review the access permissions to tools used to view or modify audit log
 configurations. These tools may include features within CouchDB itself or

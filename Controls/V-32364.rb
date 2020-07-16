@@ -13,7 +13,6 @@ membership information. It does not refer to the implicit retrieval of
 privileges/permissions/role memberships that the DBMS continually performs to
 determine if any and every action on the database is permitted.
   "
-  desc  'rationale', ''
   desc  'check', "
      Check CouchDB settings and documentation and be able to generate audit
 records when privileges/permissions are retrieved.

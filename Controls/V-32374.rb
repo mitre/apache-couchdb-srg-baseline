@@ -14,7 +14,6 @@ potentially harmful event.
 limited to, user database tables, primary key values, user names, or process
 identifiers.
   "
-  desc  'rationale', ''
   desc  'check', "
      Check CouchDB settings and existing audit records to verify a user name
 associated with the event is being captured and stored with the audit records.

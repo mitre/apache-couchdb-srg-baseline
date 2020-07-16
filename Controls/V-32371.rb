@@ -22,7 +22,6 @@ application provides a means of investigating an attack; recognizing resource
 utilization or capacity thresholds; or identifying an improperly configured
 application.
   "
-  desc  'rationale', ''
   desc  'check', "
      Check CouchDB settings and documentation produce audit records containing
 sufficient information to establish the sources (origins) of the events.

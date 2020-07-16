@@ -16,7 +16,6 @@ outdated modules.
     A transition period may be necessary when both the old and the new software
 are required. This should be taken into account in the planning.
   "
-  desc  'rationale', ''
   desc  'check', "
     Obtain evidence that software patches are consistently applied to CouchDB
 within the time frame defined for each patch.

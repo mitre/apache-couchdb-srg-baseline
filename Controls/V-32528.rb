@@ -31,7 +31,6 @@ exactly what that condition means.
     Abort refers to stopping a program or function before it has finished
 naturally. The term abort refers to both requested and unexpected terminations.
   "
-  desc  'rationale', ''
   desc  'check', "
      Check CouchDB settings and vendor documentation to verify that CouchDB
 properly handles transactions in the event of a system failure.

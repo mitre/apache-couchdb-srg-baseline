@@ -12,7 +12,6 @@ audit logs.
 timeout) or result from a system or network failure. To the greatest extent
 possible, all disconnections must be logged.
   "
-  desc  'rationale', ''
   desc  'check', "
     Review the CouchDB database documentation and deployed configuration to
 verify that the database is configured to log audit records showing starting

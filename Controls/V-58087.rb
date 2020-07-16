@@ -8,7 +8,6 @@ that record and control permissions, privileges, and roles granted to users and
 roles must be tracked. Without an audit trail, unauthorized changes to the
 security subsystem could go undetected. The database could be severely
 compromised or rendered inoperative."
-  desc  'rationale', ''
   desc  'check', "
     Review the CouchDB database documentation and deployed configuration to
 verify that the database is configured to log audit records for when security

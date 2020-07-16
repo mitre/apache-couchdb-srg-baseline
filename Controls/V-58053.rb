@@ -24,7 +24,6 @@ captured; the frequency/speed with which audit records are off-loaded to the
 central log management system; and any limitations that exist on the DBMS's
 ability to reuse the space formerly occupied by off-loaded records.
   "
-  desc  'rationale', ''
   desc  'check', "
     Review the organization=defined audit record storage requirements.
 

@@ -25,7 +25,6 @@ event type an audit record is referring to. If event type information is not
 recorded and stored with the audit record, the record itself is of very limited
 use.
   "
-  desc  'rationale', ''
   desc  'check', "
      Check CouchDB settings and documentation produce audit records containing
 sufficient information to establish what type of events occurred.

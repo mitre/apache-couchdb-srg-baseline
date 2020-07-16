@@ -15,7 +15,6 @@ be as simple as denying access to a file based on the application of file
 permissions (access restriction). Audit items may consist of lists of actions
 blocked by access restrictions or changes identified after the fact.
   "
-  desc  'rationale', ''
   desc  'check', "
     Review the CouchDB documentation to verify that audit records can produce
 audit records of its enforcement of access restrictions associated with changes

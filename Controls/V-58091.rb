@@ -6,7 +6,6 @@ deleted."
   desc  "The removal of security objects from the database/DBMS would seriously
 degrade a system's information assurance posture. If such an event occurs, it
 must be logged."
-  desc  'rationale', ''
   desc  'check', "
     Review the CouchDB database documentation and deployed configuration to
 verify that the database is configured to log audit records for when security

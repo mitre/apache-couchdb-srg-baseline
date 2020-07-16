@@ -16,7 +16,6 @@ the preferred technique yet may have other protections against session
 hijacking. Therefore, other techniques are acceptable, provided they are
 demonstrated to be effective.
   "
-  desc  'rationale', ''
   desc  'check', "
      Review DBMS vendor documentation and system behavior (and if necessary,
 consult vendor representatives) to determine whether CouchDB can provide

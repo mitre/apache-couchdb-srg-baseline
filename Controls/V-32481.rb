@@ -22,7 +22,6 @@ information systems with the need to protect and adequately mitigate risk to
 organizational operations, organizational assets, individuals, other
 organizations, and the Nation.
   "
-  desc  'rationale', ''
   desc  'check', "
     Check for the following:
 

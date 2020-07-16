@@ -14,7 +14,6 @@ assurance exist. These include NSA configuration guides, CTOs, DTMs, and IAVMs.
 The DBMS must be configured in compliance with guidance from all such relevant
 sources.
   "
-  desc  'rationale', ''
   desc  'check', "
     Review CouchDB documentation and configuration to determine if CouchDB is
 configured in accordance with DoD security configuration and implementation

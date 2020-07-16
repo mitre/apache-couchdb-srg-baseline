@@ -8,7 +8,6 @@ DBMS that comes from any source other than the application(s) that it supports.
 Examples would be the command line or a database management utility program.
 The intent is to capture all activity from administrative and non-standard
 sources."
-  desc  'rationale', ''
   desc  'check', "
     Review the CouchDB database documentation and deployed configuration to
 verify that the database is configured to log audit records for all direct

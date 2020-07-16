@@ -17,7 +17,6 @@ reconstructed from the log entries for other events (logons/connections;
 voluntary and involuntary disconnections), then it is not mandatory to create
 additional log entries specifically for this.)
   "
-  desc  'rationale', ''
   desc  'check', "
     Review the CouchDB database documentation and deployed configuration to
 verify that the database is configured to log audit records when concurrent

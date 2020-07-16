@@ -17,7 +17,6 @@ policies, regulations, and standards.
 Requirements For Cryptographic Modules. Note that the product's cryptographic
 modules must be validated and certified by NIST as FIPS-compliant.
   "
-  desc  'rationale', ''
   desc  'check', "
     Check for the following:
     # find . -name \"local.ini\"

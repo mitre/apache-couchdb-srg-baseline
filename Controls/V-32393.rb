@@ -28,7 +28,6 @@ protected from unauthorized access.
 settings, and audit reports) needed to successfully audit information system
 activity.
   "
-  desc  'rationale', ''
   desc  'check', "
     Review the access permissions to tools used to view or modify audit
 information produced by CouchDB. These tools may include features within

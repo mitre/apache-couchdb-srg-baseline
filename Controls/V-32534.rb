@@ -17,7 +17,6 @@ to achieve confidentiality and integrity protections, as appropriate.
     If the confidentiality and integrity of application data is not protected,
 the data will be open to compromise and unauthorized modification.
   "
-  desc  'rationale', ''
   desc  'check', "
     Review DBMS settings to determine whether controls exist to protect the
 confidentiality and integrity of data at rest in the database.

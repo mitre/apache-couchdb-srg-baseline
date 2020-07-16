@@ -21,7 +21,6 @@ processes owned by the session are terminated.
 the user during his/her online session: these should be permitted to run to
 completion.
   "
-  desc  'rationale', ''
   desc  'check', "
     Determine, by reviewing the CouchDB documentation and/or inquiring of the
 vendor's technical support staff, whether CouchDB satisfies this requirement;

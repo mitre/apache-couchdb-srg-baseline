@@ -14,7 +14,6 @@ after the event occurred). As such, they also provide a means to measure the
 impact of an event and help authorized personnel to determine the appropriate
 response.
   "
-  desc  'rationale', ''
   desc  'check', "
      Check CouchDB settings and documentation produce audit records containing
 sufficient information to establish the sources (origins) of the events.

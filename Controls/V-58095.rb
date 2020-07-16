@@ -11,7 +11,6 @@ Publication 199, Standards for Security Categorization of Federal Information
 and Information Systems, and FIPS Publication 200, Minimum Security
 Requirements for Federal Information and Information Systems.
   "
-  desc  'rationale', ''
   desc  'check', "
     Review the CouchDB database documentation and deployed configuration to
 verify that the database is configured to log audit records for  when

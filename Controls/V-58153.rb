@@ -16,7 +16,6 @@ maintained at every step of the data transfer and handling process.
     When transmitting data, the DBMS, associated applications, and
 infrastructure must leverage transmission protection mechanisms.
   "
-  desc  'rationale', ''
   desc  'check', "
     Check for the following:
 

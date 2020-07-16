@@ -19,7 +19,6 @@ identifier and have it recognized by the system, the attacker could gain access
 to the system without passing through access controls designed to limit
 database sessions to authorized users.
   "
-  desc  'rationale', ''
   desc  'check', "
      Review the CouchDB settings and vendor documentation to determine whether
 CouchDB recognizes session identifiers that are not system-generated.

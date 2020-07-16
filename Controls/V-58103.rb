@@ -11,7 +11,6 @@ Publication 199, Standards for Security Categorization of Federal Information
 and Information Systems, and FIPS Publication 200, Minimum Security
 Requirements for Federal Information and Information Systems.
   "
-  desc  'rationale', ''
   desc  'check', "
     Review DBMS documentation to verify that audit records can be produced when
 categories of information are deleted.

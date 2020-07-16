@@ -12,7 +12,6 @@ privileges wrongly deny access to authorized users.
     In an SQL environment, modifying permissions is typically done via the
 GRANT, REVOKE, and DENY commands.
   "
-  desc  'rationale', ''
   desc  'check', "
     Review the CouchDB documentation to verify that audit records can be
 produced  when privileges/permissions are modified.

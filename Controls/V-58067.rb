@@ -17,7 +17,6 @@ facilitate audit reduction, analysis, and reporting. Organizations can
 establish time thresholds in which audit actions are changed, for example, near
 real time, within minutes, or within hours.
   "
-  desc  'rationale', ''
   desc  'check', "
     To list the privileges, as the database administrator, run the following:
      #GET /db/_security

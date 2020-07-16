@@ -51,7 +51,6 @@ and associated applications, the prevention of unauthorized use of privileged
 functions may be achieved by means of DBMS security features, database
 triggers, other mechanisms, or a combination of these.
   "
-  desc  'rationale', ''
   desc  'check', "
     Review the system documentation to obtain the definition of the CouchDB
 functionality considered privileged in the context of the system in question.

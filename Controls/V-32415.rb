@@ -16,7 +16,6 @@ changes, including upgrades and modifications.
     Unmanaged changes that occur to the database software libraries or
 configuration can lead to unauthorized or compromised installations.
   "
-  desc  'rationale', ''
   desc  'check', "
      Review monitoring procedures and implementation evidence to verify
 monitoring of changes to database software libraries, related applications, and

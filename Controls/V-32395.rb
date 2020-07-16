@@ -28,7 +28,6 @@ activity.
     Deletion of database audit data could mask the theft of, or the
 unauthorized modification of, sensitive data stored in the database.
   "
-  desc  'rationale', ''
   desc  'check', "
     Review the access permissions to tools used to view or modify audit
 information produced by CouchDB. These tools may include features within

@@ -21,7 +21,6 @@ provide access to the other application's database objects or directories. Any
 method that provides any level of separation of security context assists in the
 protection between applications.
   "
-  desc  'rationale', ''
   desc  'check', "
     Review the CouchDB software library directory and note other root
 directories located on the same disk directory or any subdirectories.

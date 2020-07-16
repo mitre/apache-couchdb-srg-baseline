@@ -19,7 +19,6 @@ procedures). The spawned process used to execute the external procedure may
 operate within a different OS security context than the DBMS and provide
 unauthorized access to the host system.
   "
-  desc  'rationale', ''
   desc  'check', "
     Review the database for definitions of application executable objects
 stored external to the database.

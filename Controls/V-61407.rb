@@ -17,7 +17,6 @@ operating system or access control program (e.g., Microsoft Active Directory)
 must be configured to do so.  For other DBMSs, the rules must be enforced using
 available configuration parameters or custom code.
   "
-  desc  'rationale', ''
   desc  'check', "
     Review CouchDB settings relating to password complexity. Determine whether
 the following rules are enforced. If any are not, this is a finding.

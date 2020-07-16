@@ -17,7 +17,6 @@ http://iase.disa.mil/pki-pke/interoperability.
     This requirement focuses on communications protection for the DBMS session
 rather than for the network packet.
   "
-  desc  'rationale', ''
   desc  'check', "
     Check for the following:
     # find . -name \"local.ini\"

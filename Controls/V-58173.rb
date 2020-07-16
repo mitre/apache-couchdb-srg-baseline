@@ -10,7 +10,6 @@ processes is controlled through the security functions, and one process cannot
 modify the executing code of another process. Maintaining separate execution
 domains for executing processes can be achieved, for example, by implementing
 separate address spaces."
-  desc  'rationale', ''
   desc  'check', "
     Review CouchDB architecture to find out if and how it protects the private
 resources of one process (such as working memory, temporary tables, uncommitted

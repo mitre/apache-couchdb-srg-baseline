@@ -15,7 +15,6 @@ policies, regulations, and standards.
     NSA-approved cryptography for classified networks is hardware based. This
 requirement addresses the compatibility of a DBMS with the encryption devices.
   "
-  desc  'rationale', ''
   desc  'check', "
     If CouchDB is deployed in an unclassified environment, this is not
 applicable (NA).

@@ -22,7 +22,6 @@ when specific actions were performed. This requires the date and time an audit
 record is referring to. If date and time information is not recorded and stored
 with the audit record, the record itself is of very limited use.
   "
-  desc  'rationale', ''
   desc  'check', "
     Review the CouchDB database documentation and deployed configuration to
 verify that the database is configured to produce audit records containing time

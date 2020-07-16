@@ -46,7 +46,6 @@ these.
 action that weakens the implementation of this requirement itself, since the
 objective is to have a complete audit trail of all administrative activity.
   "
-  desc  'rationale', ''
   desc  'check', "
     Review the CouchDB database documentation and deployed configuration to
 verify that the database is configured to log audit records for all privileged

@@ -25,7 +25,6 @@ more of the DBMS's private keys, an attacker could gain access to the key(s)
 and use them to impersonate the database on the network or otherwise perform
 unauthorized actions.
   "
-  desc  'rationale', ''
   desc  'check', "
     Review CouchDB configuration to determine whether appropriate access
 controls exist to protect CouchDB's private key(s). If the CouchDB\x92s private

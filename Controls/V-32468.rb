@@ -13,7 +13,6 @@ encryption, or using unsalted hashes would be vulnerable to unauthorized
 disclosure. Database passwords must always be in the form of one-way, salted
 hashes when stored internally or externally to the DBMS.
   "
-  desc  'rationale', ''
   desc  'check', "
     Review the CouchDB database settings relating to passwords that are used
 for authentication, the CouchDB database must store only hashed, salted

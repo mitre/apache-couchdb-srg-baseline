@@ -3,7 +3,6 @@
 control 'V-32363' do
   title "The DBMS must allow only the ISSM (or individuals or roles appointed
 by the ISSM) to select which auditable events are to be audited."
-  desc  'rationale', ''
   desc  'check', "
     Review the access permissions to tools used to view or modify audit log
 configurations. These tools may include features within CouchDB itself or

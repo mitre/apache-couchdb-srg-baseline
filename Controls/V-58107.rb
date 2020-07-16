@@ -5,7 +5,6 @@ control 'V-58107' do
 connections occur."
   desc  "For completeness of forensic analysis, it is necessary to track
 who/what (a user or other principal) logs on to the DBMS."
-  desc  'rationale', ''
   desc  'check', "
     For completeness of forensic analysis, it is necessary to track who/what (a
 user or other principal) logs on to CouchDB.

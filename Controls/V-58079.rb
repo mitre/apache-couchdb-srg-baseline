@@ -12,7 +12,6 @@ privileges wrongly deny access to authorized users.
     In an SQL environment, deleting permissions is typically done via the
 REVOKE or DENY command.
   "
-  desc  'rationale', ''
   desc  'check', "
     Review the CouchDB documentation to verify that audit records can be
 produced when privileges/permissions are deleted.

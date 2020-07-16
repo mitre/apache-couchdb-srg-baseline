@@ -16,7 +16,6 @@ on the overall security of the system.
 obtain access to system components for the purposes of initiating changes,
 including upgrades and modifications.
   "
-  desc  'rationale', ''
   desc  'check', "
     To list the privileges, as the database administrator, run the following:
      #GET /db/_security

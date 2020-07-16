@@ -7,7 +7,6 @@ connection attempts occur."
 attempts to log on to the DBMS. While positive identification may not be
 possible in a case of failed authentication, as much information as possible
 about the incident must be captured."
-  desc  'rationale', ''
   desc  'check', "
     Review CouchDB audit settings. If an audit record is not generated each
 time a user (or other principal) attempts but fails to log on or connect to

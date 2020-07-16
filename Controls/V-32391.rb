@@ -22,7 +22,6 @@ local time with an offset from UTC.
 timeline of events can get skewed. This makes forensic analysis of the logs
 much less reliable.
   "
-  desc  'rationale', ''
   desc  'check', "
     Using product documentation, verify that CouchDB uses current time stamp
 values obtained from or synchronized with the internal system clock used by the

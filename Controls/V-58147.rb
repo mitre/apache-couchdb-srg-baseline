@@ -31,7 +31,6 @@ circumstances:
     Within the DoD, the minimum circumstances requiring re-authentication are
 privilege escalation and role changes.
   "
-  desc  'rationale', ''
   desc  'check', "
     Review organization-defined circumstances or situations that would require
 re-authentication.

@@ -15,7 +15,6 @@ representation of date and time. Rather, it is a database state counter and
 does not correspond to calendar and clock time. This requirement does not refer
 to that meaning of TIMESTAMP.
   "
-  desc  'rationale', ''
   desc  'check', "
     Review the CouchDB database documentation and deployed configuration to
 verify that the database is configured to provide record time stamps, in audit

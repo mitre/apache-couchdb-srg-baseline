@@ -17,7 +17,6 @@ limited to:
     DELETE
     EXECUTE
   "
-  desc  'rationale', ''
   desc  'check', "
     Review the CouchDB documentation to verify that audit records can be
 produced when security objects are accessed.

@@ -7,7 +7,6 @@ account."
 Once a PKI certificate has been validated, it must be mapped to a DBMS user
 account for the authenticated identity to be meaningful to the DBMS and useful
 for authorization decisions."
-  desc  'rationale', ''
   desc  'check', "
     Review DBMS configuration to verify DBMS user accounts are being mapped
 directly to unique identifying information within the validated PKI certificate.

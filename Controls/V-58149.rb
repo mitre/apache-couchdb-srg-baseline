@@ -10,7 +10,6 @@ from being available to any current user/role (or current process) that obtains
 access to a shared system resource (e.g., registers, main memory, secondary
 storage) after the resource has been released back to the information system.
 Control of information in shared resources is also referred to as object reuse."
-  desc  'rationale', ''
   desc  'check', "
     Review CouchDB architecture to find out if and how it protects the private
 resources of one process or user (such as working memory, temporary tables,

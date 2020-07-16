@@ -20,7 +20,6 @@ and implementation also must ensure that applications pass individual user
 identification to the DBMS, even where the application connects to the DBMS
 with a standard, shared account.
   "
-  desc  'rationale', ''
   desc  'check', "
     Check CouchDB settings and documentation and protect against a user falsely
 repudiating having performed organization-defined actions.

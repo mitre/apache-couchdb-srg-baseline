@@ -32,7 +32,6 @@ each query tab and navigation pane may count as a separate session.
     (Sessions may also be referred to as connections or logons, which for the
 purposes of this requirement are synonyms.)
   "
-  desc  'rationale', ''
   desc  'check', "
      Check CouchDB settings and documentation and verify the limit of the
 number of concurrent sessions to an organization-defined number per user for

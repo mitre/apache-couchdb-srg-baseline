@@ -34,7 +34,6 @@ organization's current account policy.
 together contain an overall mechanism supporting an organization's automated
 account management requirements.
   "
-  desc  'rationale', ''
   desc  'check', "
      Check CouchDB settings and documentation and verify an organization-level
 authentication/access mechanism providing account management and automation for

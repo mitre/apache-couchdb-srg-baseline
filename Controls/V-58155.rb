@@ -18,7 +18,6 @@ data transfer and handling process.
     When receiving data, the DBMS, associated applications, and infrastructure
 must leverage protection mechanisms.
   "
-  desc  'rationale', ''
   desc  'check', "
     Check for the following:
 

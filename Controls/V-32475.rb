@@ -20,7 +20,6 @@ RFC 5280-compliant certification path validation are in danger of accepting
 certificates that are invalid and/or counterfeit. This could allow unauthorized
 access to the database.
   "
-  desc  'rationale', ''
   desc  'check', "
     # find local.ini
     # grep \"cacert_file =\" <path to local.ini>
