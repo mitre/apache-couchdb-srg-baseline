@@ -13,9 +13,9 @@ verifier:
     - cli
     - json: ./couchdb-vanilla-results.json
   inspec_tests: 
-    - path: ./
+    - path: ./controls
   input_files:
-    - ./srg-inputs.yml
+    - ./inputs.yml
 
 platforms:
   - name: centos-7
