@@ -11,9 +11,12 @@ verifier:
   load_plugins: true
   reporter: 
     - cli
-    - json: ./couchdb-vanilla-results.json
+    - json:./results/couchdb-vanilla-results.json
   inspec_tests: 
     - path: ./controls
+    #Modify for specific control
+  controls:
+    - V-32475
   input_files:
     - ./inputs.yml
 
