@@ -47,8 +47,15 @@ certification path validation.
   tag "gid": "V-32475"
   tag "rid": "SV-42812r3_rule"
   tag "stig_id": "SRG-APP-000175-DB-000067"
-  tag "fix_id": nil
+  tag "fix_id": "F-36390r3_fix"
   tag "cci": ["CCI-000185"]
   tag "nist": ["IA-5 (2) (a)", "Rev_4"]
+
+  describe file(input('couchdb_conf')) do
+    it { should exist }
+  end
+  describe ini(input('couchdb_conf')) do
+    its('ssl.secure_renegotiate') { should eq 'true' }
+  end
 end
 
