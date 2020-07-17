@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-32480' do
+control "V-32480" do
   title "The DBMS must use NIST FIPS 140-2 validated cryptographic modules for
 cryptographic operations."
   desc  "Use of weak or not validated cryptographic algorithms undermines the
@@ -22,7 +22,7 @@ modules are described in FIPS 140-2 Annex A.
     NSA Type-X (where X=1, 2, 3, 4) products are NSA-certified, hardware-based
 encryption modules.
   "
-  desc  'check', "
+  desc  "check", "
     As the system administrator, run the following:
 
     $ openssl version
@@ -30,20 +30,20 @@ encryption modules.
     If \"fips\" is not included in the openssl version, this is a finding.
 
   "
-  desc  'fix', "
+  desc  "fix", "
     Configure OpenSSL to meet FIPS Compliance using the following documentation
 in section 9.1:
 
     http://csrc.nist.gov/groups/STM/cmvp/documents/140-1/140sp/140sp1758.pdf
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000179-DB-000114"
-  tag gid: "V-32480"
-  tag rid: "SV-42817r3_rule"
-  tag stig_id: "SRG-APP-000179-DB-000114"
-  tag fix_id: nil
-  tag cci: ["CCI-000803"]
-  tag nist: ["IA-7", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000179-DB-000114"
+  tag "gid": "V-32480"
+  tag "rid": "SV-42817r3_rule"
+  tag "stig_id": "SRG-APP-000179-DB-000114"
+  tag "fix_id": nil
+  tag "cci": ["CCI-000803"]
+  tag "nist": ["IA-7", "Rev_4"]
 end
 

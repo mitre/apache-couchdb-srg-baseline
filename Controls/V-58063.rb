@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-58063' do
+control "V-58063" do
   title "The DBMS must record time stamps, in audit records and application
 data, that can be mapped to Coordinated Universal Time (UTC, formerly GMT)."
   desc  "If time stamps are not consistently applied and there is no common
@@ -15,7 +15,7 @@ representation of date and time. Rather, it is a database state counter and
 does not correspond to calendar and clock time. This requirement does not refer
 to that meaning of TIMESTAMP.
   "
-  desc  'check', "
+  desc  "check", "
     Review the CouchDB database documentation and deployed configuration to
 verify that the database is configured to provide record time stamps, in audit
 records and application data, that can be mapped to Coordinated Universal Time
@@ -31,7 +31,7 @@ records and application data, that can be mapped to Coordinated Universal Time
 application data, that can be mapped to Coordinated Universal Time (UTC,
 formerly GMT), this is a finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     If applicable remove or comment out the line writer = journald
     writer needs to be set equal to file
 
@@ -40,13 +40,13 @@ formerly GMT), this is a finding.
     #writer = <path to log file>
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000374-DB-000322"
-  tag gid: "V-58063"
-  tag rid: "SV-72493r1_rule"
-  tag stig_id: "SRG-APP-000374-DB-000322"
-  tag fix_id: nil
-  tag cci: ["CCI-001890"]
-  tag nist: ["AU-8 b", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000374-DB-000322"
+  tag "gid": "V-58063"
+  tag "rid": "SV-72493r1_rule"
+  tag "stig_id": "SRG-APP-000374-DB-000322"
+  tag "fix_id": nil
+  tag "cci": ["CCI-001890"]
+  tag "nist": ["AU-8 b", "Rev_4"]
 end
 

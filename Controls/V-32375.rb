@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-32375' do
+control "V-32375" do
   title "The DBMS must include additional, more detailed, organization-defined
 information in the audit records for audit events identified by type, location,
 or subject."
@@ -26,7 +26,7 @@ and impact of compromise.
 records are full-text recording of privileged commands or the individual
 identities of shared account users.
   "
-  desc  'check', "
+  desc  "check", "
     Review the system documentation to identify what additional information the
 organization has determined to be necessary.
     # find . -name \"default.ini\"
@@ -39,7 +39,7 @@ organization has determined to be necessary.
 organization-defined additional, more detailed information in the audit records
 for audit events identified by type, location, or subject, this is a finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     Configure CouchDB audit settings to produce audit records to include all
 organization-defined additional, more detailed information in the audit records
 for audit events identified by type, location, or subject, this is a finding.
@@ -47,13 +47,13 @@ for audit events identified by type, location, or subject, this is a finding.
     # set level = info
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000101-DB-000044"
-  tag gid: "V-32375"
-  tag rid: "SV-42712r4_rule"
-  tag stig_id: "SRG-APP-000101-DB-000044"
-  tag fix_id: nil
-  tag cci: ["CCI-000135"]
-  tag nist: ["AU-3 (1)", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000101-DB-000044"
+  tag "gid": "V-32375"
+  tag "rid": "SV-42712r4_rule"
+  tag "stig_id": "SRG-APP-000101-DB-000044"
+  tag "fix_id": nil
+  tag "cci": ["CCI-000135"]
+  tag "nist": ["AU-3 (1)", "Rev_4"]
 end
 

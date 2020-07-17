@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-32428' do
+control "V-32428" do
   title "The DBMS must be configured to prohibit or restrict the use of
 organization-defined functions, ports, protocols, and/or services, as defined
 in the PPSM CAL and vulnerability assessments."
@@ -28,7 +28,7 @@ unsafe are open to attack through those ports, protocols, and services. This
 can allow unauthorized access to the database and through the database to other
 components of the information system.
   "
-  desc  'check', "
+  desc  "check", "
     Review the organization-defined network functions, ports, protocols, and
 services deemed by to be nonsecure, in accord with the Ports, Protocols, and
 Services Management (PPSM) guidance.
@@ -40,16 +40,16 @@ Services Management (PPSM) guidance.
 finding.
 
   "
-  desc  'fix', "Prohibit/restrict nonsecure network functions, ports,
+  desc  "fix", "Prohibit/restrict nonsecure network functions, ports,
 protovols, and servies."
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000142-DB-000094"
-  tag gid: "V-32428"
-  tag rid: "SV-42765r3_rule"
-  tag stig_id: "SRG-APP-000142-DB-000094"
-  tag fix_id: nil
-  tag cci: ["CCI-000382"]
-  tag nist: ["CM-7 b", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000142-DB-000094"
+  tag "gid": "V-32428"
+  tag "rid": "SV-42765r3_rule"
+  tag "stig_id": "SRG-APP-000142-DB-000094"
+  tag "fix_id": nil
+  tag "cci": ["CCI-000382"]
+  tag "nist": ["CM-7 b", "Rev_4"]
 end
 

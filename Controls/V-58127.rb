@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-58127' do
+control "V-58127" do
   title "The DBMS must produce audit records of its enforcement of access
 restrictions associated with changes to the configuration of the DBMS or
 database(s)."
@@ -15,7 +15,7 @@ be as simple as denying access to a file based on the application of file
 permissions (access restriction). Audit items may consist of lists of actions
 blocked by access restrictions or changes identified after the fact.
   "
-  desc  'check', "
+  desc  "check", "
     Review the CouchDB documentation to verify that audit records can produce
 audit records of its enforcement of access restrictions associated with changes
 to the configuration of database(s).
@@ -29,7 +29,7 @@ to the configuration of database(s).
 restrictions associated with changes to the configuration of the CouchDB
 database, this is a finding.
   "
-  desc  'fix', "
+  desc  "fix", "
      Configure CouchDB to verify that audit records can produce audit records
 of its enforcement of access restrictions associated with changes to the
 configuration of database(s).
@@ -38,13 +38,13 @@ configuration of database(s).
     # set level = info
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000381-DB-000361"
-  tag gid: "V-58127"
-  tag rid: "SV-72557r1_rule"
-  tag stig_id: "SRG-APP-000381-DB-000361"
-  tag fix_id: nil
-  tag cci: ["CCI-001814"]
-  tag nist: ["CM-5 (1)", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000381-DB-000361"
+  tag "gid": "V-58127"
+  tag "rid": "SV-72557r1_rule"
+  tag "stig_id": "SRG-APP-000381-DB-000361"
+  tag "fix_id": nil
+  tag "cci": ["CCI-001814"]
+  tag "nist": ["CM-5 (1)", "Rev_4"]
 end
 

@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-58083' do
+control "V-58083" do
   title "The DBMS must be able to generate audit records when security objects
 are accessed."
   desc  "Changes to the security configuration must be tracked.
@@ -17,7 +17,7 @@ limited to:
     DELETE
     EXECUTE
   "
-  desc  'check', "
+  desc  "check", "
     Review the CouchDB documentation to verify that audit records can be
 produced when security objects are accessed.
     # find . -name \"default.ini\"
@@ -30,7 +30,7 @@ produced when security objects are accessed.
     If it is not set to log audit records when security objects are accessed,
 this is a finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     Configure CouchDB to set to log audit records when security objects are
 accessed.
 
@@ -38,13 +38,13 @@ accessed.
     # set level = info
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000492-DB-000332"
-  tag gid: "V-58083"
-  tag rid: "SV-72513r1_rule"
-  tag stig_id: "SRG-APP-000492-DB-000332"
-  tag fix_id: nil
-  tag cci: ["CCI-000172"]
-  tag nist: ["AU-12 c", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000492-DB-000332"
+  tag "gid": "V-58083"
+  tag "rid": "SV-72513r1_rule"
+  tag "stig_id": "SRG-APP-000492-DB-000332"
+  tag "fix_id": nil
+  tag "cci": ["CCI-000172"]
+  tag "nist": ["AU-12 c", "Rev_4"]
 end
 

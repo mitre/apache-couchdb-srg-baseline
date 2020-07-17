@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-32192' do
+control "V-32192" do
   title "The DBMS must integrate with an organization-level
 authentication/access mechanism providing account management and automation for
 all users, groups, roles, and any other principals."
@@ -34,7 +34,7 @@ organization's current account policy.
 together contain an overall mechanism supporting an organization's automated
 account management requirements.
   "
-  desc  'check', "
+  desc  "check", "
      Check CouchDB settings and documentation and verify an organization-level
 authentication/access mechanism providing account management and automation for
 all users, groups, roles, and any other principals.
@@ -60,17 +60,17 @@ ldap, that are not documented and approved, this is a finding.
 providing account management and automation for all users, groups, roles, and
 any other principals, this is a finding.
   "
-  desc  'fix', "Implement authentication/access mechanisms to use an
+  desc  "fix", "Implement authentication/access mechanisms to use an
 auth-method of gss, sspi, or ldap. Or discuss with management other approved
 methods."
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000023-DB-000001"
-  tag gid: "V-32192"
-  tag rid: "SV-42509r3_rule"
-  tag stig_id: "SRG-APP-000023-DB-000001"
-  tag fix_id: nil
-  tag cci: ["CCI-000015"]
-  tag nist: ["AC-2 (1)", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000023-DB-000001"
+  tag "gid": "V-32192"
+  tag "rid": "SV-42509r3_rule"
+  tag "stig_id": "SRG-APP-000023-DB-000001"
+  tag "fix_id": nil
+  tag "cci": ["CCI-000015"]
+  tag "nist": ["AC-2 (1)", "Rev_4"]
 end
 

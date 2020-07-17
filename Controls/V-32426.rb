@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-32426' do
+control "V-32426" do
   title "Unused database components that are integrated in the DBMS and cannot
 be uninstalled must be disabled."
   desc  "Information systems are capable of providing a wide variety of
@@ -23,7 +23,7 @@ by DBMS product, OS, and the nature of the component and may include DBMS
 configuration settings, OS service settings, OS file access security, and DBMS
 user/role permissions.
   "
-  desc  'check', "
+  desc  "check", "
      To list all installed packages, as the system administrator, run the
 following:
 
@@ -35,7 +35,7 @@ following:
 
     If any packages are installed that are not required, this is a finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     To remove any unneeded executables, as the system administrator, run the
 following:
 
@@ -46,13 +46,13 @@ following:
     $ sudo apt-get remove <package_name>
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000141-DB-000092"
-  tag gid: "V-32426"
-  tag rid: "SV-42763r4_rule"
-  tag stig_id: "SRG-APP-000141-DB-000092"
-  tag fix_id: nil
-  tag cci: ["CCI-000381"]
-  tag nist: ["CM-7 a", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000141-DB-000092"
+  tag "gid": "V-32426"
+  tag "rid": "SV-42763r4_rule"
+  tag "stig_id": "SRG-APP-000141-DB-000092"
+  tag "fix_id": nil
+  tag "cci": ["CCI-000381"]
+  tag "nist": ["CM-7 a", "Rev_4"]
 end
 

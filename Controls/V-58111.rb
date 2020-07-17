@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-58111' do
+control "V-58111" do
   title "The DBMS must generate audit records showing starting and ending time
 for user access to the database(s)."
   desc  "For completeness of forensic analysis, it is necessary to know how
@@ -12,7 +12,7 @@ audit logs.
 timeout) or result from a system or network failure. To the greatest extent
 possible, all disconnections must be logged.
   "
-  desc  'check', "
+  desc  "check", "
     Review the CouchDB database documentation and deployed configuration to
 verify that the database is configured to log audit records showing starting
 and ending time for user access to the database(s).
@@ -27,7 +27,7 @@ and ending time for user access to the database(s).
     If it is not set to log start and end times of user access, this is a
 finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     Configure CouchDB to generate audit records showing starting and ending
 time for user access to the database(s).
 
@@ -35,13 +35,13 @@ time for user access to the database(s).
     # set level = info
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000505-DB-000352"
-  tag gid: "V-58111"
-  tag rid: "SV-72541r1_rule"
-  tag stig_id: "SRG-APP-000505-DB-000352"
-  tag fix_id: nil
-  tag cci: ["CCI-000172"]
-  tag nist: ["AU-12 c", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000505-DB-000352"
+  tag "gid": "V-58111"
+  tag "rid": "SV-72541r1_rule"
+  tag "stig_id": "SRG-APP-000505-DB-000352"
+  tag "fix_id": nil
+  tag "cci": ["CCI-000172"]
+  tag "nist": ["AU-12 c", "Rev_4"]
 end
 

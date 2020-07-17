@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-58023' do
+control "V-58023" do
   title "The DBMS must prevent non-privileged users from executing privileged
 functions, to include disabling, circumventing, or altering implemented
 security safeguards/countermeasures."
@@ -51,7 +51,7 @@ and associated applications, the prevention of unauthorized use of privileged
 functions may be achieved by means of DBMS security features, database
 triggers, other mechanisms, or a combination of these.
   "
-  desc  'check', "
+  desc  "check", "
     Review the system documentation to obtain the definition of the CouchDB
 functionality considered privileged in the context of the system in question.
 
@@ -61,16 +61,16 @@ protect privileged functionality from unauthorized use.
     If the configuration does not protect all of the actions defined as
 privileged, this is a finding.
   "
-  desc  'fix', "Configure CouchDB security to protect all privileged
+  desc  "fix", "Configure CouchDB security to protect all privileged
 functionality."
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000340-DB-000304"
-  tag gid: "V-58023"
-  tag rid: "SV-72453r1_rule"
-  tag stig_id: "SRG-APP-000340-DB-000304"
-  tag fix_id: nil
-  tag cci: ["CCI-002235"]
-  tag nist: ["AC-6 (10)", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000340-DB-000304"
+  tag "gid": "V-58023"
+  tag "rid": "SV-72453r1_rule"
+  tag "stig_id": "SRG-APP-000340-DB-000304"
+  tag "fix_id": nil
+  tag "cci": ["CCI-002235"]
+  tag "nist": ["AC-6 (10)", "Rev_4"]
 end
 

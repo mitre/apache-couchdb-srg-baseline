@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-58183' do
+control "V-58183" do
   title "When invalid inputs are received, the DBMS must behave in a
 predictable and documented manner that reflects organizational and system
 objectives."
@@ -22,7 +22,7 @@ of databases that they must not be ignored. At a minimum, the DBA must attempt
 to obtain assurances from the development organization that this issue has been
 addressed, and must document what has been discovered.
   "
-  desc  'check', "
+  desc  "check", "
     Review system documentation to determine how input errors are to be handled
 in general and if any special handling is defined for specific circumstances.
 
@@ -43,19 +43,19 @@ responds to invalid input.
 
     If it does not implement the documented behavior, this is a finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     Configure CouchDB to generate audit records for all invalid inputs.
     # find . -name \"default.ini\"
     # set level = info
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000447-DB-000393"
-  tag gid: "V-58183"
-  tag rid: "SV-72613r2_rule"
-  tag stig_id: "SRG-APP-000447-DB-000393"
-  tag fix_id: nil
-  tag cci: ["CCI-002754"]
-  tag nist: ["SI-10 (3)", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000447-DB-000393"
+  tag "gid": "V-58183"
+  tag "rid": "SV-72613r2_rule"
+  tag "stig_id": "SRG-APP-000447-DB-000393"
+  tag "fix_id": nil
+  tag "cci": ["CCI-002754"]
+  tag "nist": ["SI-10 (3)", "Rev_4"]
 end
 

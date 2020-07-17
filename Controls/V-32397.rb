@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-32397' do
+control "V-32397" do
   title 'The DBMS must protect its audit features from unauthorized access.'
   desc  "Protecting audit data also includes identifying and protecting the
 tools used to view and manipulate log data.
@@ -23,7 +23,7 @@ view and manipulate audit information system activity and records.
 logs for system weaknesses or weaknesses in the auditing itself. An attacker
 could also manipulate logs to hide evidence of malicious activity.
   "
-  desc  'check', "
+  desc  "check", "
     Review the access permissions to tools used to view or modify audit log
 configurations. These tools may include features within CouchDB itself or
 software external to the database.
@@ -39,7 +39,7 @@ other .ini files. Only authorized users should have permissions to the file.
     If any audit features can be accessed by unathorized users, this is a
 finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     As the system administrator, change the permissions of the configuration
 files:
 
@@ -48,13 +48,13 @@ file>
       # sudo chmod 600 <Configuration file>
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000121-DB-000202"
-  tag gid: "V-32397"
-  tag rid: "SV-42734r3_rule"
-  tag stig_id: "SRG-APP-000121-DB-000202"
-  tag fix_id: nil
-  tag cci: ["CCI-001493"]
-  tag nist: ["AU-9", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000121-DB-000202"
+  tag "gid": "V-32397"
+  tag "rid": "SV-42734r3_rule"
+  tag "stig_id": "SRG-APP-000121-DB-000202"
+  tag "fix_id": nil
+  tag "cci": ["CCI-001493"]
+  tag "nist": ["AU-9", "Rev_4"]
 end
 

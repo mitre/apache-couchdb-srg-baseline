@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-58117' do
+control "V-58117" do
   title "The DBMS must generate audit records when unsuccessful attempts to
 execute privileged activities or other system-level access occur."
   desc  "Without tracking privileged activity, it would be difficult to
@@ -29,7 +29,7 @@ objective is to have a complete audit trail of all administrative activity.
     To aid in diagnosis, it is necessary to keep track of failed attempts in
 addition to the successful ones.
   "
-  desc  'check', "
+  desc  "check", "
     Review the CouchDB database documentation and deployed configuration to
 verify that the database is configured to log audit records for unsuccessful
 attempts to execute privileged activities or other system-level access occur.
@@ -43,7 +43,7 @@ attempts to execute privileged activities or other system-level access occur.
     If it is not set to log audit records for unsuccessful attempts to execute
 privileged activities or other system-level access occur, this is a finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     Configure CouchDB to generate audit records when unsuccessful attempts to
 execute privileged activities or other system-level access occur.
 
@@ -51,13 +51,13 @@ execute privileged activities or other system-level access occur.
     # set level = info
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000504-DB-000355"
-  tag gid: "V-58117"
-  tag rid: "SV-72547r1_rule"
-  tag stig_id: "SRG-APP-000504-DB-000355"
-  tag fix_id: nil
-  tag cci: ["CCI-000172"]
-  tag nist: ["AU-12 c", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000504-DB-000355"
+  tag "gid": "V-58117"
+  tag "rid": "SV-72547r1_rule"
+  tag "stig_id": "SRG-APP-000504-DB-000355"
+  tag "fix_id": nil
+  tag "cci": ["CCI-000172"]
+  tag "nist": ["AU-12 c", "Rev_4"]
 end
 

@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-32395' do
+control "V-32395" do
   title "The audit information produced by the DBMS must be protected from
 unauthorized deletion."
   desc  "If audit data were to become compromised, then competent forensic
@@ -28,7 +28,7 @@ activity.
     Deletion of database audit data could mask the theft of, or the
 unauthorized modification of, sensitive data stored in the database.
   "
-  desc  'check', "
+  desc  "check", "
     Review the access permissions to tools used to view or modify audit
 information produced by CouchDB. These tools may include features within
 CouchDB itself or software external to the database.
@@ -47,7 +47,7 @@ following commands:
     If the audit information produced by CouchDB is not protected from
 unauthorized deletion, this is a finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     As the system administrator, change the permissions of the configuration
 files:
 
@@ -57,13 +57,13 @@ files:
       # sudo chmod 600 <Log File>
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000120-DB-000061"
-  tag gid: "V-32395"
-  tag rid: "SV-42732r3_rule"
-  tag stig_id: "SRG-APP-000120-DB-000061"
-  tag fix_id: nil
-  tag cci: ["CCI-000164"]
-  tag nist: ["AU-9", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000120-DB-000061"
+  tag "gid": "V-32395"
+  tag "rid": "SV-42732r3_rule"
+  tag "stig_id": "SRG-APP-000120-DB-000061"
+  tag "fix_id": nil
+  tag "cci": ["CCI-000164"]
+  tag "nist": ["AU-9", "Rev_4"]
 end
 

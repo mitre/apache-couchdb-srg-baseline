@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-58125' do
+control "V-58125" do
   title "The DBMS must enforce access restrictions associated with changes to
 the configuration of the DBMS or database(s)."
   desc  "Failure to provide logical access restrictions associated with changes
@@ -16,14 +16,14 @@ on the overall security of the system.
 obtain access to system components for the purposes of initiating changes,
 including upgrades and modifications.
   "
-  desc  'check', "
+  desc  "check", "
     To list the privileges, as the database administrator, run the following:
      #GET /db/_security
 
     If the privileges are exceed what user and groups should have, this is a
 finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     Use the following command to set privileges correctly:
 
     # PUT /{db}/_security
@@ -35,13 +35,13 @@ finding.
 [\"user1\",\"user2\"],\"roles\": [\"developers\"]}}'
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000380-DB-000360"
-  tag gid: "V-58125"
-  tag rid: "SV-72555r1_rule"
-  tag stig_id: "SRG-APP-000380-DB-000360"
-  tag fix_id: nil
-  tag cci: ["CCI-001813"]
-  tag nist: ["CM-5 (1)", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000380-DB-000360"
+  tag "gid": "V-58125"
+  tag "rid": "SV-72555r1_rule"
+  tag "stig_id": "SRG-APP-000380-DB-000360"
+  tag "fix_id": nil
+  tag "cci": ["CCI-001813"]
+  tag "nist": ["CM-5 (1)", "Rev_4"]
 end
 

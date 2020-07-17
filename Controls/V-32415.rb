@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-32415' do
+control "V-32415" do
   title "The DBMS must limit privileges to change software modules, to include
 stored procedures, functions and triggers, and links to software external to
 the DBMS."
@@ -16,7 +16,7 @@ changes, including upgrades and modifications.
     Unmanaged changes that occur to the database software libraries or
 configuration can lead to unauthorized or compromised installations.
   "
-  desc  'check', "
+  desc  "check", "
      Review monitoring procedures and implementation evidence to verify
 monitoring of changes to database software libraries, related applications, and
 configuration files is done.
@@ -30,7 +30,7 @@ configuration files is done.
 finding.
     If monitoring does not occur or is not complete, this is a finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     Implement procedures to monitor for unauthorized changes to DBMS software
 libraries, related software application libraries, and configuration files. If
 a third-party automated tool is not employed, an automated job that reports
@@ -51,13 +51,13 @@ manipulated by malicious users.
 [\"user1\",\"user2\"],\"roles\": [\"developers\"]}}'
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000133-DB-000179"
-  tag gid: "V-32415"
-  tag rid: "SV-42752r3_rule"
-  tag stig_id: "SRG-APP-000133-DB-000179"
-  tag fix_id: nil
-  tag cci: ["CCI-001499"]
-  tag nist: ["CM-5 (6)", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000133-DB-000179"
+  tag "gid": "V-32415"
+  tag "rid": "SV-42752r3_rule"
+  tag "stig_id": "SRG-APP-000133-DB-000179"
+  tag "fix_id": nil
+  tag "cci": ["CCI-001499"]
+  tag "nist": ["CM-5 (6)", "Rev_4"]
 end
 

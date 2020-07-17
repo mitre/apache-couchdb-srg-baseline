@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-32393' do
+control "V-32393" do
   title "The audit information produced by the DBMS must be protected from
 unauthorized read access."
   desc  "If audit data were to become compromised, then competent forensic
@@ -28,7 +28,7 @@ protected from unauthorized access.
 settings, and audit reports) needed to successfully audit information system
 activity.
   "
-  desc  'check', "
+  desc  "check", "
     Review the access permissions to tools used to view or modify audit
 information produced by CouchDB. These tools may include features within
 CouchDB itself or software external to the database.
@@ -47,7 +47,7 @@ following commands:
     If the audit information produced by CouchDB is not protected from
 unauthorized read access, this is a finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     As the system administrator, change the permissions of the configuration
 files:
 
@@ -57,13 +57,13 @@ files:
       # sudo chmod 600 <Log File>
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000118-DB-000059"
-  tag gid: "V-32393"
-  tag rid: "SV-42730r3_rule"
-  tag stig_id: "SRG-APP-000118-DB-000059"
-  tag fix_id: nil
-  tag cci: ["CCI-000162"]
-  tag nist: ["AU-9", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000118-DB-000059"
+  tag "gid": "V-32393"
+  tag "rid": "SV-42730r3_rule"
+  tag "stig_id": "SRG-APP-000118-DB-000059"
+  tag "fix_id": nil
+  tag "cci": ["CCI-000162"]
+  tag "nist": ["AU-9", "Rev_4"]
 end
 

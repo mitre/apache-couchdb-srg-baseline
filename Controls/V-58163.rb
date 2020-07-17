@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-58163' do
+control "V-58163" do
   title "The DBMS must implement NIST FIPS 140-2 validated cryptographic
 modules to protect unclassified information requiring confidentiality and
 cryptographic protection, in accordance with the data owners requirements."
@@ -17,7 +17,7 @@ policies, regulations, and standards.
 Requirements For Cryptographic Modules. Note that the product's cryptographic
 modules must be validated and certified by NIST as FIPS-compliant.
   "
-  desc  'check', "
+  desc  "check", "
     Check for the following:
     # find . -name \"local.ini\"
 
@@ -26,18 +26,18 @@ modules must be validated and certified by NIST as FIPS-compliant.
 
     If it is not 1 , this is a finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     Configure OpenSSL to be FIPS compliant.
     # sed -i 's/0/1/g' /proc/sys/crypto/fips_enabled
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000514-DB-000383"
-  tag gid: "V-58163"
-  tag rid: "SV-72593r1_rule"
-  tag stig_id: "SRG-APP-000514-DB-000383"
-  tag fix_id: nil
-  tag cci: ["CCI-002450"]
-  tag nist: ["SC-13", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000514-DB-000383"
+  tag "gid": "V-58163"
+  tag "rid": "SV-72593r1_rule"
+  tag "stig_id": "SRG-APP-000514-DB-000383"
+  tag "fix_id": nil
+  tag "cci": ["CCI-002450"]
+  tag "nist": ["SC-13", "Rev_4"]
 end
 

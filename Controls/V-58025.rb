@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-58025' do
+control "V-58025" do
   title "The DBMS must automatically terminate a user session after
 organization-defined conditions or trigger events requiring session disconnect."
   desc  "This addresses the termination of user-initiated logical sessions in
@@ -23,7 +23,7 @@ information system use.
     This capability is typically reserved for specific cases where the system
 owner, data owner, or organization requires additional assurance.
   "
-  desc  'check', "
+  desc  "check", "
      Review system documentation to obtain the organization's definition of
 circumstances requiring automatic session termination. If the documentation
 explicitly states that such termination is not required or is prohibited, this
@@ -32,20 +32,20 @@ is not a finding.
     If the documentation requires automatic session termination, but CouchDB is
 not configured accordingly, this is a finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     Configure CouchDB to automatically terminate a user session after
 organization-defined conditions or trigger events requiring session termination.
 
 
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000295-DB-000305"
-  tag gid: "V-58025"
-  tag rid: "SV-72455r1_rule"
-  tag stig_id: "SRG-APP-000295-DB-000305"
-  tag fix_id: nil
-  tag cci: ["CCI-002361"]
-  tag nist: ["AC-12", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000295-DB-000305"
+  tag "gid": "V-58025"
+  tag "rid": "SV-72455r1_rule"
+  tag "stig_id": "SRG-APP-000295-DB-000305"
+  tag "fix_id": nil
+  tag "cci": ["CCI-002361"]
+  tag "nist": ["AC-12", "Rev_4"]
 end
 

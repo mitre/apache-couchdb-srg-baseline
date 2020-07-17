@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-32427' do
+control "V-32427" do
   title 'Access to external executables must be disabled or restricted.'
   desc  "Information systems are capable of providing a wide variety of
 functions and services. Some of the functions and services, provided by
@@ -19,7 +19,7 @@ procedures). The spawned process used to execute the external procedure may
 operate within a different OS security context than the DBMS and provide
 unauthorized access to the host system.
   "
-  desc  'check', "
+  desc  "check", "
     Review the database for definitions of application executable objects
 stored external to the database.
 
@@ -33,7 +33,7 @@ definitions for external executable objects.
 
     If any of these extension types are not allowed, this is a finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     Disable use of or remove any external application executable object
 definitions that are not authorized.
 
@@ -42,13 +42,13 @@ found:
     # find . -name \"*.<extension>\" -type f -delete
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000141-DB-000093"
-  tag gid: "V-32427"
-  tag rid: "SV-42764r3_rule"
-  tag stig_id: "SRG-APP-000141-DB-000093"
-  tag fix_id: nil
-  tag cci: ["CCI-000381"]
-  tag nist: ["CM-7 a", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000141-DB-000093"
+  tag "gid": "V-32427"
+  tag "rid": "SV-42764r3_rule"
+  tag "stig_id": "SRG-APP-000141-DB-000093"
+  tag "fix_id": nil
+  tag "cci": ["CCI-000381"]
+  tag "nist": ["CM-7 a", "Rev_4"]
 end
 

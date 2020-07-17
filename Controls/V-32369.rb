@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-32369' do
+control "V-32369" do
   title "The DBMS must produce audit records containing time stamps to
 establish when the events occurred."
   desc  "Information system auditing capability is critical for accurate
@@ -22,7 +22,7 @@ when specific actions were performed. This requires the date and time an audit
 record is referring to. If date and time information is not recorded and stored
 with the audit record, the record itself is of very limited use.
   "
-  desc  'check', "
+  desc  "check", "
     Review the CouchDB database documentation and deployed configuration to
 verify that the database is configured to produce audit records containing time
 stamps to establish when the events occurred.
@@ -36,20 +36,20 @@ stamps to establish when the events occurred.
     If it is not set to produce audit records containing time stamps to
 establish when the events occurred, this is a finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     If applicable remove or comment out the line writer = journald
     writer needs to be set equal to file.
     File variable needs to be set to path to where log file will be stored.
     # set writer = <path to log file>
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000096-DB-000040"
-  tag gid: "V-32369"
-  tag rid: "SV-42706r3_rule"
-  tag stig_id: "SRG-APP-000096-DB-000040"
-  tag fix_id: nil
-  tag cci: ["CCI-000131"]
-  tag nist: ["AU-3", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000096-DB-000040"
+  tag "gid": "V-32369"
+  tag "rid": "SV-42706r3_rule"
+  tag "stig_id": "SRG-APP-000096-DB-000040"
+  tag "fix_id": nil
+  tag "cci": ["CCI-000131"]
+  tag "nist": ["AU-3", "Rev_4"]
 end
 

@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-32413' do
+control "V-32413" do
   title "Database software, including DBMS configuration files, must be stored
 in dedicated directories, or DASD pools, separate from the host OS and other
 applications."
@@ -21,7 +21,7 @@ provide access to the other application's database objects or directories. Any
 method that provides any level of separation of security context assists in the
 protection between applications.
   "
-  desc  'check', "
+  desc  "check", "
     Review the CouchDB software library directory and note other root
 directories located on the same disk directory or any subdirectories.
 
@@ -43,7 +43,7 @@ configuration files are isolated in their own DASD pools.
     If database software and database configuration files share DASD with other
 applications, this is a finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     Install all applications on directories separate from CouchDB software
 library directory. Relocate any directories or reinstall other application
 software that currently shares the CouchDB software library directory.
@@ -52,13 +52,13 @@ software that currently shares the CouchDB software library directory.
 files in separate DASD pools from other mainframe application
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000133-DB-000199"
-  tag gid: "V-32413"
-  tag rid: "SV-42750r3_rule"
-  tag stig_id: "SRG-APP-000133-DB-000199"
-  tag fix_id: nil
-  tag cci: ["CCI-001499"]
-  tag nist: ["CM-5 (6)", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000133-DB-000199"
+  tag "gid": "V-32413"
+  tag "rid": "SV-42750r3_rule"
+  tag "stig_id": "SRG-APP-000133-DB-000199"
+  tag "fix_id": nil
+  tag "cci": ["CCI-001499"]
+  tag "nist": ["CM-5 (6)", "Rev_4"]
 end
 

@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-58069' do
+control "V-58069" do
   title "The DBMS must be able to generate audit records when unsuccessful
 attempts to retrieve privileges/permissions occur."
   desc  "Under some circumstances, it may be useful to monitor who/what is
@@ -16,7 +16,7 @@ determine if any and every action on the database is permitted.
     To aid in diagnosis, it is necessary to keep track of failed attempts in
 addition to the successful ones.
   "
-  desc  'check', "
+  desc  "check", "
     Review the CouchDB documentation to verify that audit records can be
 produced when unsuccessful attempts to retrieve privileges/permissions occur.
     # find . -name \"default.ini\"
@@ -29,7 +29,7 @@ produced when unsuccessful attempts to retrieve privileges/permissions occur.
     If it is not set to log audit records  when unsuccessful attempts to
 retrieve privileges/permissions occur, this is a finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     Configure CouchDB to set to log audit records when unsuccessful attempts to
 retrieve privileges/permissions occur.
 
@@ -37,13 +37,13 @@ retrieve privileges/permissions occur.
     # set level = info
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000091-DB-000325"
-  tag gid: "V-58069"
-  tag rid: "SV-72499r1_rule"
-  tag stig_id: "SRG-APP-000091-DB-000325"
-  tag fix_id: nil
-  tag cci: ["CCI-000172"]
-  tag nist: ["AU-12 c", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000091-DB-000325"
+  tag "gid": "V-58069"
+  tag "rid": "SV-72499r1_rule"
+  tag "stig_id": "SRG-APP-000091-DB-000325"
+  tag "fix_id": nil
+  tag "cci": ["CCI-000172"]
+  tag "nist": ["AU-12 c", "Rev_4"]
 end
 

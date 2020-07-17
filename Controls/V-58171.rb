@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-58171' do
+control "V-58171" do
   title "The DBMS must implement cryptographic mechanisms preventing the
 unauthorized disclosure of organization-defined information at rest on
 organization-defined information system components."
@@ -21,7 +21,7 @@ data structures (e.g., files, records, or fields).
 also influenced by the physical measures taken to secure the equipment and
 media on which the information resides.
   "
-  desc  'check', "
+  desc  "check", "
     Review the system documentation to determine whether the organization has
 defined the information at rest that is to be protected from disclosure, which
 must include, at a minimum, PII and classified information.
@@ -43,7 +43,7 @@ SA to demonstrate filesystem or disk level encryption.
     If this is required and is not found, this is a finding.
 
   "
-  desc  'fix', "
+  desc  "fix", "
     Either handled by device/ filesystem level encryption (OS) or using a 3rd
 party encryption software
 
@@ -51,13 +51,13 @@ party encryption software
 physical protection.
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000429-DB-000387"
-  tag gid: "V-58171"
-  tag rid: "SV-72601r1_rule"
-  tag stig_id: "SRG-APP-000429-DB-000387"
-  tag fix_id: nil
-  tag cci: ["CCI-002476"]
-  tag nist: ["SC-28 (1)", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000429-DB-000387"
+  tag "gid": "V-58171"
+  tag "rid": "SV-72601r1_rule"
+  tag "stig_id": "SRG-APP-000429-DB-000387"
+  tag "fix_id": nil
+  tag "cci": ["CCI-002476"]
+  tag "nist": ["SC-28 (1)", "Rev_4"]
 end
 

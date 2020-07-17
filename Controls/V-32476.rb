@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-32476' do
+control "V-32476" do
   title "The DBMS must enforce authorized access to all PKI private keys
 stored/utilized by the DBMS."
   desc  "The DoD standard for authentication is DoD-approved PKI certificates.
@@ -25,7 +25,7 @@ more of the DBMS's private keys, an attacker could gain access to the key(s)
 and use them to impersonate the database on the network or otherwise perform
 unauthorized actions.
   "
-  desc  'check', "
+  desc  "check", "
     Review CouchDB configuration to determine whether appropriate access
 controls exist to protect CouchDB's private key(s). If the CouchDB\x92s private
 key(s) are not stored in a FIPS 140-2 validated cryptographic module, this is a
@@ -41,7 +41,7 @@ finding.
     If the directory these files are stored in is not protected, this is a
 finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     Store all CouchDB PKI private keys in a FIPS 140-2-validated cryptographic
 module.
 
@@ -56,13 +56,13 @@ and authorized users.
 
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000176-DB-000068"
-  tag gid: "V-32476"
-  tag rid: "SV-42813r3_rule"
-  tag stig_id: "SRG-APP-000176-DB-000068"
-  tag fix_id: nil
-  tag cci: ["CCI-000186"]
-  tag nist: ["IA-5 (2)", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000176-DB-000068"
+  tag "gid": "V-32476"
+  tag "rid": "SV-42813r3_rule"
+  tag "stig_id": "SRG-APP-000176-DB-000068"
+  tag "fix_id": nil
+  tag "cci": ["CCI-000186"]
+  tag "nist": ["IA-5 (2)", "Rev_4"]
 end
 

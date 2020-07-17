@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-58115' do
+control "V-58115" do
   title "The DBMS must generate audit records for all privileged activities or
 other system-level access."
   desc  "Without tracking privileged activity, it would be difficult to
@@ -46,7 +46,7 @@ these.
 action that weakens the implementation of this requirement itself, since the
 objective is to have a complete audit trail of all administrative activity.
   "
-  desc  'check', "
+  desc  "check", "
     Review the CouchDB database documentation and deployed configuration to
 verify that the database is configured to log audit records for all privileged
 activities or other system-level access.
@@ -61,7 +61,7 @@ activities or other system-level access.
     If it is not set to log audit records for all privileged activities or
 other system-level access, this is a finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     Configure CouchDB to generate audit records for all privileged activities
 or other system-level access.
 
@@ -69,13 +69,13 @@ or other system-level access.
     # set level = info
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000504-DB-000354"
-  tag gid: "V-58115"
-  tag rid: "SV-72545r1_rule"
-  tag stig_id: "SRG-APP-000504-DB-000354"
-  tag fix_id: nil
-  tag cci: ["CCI-000172"]
-  tag nist: ["AU-12 c", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000504-DB-000354"
+  tag "gid": "V-58115"
+  tag "rid": "SV-72545r1_rule"
+  tag "stig_id": "SRG-APP-000504-DB-000354"
+  tag "fix_id": nil
+  tag "cci": ["CCI-000172"]
+  tag "nist": ["AU-12 c", "Rev_4"]
 end
 

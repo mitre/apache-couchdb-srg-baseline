@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-58039' do
+control "V-58039" do
   title "The DBMS must associate organization-defined types of security labels
 having organization-defined security label values with information in process."
   desc  "Without the association of security labels to information, there is no
@@ -25,7 +25,7 @@ data compromise.
     The mechanism used to support security labeling may be a feature of the
 DBMS product, a third-party product, or custom application code.
   "
-  desc  'check', "
+  desc  "check", "
     If security labeling is not required, this is not a finding.
 
     Review organization-defined types of security labels.
@@ -34,20 +34,20 @@ DBMS product, a third-party product, or custom application code.
 labeling is not implemented or does not reliably maintain labels on information
 in process, this is a finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     If security labeling is not defined by the organizaiton, but should be,
 this should be implemented and recorded by organization in their defined plan.
 
     If security labeling is defined, but not present, it must be added.
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000313-DB-000309"
-  tag gid: "V-58039"
-  tag rid: "SV-72469r1_rule"
-  tag stig_id: "SRG-APP-000313-DB-000309"
-  tag fix_id: nil
-  tag cci: ["CCI-002263"]
-  tag nist: ["AC-16 a", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000313-DB-000309"
+  tag "gid": "V-58039"
+  tag "rid": "SV-72469r1_rule"
+  tag "stig_id": "SRG-APP-000313-DB-000309"
+  tag "fix_id": nil
+  tag "cci": ["CCI-002263"]
+  tag "nist": ["AC-16 a", "Rev_4"]
 end
 

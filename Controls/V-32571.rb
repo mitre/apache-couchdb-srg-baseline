@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-32571' do
+control "V-32571" do
   title "The DBMS must reveal detailed error messages only to the ISSO, ISSM,
 SA and DBA."
   desc  "If the DBMS provides too much information in error logs and
@@ -37,24 +37,24 @@ of databases that they must not be ignored. At a minimum, the DBA must attempt
 to obtain assurances from the development organization that this issue has been
 addressed, and must document what has been discovered.
   "
-  desc  'check', "
+  desc  "check", "
     Check DBMS settings and custom database code to determine if detailed error
 messages are ever displayed to unauthorized individuals.
 
     If detailed error messages are displayed to individuals not authorized to
 view them, this is a finding.
   "
-  desc  'fix', "Configure DBMS settings, custom database code, and associated
+  desc  "fix", "Configure DBMS settings, custom database code, and associated
 application code not to display detailed error messages to those not authorized
 to view them."
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000267-DB-000163"
-  tag gid: "V-32571"
-  tag rid: "SV-42908r5_rule"
-  tag stig_id: "SRG-APP-000267-DB-000163"
-  tag fix_id: nil
-  tag cci: ["CCI-001314"]
-  tag nist: ["SI-11 b", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000267-DB-000163"
+  tag "gid": "V-32571"
+  tag "rid": "SV-42908r5_rule"
+  tag "stig_id": "SRG-APP-000267-DB-000163"
+  tag "fix_id": nil
+  tag "cci": ["CCI-001314"]
+  tag "nist": ["SI-11 b", "Rev_4"]
 end
 

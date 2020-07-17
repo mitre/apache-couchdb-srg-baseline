@@ -1,9 +1,9 @@
 # encoding: UTF-8
 
-control 'V-32363' do
+control "V-32363" do
   title "The DBMS must allow only the ISSM (or individuals or roles appointed
 by the ISSM) to select which auditable events are to be audited."
-  desc  'check', "
+  desc  "check", "
     Review the access permissions to tools used to view or modify audit log
 configurations. These tools may include features within CouchDB itself or
 software external to the database.
@@ -20,18 +20,18 @@ should have permission to write to the file.
     If any of these .ini files give write permissions to any user other than
 ISSM (or individuals or roles appointed by the ISSM), this is a finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     # find . -name \"default.ini\"
     # set level = info
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000090-DB-000065"
-  tag gid: "V-32363"
-  tag rid: "SV-42700r3_rule"
-  tag stig_id: "SRG-APP-000090-DB-000065"
-  tag fix_id: nil
-  tag cci: ["CCI-000171"]
-  tag nist: ["AU-12 b", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000090-DB-000065"
+  tag "gid": "V-32363"
+  tag "rid": "SV-42700r3_rule"
+  tag "stig_id": "SRG-APP-000090-DB-000065"
+  tag "fix_id": nil
+  tag "cci": ["CCI-000171"]
+  tag "nist": ["AU-12 b", "Rev_4"]
 end
 

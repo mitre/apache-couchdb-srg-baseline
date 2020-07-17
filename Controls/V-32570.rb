@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-32570' do
+control "V-32570" do
   title "The DBMS must provide non-privileged users with error messages that
 provide information necessary for corrective actions without revealing
 information that could be exploited by adversaries."
@@ -33,7 +33,7 @@ of databases that they must not be ignored. At a minimum, the DBA must attempt
 to obtain assurances from the development organization that this issue has been
 addressed, and must document what has been discovered.
   "
-  desc  'check', "
+  desc  "check", "
     Check DBMS settings and custom database code to verify that error messages
 do not contain information beyond what is needed for troubleshooting the issue.
 
@@ -41,17 +41,17 @@ do not contain information beyond what is needed for troubleshooting the issue.
 information useful for identifying the host system or database structure, this
 is a finding.
   "
-  desc  'fix', "Configure DBMS settings, custom database code, and associated
+  desc  "fix", "Configure DBMS settings, custom database code, and associated
 application code not to divulge sensitive information or information useful for
 system identification in error messages."
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000266-DB-000162"
-  tag gid: "V-32570"
-  tag rid: "SV-42907r4_rule"
-  tag stig_id: "SRG-APP-000266-DB-000162"
-  tag fix_id: nil
-  tag cci: ["CCI-001312"]
-  tag nist: ["SI-11 a", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000266-DB-000162"
+  tag "gid": "V-32570"
+  tag "rid": "SV-42907r4_rule"
+  tag "stig_id": "SRG-APP-000266-DB-000162"
+  tag "fix_id": nil
+  tag "cci": ["CCI-001312"]
+  tag "nist": ["SI-11 a", "Rev_4"]
 end
 

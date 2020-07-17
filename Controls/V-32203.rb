@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-32203' do
+control "V-32203" do
   title "The DBMS must enforce approved authorizations for logical access to
 information and system resources in accordance with applicable access control
 policies."
@@ -32,7 +32,7 @@ networks or other applications in the information system. This may result in
 users either gaining or being denied access inappropriately and in conflict
 with applicable policy.
   "
-  desc  'check', "
+  desc  "check", "
     From the system security plan or equivalent documentation, determine the
 appropriate permissions on database objects for each kind (group role) of user.
 If this documentation is missing, this is a finding.
@@ -47,7 +47,7 @@ exceed those documented, this is a finding.
 entries do not have their documented authentication requirements, this is a
 finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     Use the following command to set security objects correctly:
 
     # PUT /{db}/_security
@@ -59,13 +59,13 @@ finding.
 [\"user1\",\"user2\"],\"roles\": [\"developers\"]}}'
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000033-DB-000084"
-  tag gid: "V-32203"
-  tag rid: "SV-42520r3_rule"
-  tag stig_id: "SRG-APP-000033-DB-000084"
-  tag fix_id: nil
-  tag cci: ["CCI-000213"]
-  tag nist: ["AC-3", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000033-DB-000084"
+  tag "gid": "V-32203"
+  tag "rid": "SV-42520r3_rule"
+  tag "stig_id": "SRG-APP-000033-DB-000084"
+  tag "fix_id": nil
+  tag "cci": ["CCI-000213"]
+  tag "nist": ["AC-3", "Rev_4"]
 end
 

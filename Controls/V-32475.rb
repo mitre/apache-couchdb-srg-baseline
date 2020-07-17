@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-32475' do
+control "V-32475" do
   title "The DBMS, when utilizing PKI-based authentication, must validate
 certificates by performing RFC 5280-compliant certification path validation."
   desc  "The DoD standard for authentication is DoD-approved PKI certificates.
@@ -20,7 +20,7 @@ RFC 5280-compliant certification path validation are in danger of accepting
 certificates that are invalid and/or counterfeit. This could allow unauthorized
 access to the database.
   "
-  desc  'check', "
+  desc  "check", "
     # find local.ini
     # grep \"cacert_file =\" <path to local.ini>
     If cacert_file path does not exist, this is a finding.
@@ -32,7 +32,7 @@ access to the database.
     If certificates are not being validated by performing RFC 5280-compliant
 certification path validation, this is a finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     # find local.ini
     # set secure_renegotiate = true
     # set cacert_file = <cert path>
@@ -42,13 +42,13 @@ certification path validation, this is a finding.
 certification path validation.
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000175-DB-000067"
-  tag gid: "V-32475"
-  tag rid: "SV-42812r3_rule"
-  tag stig_id: "SRG-APP-000175-DB-000067"
-  tag fix_id: nil
-  tag cci: ["CCI-000185"]
-  tag nist: ["IA-5 (2) (a)", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000175-DB-000067"
+  tag "gid": "V-32475"
+  tag "rid": "SV-42812r3_rule"
+  tag "stig_id": "SRG-APP-000175-DB-000067"
+  tag "fix_id": nil
+  tag "cci": ["CCI-000185"]
+  tag "nist": ["IA-5 (2) (a)", "Rev_4"]
 end
 

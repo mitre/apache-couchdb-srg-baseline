@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-32479' do
+control "V-32479" do
   title "The DBMS must obscure feedback of authentication information during
 the authentication process to protect the information from possible
 exploitation/use by unauthorized individuals."
@@ -31,7 +31,7 @@ that they must not be ignored. At a minimum, the DBA must attempt to obtain
 assurances from the development organization that this issue has been
 addressed, and must document what has been discovered.
   "
-  desc  'check', "
+  desc  "check", "
     If all interaction with the user for purposes of authentication is handled
 by a software component separate from CouchDB, this is not a finding.
 
@@ -39,17 +39,17 @@ by a software component separate from CouchDB, this is not a finding.
 displays any authentication secrets (to include PINs and passwords) during - or
 after - the authentication process, this is a finding.
   "
-  desc  'fix', "Modify and configure each non-compliant application, tool, or
+  desc  "fix", "Modify and configure each non-compliant application, tool, or
 feature associated with the CouchDB databse so that it does not display
 authentication secrets."
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000178-DB-000083"
-  tag gid: "V-32479"
-  tag rid: "SV-42816r4_rule"
-  tag stig_id: "SRG-APP-000178-DB-000083"
-  tag fix_id: nil
-  tag cci: ["CCI-000206"]
-  tag nist: ["IA-6", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000178-DB-000083"
+  tag "gid": "V-32479"
+  tag "rid": "SV-42816r4_rule"
+  tag "stig_id": "SRG-APP-000178-DB-000083"
+  tag "fix_id": nil
+  tag "cci": ["CCI-000206"]
+  tag "nist": ["IA-6", "Rev_4"]
 end
 

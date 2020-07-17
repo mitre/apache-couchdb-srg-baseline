@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-58135' do
+control "V-58135" do
   title "The DBMS must prohibit user installation of logic modules (stored
 procedures, functions, triggers, views, etc.) without explicit privileged
 status."
@@ -26,7 +26,7 @@ or suspect) by the organization).
     In the case of a database management system, this requirement covers stored
 procedures, functions, triggers, views, etc.
   "
-  desc  'check', "
+  desc  "check", "
     If CouchDB supports only software development, experimentation and/or
 developer-level testing (that is, excluding production systems, integration
 testing, stress testing, and user acceptance testing), this is not a finding.
@@ -43,7 +43,7 @@ administrator, run the following:
     If the privileges are exceed what user and groups should have, this is a
 finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     Use the following command to set privileges correctly:
 
     # PUT /{db}/_security
@@ -55,13 +55,13 @@ finding.
 [\"user1\",\"user2\"],\"roles\": [\"developers\"]}}'
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000378-DB-000365"
-  tag gid: "V-58135"
-  tag rid: "SV-72565r1_rule"
-  tag stig_id: "SRG-APP-000378-DB-000365"
-  tag fix_id: nil
-  tag cci: ["CCI-001812"]
-  tag nist: ["CM-11 (2)", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000378-DB-000365"
+  tag "gid": "V-58135"
+  tag "rid": "SV-72565r1_rule"
+  tag "stig_id": "SRG-APP-000378-DB-000365"
+  tag "fix_id": nil
+  tag "cci": ["CCI-001812"]
+  tag "nist": ["CM-11 (2)", "Rev_4"]
 end
 

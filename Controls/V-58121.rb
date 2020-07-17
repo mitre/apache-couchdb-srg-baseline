@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-58121' do
+control "V-58121" do
   title "The DBMS must generate audit records when unsuccessful accesses to
 objects occur."
   desc  "Without tracking all or selected types of access to all or selected
@@ -19,7 +19,7 @@ limited to:
     To aid in diagnosis, it is necessary to keep track of failed attempts in
 addition to the successful ones.
   "
-  desc  'check', "
+  desc  "check", "
     Review the CouchDB database documentation and deployed configuration to
 verify that the database is configured to log audit records for when
 unsuccessful accesses to objects occur.
@@ -34,7 +34,7 @@ unsuccessful accesses to objects occur.
     If it is not set to log when unsuccessful accesses to objects occur, this
 is a finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     Configure CouchDB to enerate audit records when unsuccessful accesses to
 objects occur.
 
@@ -42,13 +42,13 @@ objects occur.
     # set level = info
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000507-DB-000357"
-  tag gid: "V-58121"
-  tag rid: "SV-72551r1_rule"
-  tag stig_id: "SRG-APP-000507-DB-000357"
-  tag fix_id: nil
-  tag cci: ["CCI-000172"]
-  tag nist: ["AU-12 c", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000507-DB-000357"
+  tag "gid": "V-58121"
+  tag "rid": "SV-72551r1_rule"
+  tag "stig_id": "SRG-APP-000507-DB-000357"
+  tag "fix_id": nil
+  tag "cci": ["CCI-000172"]
+  tag "nist": ["AU-12 c", "Rev_4"]
 end
 

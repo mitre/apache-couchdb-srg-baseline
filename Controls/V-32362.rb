@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-32362' do
+control "V-32362" do
   desc  "Without the capability to generate audit records, it would be
 difficult to establish, correlate, and investigate the events relating to an
 incident or identify those responsible for one.
@@ -30,7 +30,7 @@ actions.
     Organizations may define additional events requiring continuous or ad hoc
 auditing.
   "
-  desc  'check', "
+  desc  "check", "
     Check CouchDB auditing to determine whether organization-defined auditable
 events are being audited by the system.
 
@@ -42,18 +42,18 @@ finding.
     # grep \"level =\" <path to default.ini>
     if line does not exist or is not set to info, this is a finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     # find . -name \"default.ini\"
     # set level = info
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000089-DB-000064"
-  tag gid: "V-32362"
-  tag rid: "SV-42699r3_rule"
-  tag stig_id: "SRG-APP-000089-DB-000064"
-  tag fix_id: nil
-  tag cci: ["CCI-000169"]
-  tag nist: ["AU-12 a", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000089-DB-000064"
+  tag "gid": "V-32362"
+  tag "rid": "SV-42699r3_rule"
+  tag "stig_id": "SRG-APP-000089-DB-000064"
+  tag "fix_id": nil
+  tag "cci": ["CCI-000169"]
+  tag "nist": ["AU-12 a", "Rev_4"]
 end
 

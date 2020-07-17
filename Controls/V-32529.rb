@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-32529' do
+control "V-32529" do
   title "In the event of a system failure, the DBMS must preserve any
 information necessary to determine cause of failure and any information
 necessary to return to operations with least disruption to mission processes."
@@ -21,23 +21,23 @@ prior to installation. This requirement is usually a function of the design of
 the IDPS component. Compliance can be verified by acceptance/validation
 processes or vendor attestation.
   "
-  desc  'check', "
+  desc  "check", "
     Check DBMS settings to determine whether organization-defined system state
 information is being preserved in the event of a system failure.
 
     If organization-defined system state information is not being preserved,
 this is a finding.
   "
-  desc  'fix', "Configure DBMS settings to preserve any organization-defined
+  desc  "fix", "Configure DBMS settings to preserve any organization-defined
 system state information in the event of a system failure."
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000226-DB-000147"
-  tag gid: "V-32529"
-  tag rid: "SV-42866r3_rule"
-  tag stig_id: "SRG-APP-000226-DB-000147"
-  tag fix_id: nil
-  tag cci: ["CCI-001665"]
-  tag nist: ["SC-24", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000226-DB-000147"
+  tag "gid": "V-32529"
+  tag "rid": "SV-42866r3_rule"
+  tag "stig_id": "SRG-APP-000226-DB-000147"
+  tag "fix_id": nil
+  tag "cci": ["CCI-001665"]
+  tag "nist": ["SC-24", "Rev_4"]
 end
 

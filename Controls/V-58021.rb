@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-58021' do
+control "V-58021" do
   title "Execution of software modules (to include stored procedures,
 functions, and triggers) with elevated privileges must be restricted to
 necessary cases only."
@@ -24,7 +24,7 @@ of databases that they must not be ignored. At a minimum, the DBA must attempt
 to obtain assurances from the development organization that this issue has been
 addressed, and must document what has been discovered.
   "
-  desc  'check', "
+  desc  "check", "
      Review the system documentation, database and CouchDB security
 configuration, source code for DBMS internal logic, source code of external
 modules invoked by CouchDB, and source code of the application(s) using the
@@ -43,7 +43,7 @@ described in the documentation, this is a finding.
 intended, or in contexts other than intended, or by subjects/principals other
 than intended, this is a finding.
   "
-  desc  'fix', "
+  desc  "fix", "
      Determine where, when, how, and by what principals/subjects elevated
 privilege is needed.
 
@@ -52,13 +52,13 @@ external modules invoked by CouchDB, and the application(s) using the database,
 to ensure privilege elevation is used only as required.
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000342-DB-000302"
-  tag gid: "V-58021"
-  tag rid: "SV-72451r2_rule"
-  tag stig_id: "SRG-APP-000342-DB-000302"
-  tag fix_id: nil
-  tag cci: ["CCI-002233"]
-  tag nist: ["AC-6 (8)", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000342-DB-000302"
+  tag "gid": "V-58021"
+  tag "rid": "SV-72451r2_rule"
+  tag "stig_id": "SRG-APP-000342-DB-000302"
+  tag "fix_id": nil
+  tag "cci": ["CCI-002233"]
+  tag "nist": ["AC-6 (8)", "Rev_4"]
 end
 

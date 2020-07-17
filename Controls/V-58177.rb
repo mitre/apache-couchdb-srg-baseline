@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-58177' do
+control "V-58177" do
   title "Security-relevant software updates to the DBMS must be installed
 within the time period directed by an authoritative source (e.g. IAVM, CTOs,
 DTMs, and STIGs)."
@@ -33,22 +33,22 @@ security-relevant software updates within an identified time period from the
 availability of the update. The specific time period will be defined by an
 authoritative source (e.g. IAVM, CTOs, DTMs, and STIGs).
   "
-  desc  'check', "
+  desc  "check", "
     Obtain evidence that software patches are consistently applied to CouchDB
 within the time frame defined for each patch.
 
     Execute the following in the command line: curl [http address]
     Verify the version is the most recent version
   "
-  desc  'fix', 'Update version of CouchDB'
+  desc  "fix", 'Update version of CouchDB'
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000456-DB-000390"
-  tag gid: "V-58177"
-  tag rid: "SV-72607r1_rule"
-  tag stig_id: "SRG-APP-000456-DB-000390"
-  tag fix_id: nil
-  tag cci: ["CCI-002605"]
-  tag nist: ["SI-2 c", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000456-DB-000390"
+  tag "gid": "V-58177"
+  tag "rid": "SV-72607r1_rule"
+  tag "stig_id": "SRG-APP-000456-DB-000390"
+  tag "fix_id": nil
+  tag "cci": ["CCI-002605"]
+  tag "nist": ["SI-2 c", "Rev_4"]
 end
 

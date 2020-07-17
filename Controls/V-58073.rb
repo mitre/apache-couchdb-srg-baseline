@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-58073' do
+control "V-58073" do
   title "The DBMS must generate audit records when unsuccessful attempts to add
 privileges/permissions occur."
   desc  "Failed attempts to change the permissions, privileges, and roles
@@ -13,7 +13,7 @@ command, or, in the negative, the DENY command.
     To aid in diagnosis, it is necessary to keep track of failed attempts in
 addition to the successful ones.
   "
-  desc  'check', "
+  desc  "check", "
     Review the CouchDB documentation to verify that audit records can be
 produced  when unsuccessful attempts to add privileges/permissions occur.
     # find . -name \"default.ini\"
@@ -26,7 +26,7 @@ produced  when unsuccessful attempts to add privileges/permissions occur.
     If it is not set to log audit records  when unsuccessful attempts to add
 privileges/permissions occur, this is a finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     Configure CouchDB to set to log audit records  when unsuccessful attempts
 to add privileges/permissions occur.
 
@@ -34,13 +34,13 @@ to add privileges/permissions occur.
     # set level = info
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000495-DB-000327"
-  tag gid: "V-58073"
-  tag rid: "SV-72503r2_rule"
-  tag stig_id: "SRG-APP-000495-DB-000327"
-  tag fix_id: nil
-  tag cci: ["CCI-000172"]
-  tag nist: ["AU-12 c", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000495-DB-000327"
+  tag "gid": "V-58073"
+  tag "rid": "SV-72503r2_rule"
+  tag "stig_id": "SRG-APP-000495-DB-000327"
+  tag "fix_id": nil
+  tag "cci": ["CCI-000172"]
+  tag "nist": ["AU-12 c", "Rev_4"]
 end
 

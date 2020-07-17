@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-61407' do
+control "V-61407" do
   title "If DBMS authentication, using passwords, is employed, the DBMS must
 enforce the DoD standards for password complexity and lifetime."
   desc  "OS/enterprise authentication and identification must be used
@@ -17,7 +17,7 @@ operating system or access control program (e.g., Microsoft Active Directory)
 must be configured to do so.  For other DBMSs, the rules must be enforced using
 available configuration parameters or custom code.
   "
-  desc  'check', "
+  desc  "check", "
     Review CouchDB settings relating to password complexity. Determine whether
 the following rules are enforced. If any are not, this is a finding.
 
@@ -41,18 +41,18 @@ following format:
     Verify that the password follows the PBKDF2 (RFC-2898) algorithm
 
   "
-  desc  'fix', "
+  desc  "fix", "
     Restart the CouchDB services.
     # sudo restart couchdb
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000164-DB-000401"
-  tag gid: "V-61407"
-  tag rid: "SV-75897r3_rule"
-  tag stig_id: "SRG-APP-000164-DB-000401"
-  tag fix_id: nil
-  tag cci: ["CCI-000192"]
-  tag nist: ["IA-5 (1) (a)", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000164-DB-000401"
+  tag "gid": "V-61407"
+  tag "rid": "SV-75897r3_rule"
+  tag "stig_id": "SRG-APP-000164-DB-000401"
+  tag "fix_id": nil
+  tag "cci": ["CCI-000192"]
+  tag "nist": ["IA-5 (1) (a)", "Rev_4"]
 end
 

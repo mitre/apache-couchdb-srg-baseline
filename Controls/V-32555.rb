@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-32555' do
+control "V-32555" do
   title "The DBMS must check the validity of all data inputs except those
 specifically identified by the organization."
   desc  "Invalid user input occurs when a user inserts data or characters into
@@ -32,7 +32,7 @@ of databases that they must not be ignored. At a minimum, the DBA must attempt
 to obtain assurances from the development organization that this issue has been
 addressed, and must document what has been discovered.
   "
-  desc  'check', "
+  desc  "check", "
      Review DBMS code (stored procedures, functions, and triggers), application
 code, settings, column and field definitions, and constraints to determine
 whether the database is protected against invalid input.
@@ -55,7 +55,7 @@ not a finding.
     Check application code that interacts with CouchDB for the use of prepared
 statements. If prepared statements are not used, this is a finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     Modify database code to properly validate data before it is put into the
 database or acted upon by the database.
 
@@ -67,13 +67,13 @@ database columns and tables that require them for data integrity.
     Do not allow general users direct console access to CouchDB.
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000251-DB-000160"
-  tag gid: "V-32555"
-  tag rid: "SV-42892r4_rule"
-  tag stig_id: "SRG-APP-000251-DB-000160"
-  tag fix_id: nil
-  tag cci: ["CCI-001310"]
-  tag nist: ["SI-10", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000251-DB-000160"
+  tag "gid": "V-32555"
+  tag "rid": "SV-42892r4_rule"
+  tag "stig_id": "SRG-APP-000251-DB-000160"
+  tag "fix_id": nil
+  tag "cci": ["CCI-001310"]
+  tag "nist": ["SI-10", "Rev_4"]
 end
 

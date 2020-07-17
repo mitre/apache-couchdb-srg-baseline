@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-58041' do
+control "V-58041" do
   title "The DBMS must associate organization-defined types of security labels
 having organization-defined security label values with information in
 transmission."
@@ -26,7 +26,7 @@ data compromise.
     The mechanism used to support security labeling may be a feature of the
 DBMS product, a third-party product, or custom application code.
   "
-  desc  'check', "
+  desc  "check", "
     If security labeling is not required, this is not a finding.
 
     Review organization-defined types of security labels.
@@ -38,20 +38,20 @@ system documentation, such as SSP, this is a finding.
 labeling is not implemented or does not reliably maintain labels on information
 in storage, this is a finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     If security labeling is not defined by the organizaiton, but should be,
 this should be implemented and recorded by organization in their defined plan.
 
     If security labeling is defined, but not present, it must be added.
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000314-DB-000310"
-  tag gid: "V-58041"
-  tag rid: "SV-72471r1_rule"
-  tag stig_id: "SRG-APP-000314-DB-000310"
-  tag fix_id: nil
-  tag cci: ["CCI-002264"]
-  tag nist: ["AC-16 a", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000314-DB-000310"
+  tag "gid": "V-58041"
+  tag "rid": "SV-72471r1_rule"
+  tag "stig_id": "SRG-APP-000314-DB-000310"
+  tag "fix_id": nil
+  tag "cci": ["CCI-002264"]
+  tag "nist": ["AC-16 a", "Rev_4"]
 end
 

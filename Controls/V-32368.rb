@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-32368' do
+control "V-32368" do
   title "The DBMS must produce audit records containing sufficient information
 to establish what type of events occurred."
   desc  "Information system auditing capability is critical for accurate
@@ -25,7 +25,7 @@ event type an audit record is referring to. If event type information is not
 recorded and stored with the audit record, the record itself is of very limited
 use.
   "
-  desc  'check', "
+  desc  "check", "
      Check CouchDB settings and documentation produce audit records containing
 sufficient information to establish what type of events occurred.
     # find . -name \"default.ini\"
@@ -37,20 +37,20 @@ sufficient information to establish what type of events occurred.
     If it is not set to produce audit records containing sufficient information
 to establish what type of events occurred, this is a finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     Configure CouchDB to produce audit records containing sufficient
 information to establish what type of events occurred.
     # find . -name \"default.ini\"
     # set level = info
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000095-DB-000039"
-  tag gid: "V-32368"
-  tag rid: "SV-42705r3_rule"
-  tag stig_id: "SRG-APP-000095-DB-000039"
-  tag fix_id: nil
-  tag cci: ["CCI-000130"]
-  tag nist: ["AU-3", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000095-DB-000039"
+  tag "gid": "V-32368"
+  tag "rid": "SV-42705r3_rule"
+  tag "stig_id": "SRG-APP-000095-DB-000039"
+  tag "fix_id": nil
+  tag "cci": ["CCI-000130"]
+  tag "nist": ["AU-3", "Rev_4"]
 end
 

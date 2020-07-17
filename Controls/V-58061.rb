@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-58061' do
+control "V-58061" do
   title "The DBMS must be configurable to overwrite audit log records, oldest
 first (First-In-First-Out - FIFO), in the event of unavailability of space for
 more audit log records."
@@ -31,7 +31,7 @@ Authorizing Official concurrence. In any case, sufficient auditing resources
 must be allocated to avoid audit data loss in all but the most extreme
 situations.
   "
-  desc  'check', "
+  desc  "check", "
      If the application owner has determined that the need for system
 availability does not outweigh the need for a complete audit trail, this is not
 applicable (NA).
@@ -44,7 +44,7 @@ is a finding.
     If the system is capable of continuing to generate audit records upon audit
 failure but is not configured to do so, this is a finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     Deploy a DBMS capable of continuing to generate audit records upon audit
 failure.
 
@@ -52,13 +52,13 @@ failure.
 oldest existing records, in the case of an auditing failure.
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000109-DB-000321"
-  tag gid: "V-58061"
-  tag rid: "SV-72491r1_rule"
-  tag stig_id: "SRG-APP-000109-DB-000321"
-  tag fix_id: nil
-  tag cci: ["CCI-000140"]
-  tag nist: ["AU-5 b", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000109-DB-000321"
+  tag "gid": "V-58061"
+  tag "rid": "SV-72491r1_rule"
+  tag "stig_id": "SRG-APP-000109-DB-000321"
+  tag "fix_id": nil
+  tag "cci": ["CCI-000140"]
+  tag "nist": ["AU-5 b", "Rev_4"]
 end
 

@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-58065' do
+control "V-58065" do
   title "The DBMS must generate time stamps, for audit records and application
 data, with a minimum granularity of one second."
   desc  "Without sufficient granularity of time stamps, it is not possible to
@@ -20,7 +20,7 @@ representation of date and time. Rather, it is a database state counter and
 does not correspond to calendar and clock time. This requirement does not refer
 to that meaning of TIMESTAMP.
   "
-  desc  'check', "
+  desc  "check", "
     Review the CouchDB database documentation and deployed configuration to
 verify that the database is configured to generate time stamps, for audit
 records and application data, with a minimum granularity of one second.\t
@@ -34,20 +34,20 @@ records and application data, with a minimum granularity of one second.\t
     If it is not set to generate time stamps, for audit records and application
 data, with a minimum granularity of one second, this is a finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     If applicable remove or comment out the line writer = journald
     writer needs to be set equal to file
     file variable needs to be set to path to where log file will be stored.
     # set writer = <path to log file>
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000375-DB-000323"
-  tag gid: "V-58065"
-  tag rid: "SV-72495r1_rule"
-  tag stig_id: "SRG-APP-000375-DB-000323"
-  tag fix_id: nil
-  tag cci: ["CCI-001889"]
-  tag nist: ["AU-8 b", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000375-DB-000323"
+  tag "gid": "V-58065"
+  tag "rid": "SV-72495r1_rule"
+  tag "stig_id": "SRG-APP-000375-DB-000323"
+  tag "fix_id": nil
+  tag "cci": ["CCI-001889"]
+  tag "nist": ["AU-8 b", "Rev_4"]
 end
 

@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-58035' do
+control "V-58035" do
   title "The DBMS must provide logout functionality to allow the user to
 manually terminate a session initiated by that user."
   desc  "If a user cannot explicitly end a DBMS session, the session may remain
@@ -21,7 +21,7 @@ processes owned by the session are terminated.
 the user during his/her online session: these should be permitted to run to
 completion.
   "
-  desc  'check', "
+  desc  "check", "
     Determine, by reviewing the CouchDB documentation and/or inquiring of the
 vendor's technical support staff, whether CouchDB satisfies this requirement;
 and, if it does, determine whether this is inherent, unchangeable behavior, or
@@ -34,16 +34,16 @@ a configurable feature.
     If the behavior is configurable, and the current configuration does not
 enforce it, this is a finding.
   "
-  desc  'fix', "Where relevant, modify the configuration to allow the user to
+  desc  "fix", "Where relevant, modify the configuration to allow the user to
 manually terminate a session initiated by that user."
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000296-DB-000306"
-  tag gid: "V-58035"
-  tag rid: "SV-72465r1_rule"
-  tag stig_id: "SRG-APP-000296-DB-000306"
-  tag fix_id: nil
-  tag cci: ["CCI-002363"]
-  tag nist: ["AC-12 (1)", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000296-DB-000306"
+  tag "gid": "V-58035"
+  tag "rid": "SV-72465r1_rule"
+  tag "stig_id": "SRG-APP-000296-DB-000306"
+  tag "fix_id": nil
+  tag "cci": ["CCI-002363"]
+  tag "nist": ["AC-12 (1)", "Rev_4"]
 end
 

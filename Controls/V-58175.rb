@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-58175' do
+control "V-58175" do
   title "When updates are applied to the DBMS software, any software components
 that have been replaced or made unnecessary must be removed."
   desc  "Previous versions of DBMS components that are not removed from the
@@ -16,7 +16,7 @@ outdated modules.
     A transition period may be necessary when both the old and the new software
 are required. This should be taken into account in the planning.
   "
-  desc  'check', "
+  desc  "check", "
     Obtain evidence that software patches are consistently applied to CouchDB
 within the time frame defined for each patch.
 
@@ -29,16 +29,16 @@ the following command:
     If multiple versions of postgres are installed but are unused, this is a
 finding.
   "
-  desc  'fix', "Use package managers (RPM or apt-get) for installing CouchDB.
+  desc  "fix", "Use package managers (RPM or apt-get) for installing CouchDB.
 Unused software is removed when updated."
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000454-DB-000389"
-  tag gid: "V-58175"
-  tag rid: "SV-72605r1_rule"
-  tag stig_id: "SRG-APP-000454-DB-000389"
-  tag fix_id: nil
-  tag cci: ["CCI-002617"]
-  tag nist: ["SI-2 (6)", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000454-DB-000389"
+  tag "gid": "V-58175"
+  tag "rid": "SV-72605r1_rule"
+  tag "stig_id": "SRG-APP-000454-DB-000389"
+  tag "fix_id": nil
+  tag "cci": ["CCI-002617"]
+  tag "nist": ["SI-2 (6)", "Rev_4"]
 end
 

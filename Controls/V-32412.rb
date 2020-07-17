@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-32412' do
+control "V-32412" do
   title "Database objects (including but not limited to tables, indexes,
 storage, stored procedures, functions, triggers, links to software external to
 the DBMS, etc.) must be owned by database/DBMS principals authorized for
@@ -15,7 +15,7 @@ actions being taken by unauthorized individuals.
     Conversely, if critical tables or other objects rely on unauthorized owner
 accounts, these objects may be lost when an account is removed.
   "
-  desc  'check', "
+  desc  "check", "
     Review system documentation to identify accounts authorized to own database
 objects. Review accounts that own objects in the database(s).
 
@@ -28,7 +28,7 @@ own database objects, this is a finding.
     #grep \x91names\x92 and verify that all users are authorized to own
 database objects.
   "
-  desc  'fix', "
+  desc  "fix", "
     Assign ownership of authorized objects to authorized object owner accounts.
     Use the following command to set privileges correctly:
 
@@ -36,13 +36,13 @@ database objects.
 
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000133-DB-000200"
-  tag gid: "V-32412"
-  tag rid: "SV-42749r3_rule"
-  tag stig_id: "SRG-APP-000133-DB-000200"
-  tag fix_id: nil
-  tag cci: ["CCI-001499"]
-  tag nist: ["CM-5 (6)", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000133-DB-000200"
+  tag "gid": "V-32412"
+  tag "rid": "SV-42749r3_rule"
+  tag "stig_id": "SRG-APP-000133-DB-000200"
+  tag "fix_id": nil
+  tag "cci": ["CCI-001499"]
+  tag "nist": ["CM-5 (6)", "Rev_4"]
 end
 

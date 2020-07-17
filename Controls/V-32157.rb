@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-32157' do
+control "V-32157" do
   title "The DBMS must limit the number of concurrent sessions to an
 organization-defined number per user for all accounts and/or account types."
   desc  "Database management includes the ability to control the number of
@@ -32,7 +32,7 @@ each query tab and navigation pane may count as a separate session.
     (Sessions may also be referred to as connections or logons, which for the
 purposes of this requirement are synonyms.)
   "
-  desc  'check', "
+  desc  "check", "
      Check CouchDB settings and documentation and verify the limit of the
 number of concurrent sessions to an organization-defined number per user for
 all accounts and/or account types.
@@ -47,7 +47,7 @@ account.
 organization-defined number per user for all accounts and/or account types,
 this is a finding
   "
-  desc  'fix', "
+  desc  "fix", "
     Configure CouchDB to produce and verify the limit of the number of
 concurrent sessions to an organization-defined number per user for all accounts
 and/or account types.
@@ -55,13 +55,13 @@ and/or account types.
     # set \"max_connections\" equal to the organization defined amount.
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000001-DB-000031"
-  tag gid: "V-32157"
-  tag rid: "SV-42474r3_rule"
-  tag stig_id: "SRG-APP-000001-DB-000031"
-  tag fix_id: nil
-  tag cci: ["CCI-000054"]
-  tag nist: ["AC-10", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000001-DB-000031"
+  tag "gid": "V-32157"
+  tag "rid": "SV-42474r3_rule"
+  tag "stig_id": "SRG-APP-000001-DB-000031"
+  tag "fix_id": nil
+  tag "cci": ["CCI-000054"]
+  tag "nist": ["AC-10", "Rev_4"]
 end
 

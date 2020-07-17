@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-32523' do
+control "V-32523" do
   title "The DBMS must invalidate session identifiers upon user logout or other
 session termination."
   desc  "Captured sessions can be reused in \"replay\" attacks. This
@@ -28,7 +28,7 @@ otherwise manipulating valid sessions.
 the DBMS must terminate the user session(s) to minimize the potential for
 sessions to be hijacked.
   "
-  desc  'check', "
+  desc  "check", "
     Review DBMS settings and vendor documentation to verify user sessions are
 terminated, and session identifiers invalidated, upon user logout. If they are
 not, this is a finding.
@@ -50,7 +50,7 @@ invalidating the session identifiers.
     If occurrences of defined session terminating events do not cause session
 terminations, invalidating the session identifiers, this is a finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     Configure DBMS settings to terminate sessions, invalidating their session
 identifiers, upon user logout.
 
@@ -61,13 +61,13 @@ termination event.
     # Set os_process_timeout to be 5000
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000220-DB-000149"
-  tag gid: "V-32523"
-  tag rid: "SV-42860r2_rule"
-  tag stig_id: "SRG-APP-000220-DB-000149"
-  tag fix_id: nil
-  tag cci: ["CCI-001185"]
-  tag nist: ["SC-23 (1)", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000220-DB-000149"
+  tag "gid": "V-32523"
+  tag "rid": "SV-42860r2_rule"
+  tag "stig_id": "SRG-APP-000220-DB-000149"
+  tag "fix_id": nil
+  tag "cci": ["CCI-001185"]
+  tag "nist": ["SC-23 (1)", "Rev_4"]
 end
 

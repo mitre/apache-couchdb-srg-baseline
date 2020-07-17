@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-32347' do
+control "V-32347" do
   title "The DBMS must protect against a user falsely repudiating having
 performed organization-defined actions."
   desc  "Non-repudiation of actions taken is required in order to maintain data
@@ -20,7 +20,7 @@ and implementation also must ensure that applications pass individual user
 identification to the DBMS, even where the application connects to the DBMS
 with a standard, shared account.
   "
-  desc  'check', "
+  desc  "check", "
     Check CouchDB settings and documentation and protect against a user falsely
 repudiating having performed organization-defined actions.
     # find . -name \"default.ini\"
@@ -32,20 +32,20 @@ repudiating having performed organization-defined actions.
     If it is not set to protect against a user falsely repudiating having
 performed organization-defined actions, this is a finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     Configure CouchDB to and protect against a user falsely repudiating having
 performed organization-defined actions.
     # find . -name \"default.ini\"
     # set level = info
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000080-DB-000063"
-  tag gid: "V-32347"
-  tag rid: "SV-42684r4_rule"
-  tag stig_id: "SRG-APP-000080-DB-000063"
-  tag fix_id: nil
-  tag cci: ["CCI-000166"]
-  tag nist: ["AU-10", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000080-DB-000063"
+  tag "gid": "V-32347"
+  tag "rid": "SV-42684r4_rule"
+  tag "stig_id": "SRG-APP-000080-DB-000063"
+  tag "fix_id": nil
+  tag "cci": ["CCI-000166"]
+  tag "nist": ["AU-10", "Rev_4"]
 end
 

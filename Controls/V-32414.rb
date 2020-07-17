@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-32414' do
+control "V-32414" do
   title "The DBMS software installation account must be restricted to
 authorized users."
   desc  "When dealing with change control issues, it should be noted any
@@ -21,7 +21,7 @@ granted privileges that allow actions that can have a great impact on database
 security and operation. It is especially important to grant privileged access
 to only those persons who are qualified and authorized to use them.
   "
-  desc  'check', "
+  desc  "check", "
     Review procedures for controlling, granting access to, and tracking use of
 CouchDB software installation account.
 
@@ -29,16 +29,16 @@ CouchDB software installation account.
 personnel required or if unauthorized access to the account has been granted,
 this is a finding.
   "
-  desc  'fix', "Develop, document, and implement procedures to restrict and
+  desc  "fix", "Develop, document, and implement procedures to restrict and
 track use of CouchDB software installation account."
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000133-DB-000198"
-  tag gid: "V-32414"
-  tag rid: "SV-42751r3_rule"
-  tag stig_id: "SRG-APP-000133-DB-000198"
-  tag fix_id: nil
-  tag cci: ["CCI-001499"]
-  tag nist: ["CM-5 (6)", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000133-DB-000198"
+  tag "gid": "V-32414"
+  tag "rid": "SV-42751r3_rule"
+  tag "stig_id": "SRG-APP-000133-DB-000198"
+  tag "fix_id": nil
+  tag "cci": ["CCI-001499"]
+  tag "nist": ["CM-5 (6)", "Rev_4"]
 end
 

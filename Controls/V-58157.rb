@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-58157' do
+control "V-58157" do
   title "The DBMS must use NSA-approved cryptography to protect classified
 information in accordance with the data owners requirements."
   desc  "Use of weak or untested encryption algorithms undermines the purposes
@@ -15,7 +15,7 @@ policies, regulations, and standards.
     NSA-approved cryptography for classified networks is hardware based. This
 requirement addresses the compatibility of a DBMS with the encryption devices.
   "
-  desc  'check', "
+  desc  "check", "
     If CouchDB is deployed in an unclassified environment, this is not
 applicable (NA).
 
@@ -24,19 +24,19 @@ applicable (NA).
     # grep \"enable =\"
     If this is not set equal to true, this is a finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     Configure CouchDB to use SSL
     # find . -name \"local.ini\"
     # set \"enable=true\"
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000416-DB-000380"
-  tag gid: "V-58157"
-  tag rid: "SV-72587r1_rule"
-  tag stig_id: "SRG-APP-000416-DB-000380"
-  tag fix_id: nil
-  tag cci: ["CCI-002450"]
-  tag nist: ["SC-13", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000416-DB-000380"
+  tag "gid": "V-58157"
+  tag "rid": "SV-72587r1_rule"
+  tag "stig_id": "SRG-APP-000416-DB-000380"
+  tag "fix_id": nil
+  tag "cci": ["CCI-002450"]
+  tag "nist": ["SC-13", "Rev_4"]
 end
 

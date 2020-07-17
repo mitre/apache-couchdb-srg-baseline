@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-32514' do
+control "V-32514" do
   title "The DBMS must separate user functionality (including user interface
 services) from database management functionality."
   desc  "Information system management functionality includes functions
@@ -24,7 +24,7 @@ domain and with additional access controls.
 presented on an interface available for users, information on DBMS settings may
 be inadvertently made available to the user.
   "
-  desc  'check', "
+  desc  "check", "
     Check DBMS settings and vendor documentation to verify that administrative
 functionality is separate from user functionality.
 
@@ -37,7 +37,7 @@ role\", \"Create DB\" or \"Bypass RLS\", this is a finding.
     If administrator and general user functionality are not separated either
 physically or logically, this is a finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     Configure CouchDB to separate database administration and general user
 functionality.
 
@@ -45,13 +45,13 @@ functionality.
 attributes to users that do not require it.
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000211-DB-000122"
-  tag gid: "V-32514"
-  tag rid: "SV-42851r3_rule"
-  tag stig_id: "SRG-APP-000211-DB-000122"
-  tag fix_id: nil
-  tag cci: ["CCI-001082"]
-  tag nist: ["SC-2", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000211-DB-000122"
+  tag "gid": "V-32514"
+  tag "rid": "SV-42851r3_rule"
+  tag "stig_id": "SRG-APP-000211-DB-000122"
+  tag "fix_id": nil
+  tag "cci": ["CCI-001082"]
+  tag "nist": ["SC-2", "Rev_4"]
 end
 

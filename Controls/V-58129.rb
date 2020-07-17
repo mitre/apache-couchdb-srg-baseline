@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-58129' do
+control "V-58129" do
   title "The role(s)/group(s) used to modify database structure (including but
 not necessarily limited to tables, indexes, storage, etc.) and logic modules
 (stored procedures, functions, triggers, links to software external to the
@@ -17,7 +17,7 @@ changes, including upgrades and modifications.
     Unmanaged changes that occur to the database software libraries or
 configuration can lead to unauthorized or compromised installations.
   "
-  desc  'check', "
+  desc  "check", "
 
 
     To list the privileges, as the database administrator, run the following:
@@ -26,7 +26,7 @@ configuration can lead to unauthorized or compromised installations.
     If the privileges are exceed what user and groups should have, this is a
 finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     Use the following command to set privileges correctly:
 
     # PUT /{db}/_security
@@ -38,13 +38,13 @@ finding.
 [\"user1\",\"user2\"],\"roles\": [\"developers\"]}}'
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000133-DB-000362"
-  tag gid: "V-58129"
-  tag rid: "SV-72559r1_rule"
-  tag stig_id: "SRG-APP-000133-DB-000362"
-  tag fix_id: nil
-  tag cci: ["CCI-001499"]
-  tag nist: ["CM-5 (6)", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000133-DB-000362"
+  tag "gid": "V-58129"
+  tag "rid": "SV-72559r1_rule"
+  tag "stig_id": "SRG-APP-000133-DB-000362"
+  tag "fix_id": nil
+  tag "cci": ["CCI-001499"]
+  tag "nist": ["CM-5 (6)", "Rev_4"]
 end
 

@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-control 'V-32391' do
+control "V-32391" do
   title "The DBMS must use system clocks to generate time stamps for use in
 audit records and application data."
   desc  "Internal system clocks are typically a feature of server hardware and
@@ -22,7 +22,7 @@ local time with an offset from UTC.
 timeline of events can get skewed. This makes forensic analysis of the logs
 much less reliable.
   "
-  desc  'check', "
+  desc  "check", "
     Using product documentation, verify that CouchDB uses current time stamp
 values obtained from or synchronized with the internal system clock used by the
 operating system.
@@ -33,7 +33,7 @@ operating system.
 
     if line is equal to journald, this is a finding.
   "
-  desc  'fix', "
+  desc  "fix", "
     Deploy a DBMS that can use time stamp values obtained from or synchronized
 with the internal system clock used by the operating system.
 
@@ -41,13 +41,13 @@ with the internal system clock used by the operating system.
 with the internal system clock used by the operating system.
   "
   impact 0.5
-  tag severity: "medium"
-  tag gtitle: "SRG-APP-000116-DB-000057"
-  tag gid: "V-32391"
-  tag rid: "SV-42728r3_rule"
-  tag stig_id: "SRG-APP-000116-DB-000057"
-  tag fix_id: nil
-  tag cci: ["CCI-000159"]
-  tag nist: ["AU-8 a", "Rev_4"]
+  tag "severity": "medium"
+  tag "gtitle": "SRG-APP-000116-DB-000057"
+  tag "gid": "V-32391"
+  tag "rid": "SV-42728r3_rule"
+  tag "stig_id": "SRG-APP-000116-DB-000057"
+  tag "fix_id": nil
+  tag "cci": ["CCI-000159"]
+  tag "nist": ["AU-8 a", "Rev_4"]
 end
 
