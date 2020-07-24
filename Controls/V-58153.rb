@@ -38,5 +38,9 @@ infrastructure must leverage transmission protection mechanisms.
   tag "fix_id": nil
   tag "cci": ["CCI-002420"]
   tag "nist": ["SC-8 (2)", "Rev_4"]
+
+  describe ini(input('couchdb_conf_local')) do
+    its('ssl.enable') { should eq 'true' }
+  end
 end
 

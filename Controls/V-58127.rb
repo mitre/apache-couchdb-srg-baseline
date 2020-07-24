@@ -46,5 +46,13 @@ configuration of database(s).
   tag "fix_id": nil
   tag "cci": ["CCI-001814"]
   tag "nist": ["CM-5 (1)", "Rev_4"]
+
+  describe file(input('couchdb_conf_default')) do
+    it { should exist }
+  end
+
+  describe ini(input('couchdb_conf_default')) do
+    its('log.level') { should eq 'info'}
+  end
 end
 

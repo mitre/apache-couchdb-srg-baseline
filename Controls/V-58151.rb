@@ -37,5 +37,12 @@ administrators with a need to know are permitted to read/view these files.
   tag "fix_id": nil
   tag "cci": ["CCI-001090"]
   tag "nist": ["SC-4", "Rev_4"]
+
+  describe command('curl -X GET /db/_security') do
+    it { should exist }
+  end
+  describe ini(input('couchdb_conf_default')) do
+      its ('chttpd.admin_only_all_dbs') { should eq 'true'}
+  end
 end
 

@@ -33,7 +33,7 @@ finding.
 
     # find . -name \"local.ini\"
 
-    # grep \x91ssl\x92 section
+    # grep ssl section
     # grep \"cacert_file =\" <path to local.ini>
     # grep \"cert_file =\" <path to local.ini>
     # grep \"key_file =\" <path to local.ini>
@@ -64,5 +64,16 @@ and authorized users.
   tag "fix_id": nil
   tag "cci": ["CCI-000186"]
   tag "nist": ["IA-5 (2)", "Rev_4"]
+
+  describe file(input('couchdb_conf_local')) do
+    it { should exist }
+  end
+  describe ini(input('couchdb_conf_local')) do
+    its('ssl.secure_renegotiate') { should eq 'true' }
+    its('ssl.cert_file') {should eq '/etc/couchdb/cert/couchdb.pem'}
+    its('ssl.cacert_file') {should eq '/etc/ssl/certs/ca-certificates.crt'}
+    its('ssl.key_file') {should eq '/etc/couchdb/cert/privkey.pem'}
+
+  end
 end
 

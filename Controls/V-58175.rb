@@ -26,7 +26,7 @@ the following command:
     # RHEL/CENT Systems
     $ sudo rpm -qa | grep couchdb
 
-    If multiple versions of postgres are installed but are unused, this is a
+    If multiple versions of couchdb are installed but are unused, this is a
 finding.
   "
   desc  "fix", "Use package managers (RPM or apt-get) for installing CouchDB.
@@ -40,5 +40,8 @@ Unused software is removed when updated."
   tag "fix_id": nil
   tag "cci": ["CCI-002617"]
   tag "nist": ["SI-2 (6)", "Rev_4"]
+
+  describe command('sudo rpm -qa | grep couchdb')
+  its('stdout') { should match }
 end
 

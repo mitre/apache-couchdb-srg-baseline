@@ -1,3 +1,6 @@
 
-#decription Path for CouchDB configuration file
-couchdb_conf: '/opt/couchdb/etc/local.ini'
+#decription Path for local CouchDB configuration file
+couchdb_conf_local: '/opt/couchdb/etc/local.ini'
+
+#decription Path for default CouchDB configuration file
+couchdb_conf_default: '/opt/couchdb/etc/default.ini'

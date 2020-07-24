@@ -35,9 +35,8 @@ not, this is a finding.
 
     Review system documentation and organization policy to identify other
 events that should result in session terminations.
-    # find . -name \"local.ini\"
-    #grep \x93chttpd\x94 section
-    #grep \x93couch_httpd_auth\x94
+    # find . -name \"default.ini\"
+    #grep couch_httpd_auth
     Verify the timeout variable has a set time
     Ex:  timeout = 600
     #grep \"couchdb\" section
@@ -69,5 +68,12 @@ termination event.
   tag "fix_id": nil
   tag "cci": ["CCI-001185"]
   tag "nist": ["SC-23 (1)", "Rev_4"]
+
+  describe ini(input('couchdb_conf_default')) do
+    its('couchdb_httpd_auth.timeout') { cmp >= 600 }
+    its('couchdb.os_process_timeout') { should_not be nil }
+
+  end
+
 end
 

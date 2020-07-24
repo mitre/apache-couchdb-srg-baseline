@@ -37,5 +37,9 @@ process or user from unauthorized access by another user or process.
   tag "fix_id": nil
   tag "cci": ["CCI-001090"]
   tag "nist": ["SC-4", "Rev_4"]
+
+  describe ini(input('couchdb_conf_local')) do
+    its('ssl.enable') { should eq 'true' }
+  end
 end
 

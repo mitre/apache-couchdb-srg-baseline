@@ -51,5 +51,12 @@ appropriate support staff of all audit log failures.
   tag "fix_id": nil
   tag "cci": ["CCI-001858"]
   tag "nist": ["AU-5 (2)", "Rev_4"]
+
+  describe file(input('couchdb_conf_default')) do
+    it { should exist }
+  end
+  describe ini(input('couchdb_conf_default')) do
+  its('log.write_delay') { should eq '0'}
+  end
 end
 

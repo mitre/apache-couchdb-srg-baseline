@@ -1,26 +1,26 @@
-I, [2020-07-17T16:25:47.983096 #11192]  INFO -- couchdb-centos-7: -----> Verifying <couchdb-centos-7>...
-I, [2020-07-17T16:26:05.973888 #11192]  INFO -- couchdb-centos-7: Loaded tests from {:path=>"C:.Users.zhangc.git.apache-couchdb-srg-baseline.controls"} 
-E, [2020-07-17T16:26:11.445799 #11192] ERROR -- couchdb-centos-7: Verify failed on instance <couchdb-centos-7>.
-E, [2020-07-17T16:26:11.446460 #11192] ERROR -- couchdb-centos-7: ------Exception-------
-E, [2020-07-17T16:26:11.446643 #11192] ERROR -- couchdb-centos-7: Class: Kitchen::ActionFailed
-E, [2020-07-17T16:26:11.447140 #11192] ERROR -- couchdb-centos-7: Message: InSpec Runner returns 1
-E, [2020-07-17T16:26:11.447333 #11192] ERROR -- couchdb-centos-7: ----------------------
-E, [2020-07-17T16:26:11.447466 #11192] ERROR -- couchdb-centos-7: ------Backtrace-------
-E, [2020-07-17T16:26:11.447626 #11192] ERROR -- couchdb-centos-7: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/kitchen-inspec-2.0.0/lib/kitchen/verifier/inspec.rb:108:in `call'
-E, [2020-07-17T16:26:11.447863 #11192] ERROR -- couchdb-centos-7: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/test-kitchen-2.5.2/lib/kitchen/instance.rb:459:in `block in verify_action'
-E, [2020-07-17T16:26:11.448103 #11192] ERROR -- couchdb-centos-7: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/test-kitchen-2.5.2/lib/kitchen/instance.rb:552:in `synchronize_or_call'
-E, [2020-07-17T16:26:11.448343 #11192] ERROR -- couchdb-centos-7: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/test-kitchen-2.5.2/lib/kitchen/instance.rb:514:in `block in action'
-E, [2020-07-17T16:26:11.448580 #11192] ERROR -- couchdb-centos-7: C:/opscode/chef-workstation/embedded/lib/ruby/2.7.0/benchmark.rb:293:in `measure'
-E, [2020-07-17T16:26:11.448759 #11192] ERROR -- couchdb-centos-7: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/test-kitchen-2.5.2/lib/kitchen/instance.rb:513:in `action'
-E, [2020-07-17T16:26:11.448994 #11192] ERROR -- couchdb-centos-7: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/test-kitchen-2.5.2/lib/kitchen/instance.rb:451:in `verify_action'
-E, [2020-07-17T16:26:11.449237 #11192] ERROR -- couchdb-centos-7: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/test-kitchen-2.5.2/lib/kitchen/instance.rb:382:in `block (2 levels) in transition_to'
-E, [2020-07-17T16:26:11.449473 #11192] ERROR -- couchdb-centos-7: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/test-kitchen-2.5.2/lib/kitchen/lifecycle_hooks.rb:45:in `run_with_hooks'
-E, [2020-07-17T16:26:11.449708 #11192] ERROR -- couchdb-centos-7: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/test-kitchen-2.5.2/lib/kitchen/instance.rb:381:in `block in transition_to'
-E, [2020-07-17T16:26:11.449842 #11192] ERROR -- couchdb-centos-7: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/test-kitchen-2.5.2/lib/kitchen/instance.rb:380:in `each'
-E, [2020-07-17T16:26:11.450075 #11192] ERROR -- couchdb-centos-7: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/test-kitchen-2.5.2/lib/kitchen/instance.rb:380:in `transition_to'
-E, [2020-07-17T16:26:11.450313 #11192] ERROR -- couchdb-centos-7: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/test-kitchen-2.5.2/lib/kitchen/instance.rb:162:in `verify'
-E, [2020-07-17T16:26:11.450548 #11192] ERROR -- couchdb-centos-7: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/test-kitchen-2.5.2/lib/kitchen/command.rb:198:in `public_send'
-E, [2020-07-17T16:26:11.450783 #11192] ERROR -- couchdb-centos-7: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/test-kitchen-2.5.2/lib/kitchen/command.rb:198:in `run_action_in_thread'
-E, [2020-07-17T16:26:11.451024 #11192] ERROR -- couchdb-centos-7: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/test-kitchen-2.5.2/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
-E, [2020-07-17T16:26:11.451261 #11192] ERROR -- couchdb-centos-7: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/logging-2.2.2/lib/logging/diagnostic_context.rb:474:in `block in create_with_logging_context'
-E, [2020-07-17T16:26:11.451557 #11192] ERROR -- couchdb-centos-7: ----End Backtrace-----
+I, [2020-07-24T10:57:40.452081 #12876]  INFO -- couchdb-centos-7: -----> Verifying <couchdb-centos-7>...
+I, [2020-07-24T10:57:54.867908 #12876]  INFO -- couchdb-centos-7: Loaded tests from {:path=>"C:.Users.zhangc.git.apache-couchdb-srg-baseline.controls"} 
+E, [2020-07-24T10:58:03.390861 #12876] ERROR -- couchdb-centos-7: Verify failed on instance <couchdb-centos-7>.
+E, [2020-07-24T10:58:03.391135 #12876] ERROR -- couchdb-centos-7: ------Exception-------
+E, [2020-07-24T10:58:03.391254 #12876] ERROR -- couchdb-centos-7: Class: Kitchen::ActionFailed
+E, [2020-07-24T10:58:03.391357 #12876] ERROR -- couchdb-centos-7: Message: InSpec Runner returns 1
+E, [2020-07-24T10:58:03.391443 #12876] ERROR -- couchdb-centos-7: ----------------------
+E, [2020-07-24T10:58:03.391526 #12876] ERROR -- couchdb-centos-7: ------Backtrace-------
+E, [2020-07-24T10:58:03.391608 #12876] ERROR -- couchdb-centos-7: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/kitchen-inspec-2.0.0/lib/kitchen/verifier/inspec.rb:108:in `call'
+E, [2020-07-24T10:58:03.391693 #12876] ERROR -- couchdb-centos-7: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/test-kitchen-2.5.2/lib/kitchen/instance.rb:459:in `block in verify_action'
+E, [2020-07-24T10:58:03.391781 #12876] ERROR -- couchdb-centos-7: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/test-kitchen-2.5.2/lib/kitchen/instance.rb:552:in `synchronize_or_call'
+E, [2020-07-24T10:58:03.391863 #12876] ERROR -- couchdb-centos-7: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/test-kitchen-2.5.2/lib/kitchen/instance.rb:514:in `block in action'
+E, [2020-07-24T10:58:03.391947 #12876] ERROR -- couchdb-centos-7: C:/opscode/chef-workstation/embedded/lib/ruby/2.7.0/benchmark.rb:293:in `measure'
+E, [2020-07-24T10:58:03.392028 #12876] ERROR -- couchdb-centos-7: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/test-kitchen-2.5.2/lib/kitchen/instance.rb:513:in `action'
+E, [2020-07-24T10:58:03.393359 #12876] ERROR -- couchdb-centos-7: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/test-kitchen-2.5.2/lib/kitchen/instance.rb:451:in `verify_action'
+E, [2020-07-24T10:58:03.393464 #12876] ERROR -- couchdb-centos-7: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/test-kitchen-2.5.2/lib/kitchen/instance.rb:382:in `block (2 levels) in transition_to'
+E, [2020-07-24T10:58:03.393550 #12876] ERROR -- couchdb-centos-7: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/test-kitchen-2.5.2/lib/kitchen/lifecycle_hooks.rb:45:in `run_with_hooks'
+E, [2020-07-24T10:58:03.393628 #12876] ERROR -- couchdb-centos-7: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/test-kitchen-2.5.2/lib/kitchen/instance.rb:381:in `block in transition_to'
+E, [2020-07-24T10:58:03.393706 #12876] ERROR -- couchdb-centos-7: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/test-kitchen-2.5.2/lib/kitchen/instance.rb:380:in `each'
+E, [2020-07-24T10:58:03.393786 #12876] ERROR -- couchdb-centos-7: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/test-kitchen-2.5.2/lib/kitchen/instance.rb:380:in `transition_to'
+E, [2020-07-24T10:58:03.393865 #12876] ERROR -- couchdb-centos-7: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/test-kitchen-2.5.2/lib/kitchen/instance.rb:162:in `verify'
+E, [2020-07-24T10:58:03.393949 #12876] ERROR -- couchdb-centos-7: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/test-kitchen-2.5.2/lib/kitchen/command.rb:198:in `public_send'
+E, [2020-07-24T10:58:03.394036 #12876] ERROR -- couchdb-centos-7: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/test-kitchen-2.5.2/lib/kitchen/command.rb:198:in `run_action_in_thread'
+E, [2020-07-24T10:58:03.394117 #12876] ERROR -- couchdb-centos-7: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/test-kitchen-2.5.2/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2020-07-24T10:58:03.394197 #12876] ERROR -- couchdb-centos-7: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/logging-2.2.2/lib/logging/diagnostic_context.rb:474:in `block in create_with_logging_context'
+E, [2020-07-24T10:58:03.394340 #12876] ERROR -- couchdb-centos-7: ----End Backtrace-----

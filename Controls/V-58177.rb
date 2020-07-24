@@ -47,8 +47,15 @@ within the time frame defined for each patch.
   tag "gid": "V-58177"
   tag "rid": "SV-72607r1_rule"
   tag "stig_id": "SRG-APP-000456-DB-000390"
-  tag "fix_id": nil
+  tag "fix_id": "F-63385r1_fix"
   tag "cci": ["CCI-002605"]
   tag "nist": ["SI-2 c", "Rev_4"]
+
+  describe command('curl http://127.0.0.1:5984/') do 
+    its('stdout') { should include 'version' }
+    
+  end
+
 end
+
 

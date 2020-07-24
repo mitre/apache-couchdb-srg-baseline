@@ -30,7 +30,7 @@ functionality is separate from user functionality.
 
     If administrator and general user functionality are not separated either
 physically or logically, this is a finding.
-    #grep \x91roles\x92 for a list of user roles.
+    #grep 1roles for a list of user roles.
     If any non-administrative role has the attribute \"Superuser\", \"Create
 role\", \"Create DB\" or \"Bypass RLS\", this is a finding.
 

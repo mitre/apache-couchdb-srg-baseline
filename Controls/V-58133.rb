@@ -12,8 +12,8 @@ services deemed by to be nonsecure, in accord with the Ports, Protocols, and
 Services Management (PPSM) guidance.
 
     # find . -name \"default.ini\"\t
-    # grep \x91chttpd\x92 section
-    # grep \x91port\x92
+    # grep httpd section
+    # grep port
 
     If any protocol is prohibited by the PPSM guidance and is enabled, this is
 a finding.
@@ -30,5 +30,9 @@ servies."
   tag "fix_id": nil
   tag "cci": ["CCI-001762"]
   tag "nist": ["CM-7 (1) (b)", "Rev_4"]
+
+  describe ini(input('couchdb_conf_default')) do
+    its('httpd.port') { should be 'nil' }
+  end
 end
 

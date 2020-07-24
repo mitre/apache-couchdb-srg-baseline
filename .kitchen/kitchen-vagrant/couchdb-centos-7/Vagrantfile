@@ -5,7 +5,7 @@ Vagrant.configure("2") do |c|
   c.vm.synced_folder ".", "/vagrant", disabled: true
   c.vm.synced_folder "C:/Users/zhangc/.kitchen/cache", "/tmp/omnibus/cache", create: true
   c.vm.provider :virtualbox do |p|
-    p.name = "kitchen-apache-couchdb-srg-baseline-couchdb-centos-7-a4523666-6642-4ef5-9cf8-5dbc0a29ea3e"
+    p.name = "kitchen-apache-couchdb-srg-baseline-couchdb-centos-7-283c0552-d56e-4792-b7ef-47bcdc11cb73"
     p.customize ["modifyvm", :id, "--audio", "none"]
   end
 end

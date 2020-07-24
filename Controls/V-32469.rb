@@ -46,5 +46,13 @@ passwords are hashed and if it is not, then it is done then.
   tag "fix_id": nil
   tag "cci": ["CCI-000197"]
   tag "nist": ["IA-5 (1) (c)", "Rev_4"]
+
+  describe file(input('couchdb_conf_local')) do
+    it { should exist }
+  end
+
+  describe ini(input('couchdb_conf_local')) do
+    its('admins.admin') { should match '-pbkdf2-' }
+  end
 end
 

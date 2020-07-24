@@ -17,7 +17,7 @@ modules must be validated and certified by NIST as FIPS-compliant.
     # find . -name \"local.ini\"
 
     # cat /proc/sys/crypto/fips_enabled
-    Verify that the response of \x91fips_enabled\x92 is 1.
+    Verify that the response of fips_enabled is 1.
 
     If it is not 1, this is a finding.
   "
@@ -34,5 +34,9 @@ modules must be validated and certified by NIST as FIPS-compliant.
   tag "fix_id": nil
   tag "cci": ["CCI-002450"]
   tag "nist": ["SC-13", "Rev_4"]
+
+  describe command('cat /proc/sys/crypto/fips_enabled') do
+    its('stdout') { should eq 1 }
+    end
 end
 

@@ -38,5 +38,9 @@ applicable (NA).
   tag "fix_id": nil
   tag "cci": ["CCI-002450"]
   tag "nist": ["SC-13", "Rev_4"]
+
+  describe ini(input('couchdb_conf_local')) do
+    its('ssl.enable') { should eq 'true' }
+  end
 end
 

@@ -44,5 +44,9 @@ man-in-the-middle attacks that guess at session identifier values are enabled.
   tag "fix_id": nil
   tag "cci": ["CCI-001188"]
   tag "nist": ["SC-23 (3)", "Rev_4"]
+
+  describe ini(input('couchdb_conf_local')) do
+    its('ssl.enable') { should eq 'true' }
+  end
 end
 

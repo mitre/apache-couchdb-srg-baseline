@@ -51,11 +51,14 @@ certification path validation.
   tag "cci": ["CCI-000185"]
   tag "nist": ["IA-5 (2) (a)", "Rev_4"]
 
-  describe file(input('couchdb_conf')) do
+  describe file(input('couchdb_conf_local')) do
     it { should exist }
   end
-  describe ini(input('couchdb_conf')) do
+  describe ini(input('couchdb_conf_local')) do
     its('ssl.secure_renegotiate') { should eq 'true' }
+    its('ssl.cert_file') {should eq '/etc/couchdb/cert/couchdb.pem'}
+    its('ssl.cacert_file') {should eq '/etc/ssl/certs/ca-certificates.crt'}
+
   end
 end
 

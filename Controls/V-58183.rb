@@ -54,8 +54,17 @@ responds to invalid input.
   tag "gid": "V-58183"
   tag "rid": "SV-72613r2_rule"
   tag "stig_id": "SRG-APP-000447-DB-000393"
-  tag "fix_id": nil
+  tag "fix_id": "F-63391r1_fix"
   tag "cci": ["CCI-002754"]
   tag "nist": ["SI-10 (3)", "Rev_4"]
+
+  describe file(input('couchdb_conf_default')) do
+    it { should exist }
+  end
+
+  describe ini(input('couchdb_conf_default')) do
+    its('log.level') { should eq 'info'}
+  end
+
 end
 

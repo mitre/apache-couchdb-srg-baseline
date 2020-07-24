@@ -25,9 +25,8 @@ off-loaded and how local audit log space is managed.
     # find . -name \"default.ini\"
     # grep \"file =\" <path to default.ini>
     if line does not exist or is commented out, this is a finding.
-    #grep \x93log\x94 section
+    #grep log section
     #grep \"sys_facilities =\" <path to default.ini>
-    if line does not exist or is not set to info, this is a finding.
     If the CouchDB audit records are not written directly to or systematically
 transferred to a centralized log management system, this is a finding.
   "
@@ -43,5 +42,13 @@ a centralized log management system. Configure loging to be enabled"
   tag "fix_id": nil
   tag "cci": ["CCI-001844"]
   tag "nist": ["AU-3 (2)", "Rev_4"]
+
+  describe file(input('couchdb_conf_default')) do
+    it { should exist }
+  end
+  describe ini(input('couchdb_conf_default')) do
+  its('log.syslog_facility') { should_not be 'nil' }
+  end
+
 end
 

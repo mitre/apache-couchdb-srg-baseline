@@ -51,8 +51,18 @@ following format:
   tag "gid": "V-61407"
   tag "rid": "SV-75897r3_rule"
   tag "stig_id": "SRG-APP-000164-DB-000401"
-  tag "fix_id": nil
+  tag "fix_id": "F-67323r7_fix"
   tag "cci": ["CCI-000192"]
   tag "nist": ["IA-5 (1) (a)", "Rev_4"]
+
+  
+  describe file(input('couchdb_conf_local')) do
+    it { should exist }
+  end
+
+  describe ini(input('couchdb_conf_local')) do
+    its('admins.admin') { should match '-pbkdf2-' }
+  end
+
 end
 
