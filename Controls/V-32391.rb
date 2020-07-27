@@ -49,5 +49,12 @@ with the internal system clock used by the operating system.
   tag "fix_id": nil
   tag "cci": ["CCI-000159"]
   tag "nist": ["AU-8 a", "Rev_4"]
+  
+  describe file(input('couchdb_conf_default')) do
+    it { should exist }
+  end
+  describe ini(input('couchdb_conf_default')) do
+  its('log.file') { should match './couch.log'}
+  end
 end
 
