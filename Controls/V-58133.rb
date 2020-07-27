@@ -35,7 +35,7 @@ servies."
     it { should exist }
   end
   describe ini(input('couchdb_conf_default')) do
-  its('port') { should match 'authorized_ports'}
+  its('chttpd.port') { should match 'authorized_ports'}
   end
 end
 
