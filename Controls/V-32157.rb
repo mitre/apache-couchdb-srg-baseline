@@ -1,6 +1,5 @@
 # encoding: UTF-8
 
-
 control "V-32157" do
   title "The DBMS must limit the number of concurrent sessions to an
 organization-defined number per user for all accounts and/or account types."
@@ -64,5 +63,13 @@ and/or account types.
   tag "fix_id": nil
   tag "cci": ["CCI-000054"]
   tag "nist": ["AC-10", "Rev_4"]
+  
+  describe file(input('couchdb_conf_local')) do
+    it { should exist }
+  end
+  
+  describe ini(input('couchdb_conf_local')) do
+    its('replicator.http_connections') { should match 'pre-set value' }
+  end
 end
 
