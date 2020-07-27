@@ -49,5 +49,14 @@ file>
   tag "fix_id": nil
   tag "cci": ["CCI-001495"]
   tag "nist": ["AU-9", "Rev_4"]
+  
+ describe command('ls -la default.ini') do
+  it { should exist }
+  its('stdout') { should eq 'authorized_users' }
+end
+ describe command('ls -la local.ini') do
+  it { should exist }
+  its('stdout') { should eq 'authorized_users' }
+end
 end
 
