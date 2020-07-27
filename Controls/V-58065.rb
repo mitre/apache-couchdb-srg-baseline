@@ -49,5 +49,12 @@ data, with a minimum granularity of one second, this is a finding.
   tag "fix_id": nil
   tag "cci": ["CCI-001889"]
   tag "nist": ["AU-8 b", "Rev_4"]
+  
+  describe file(input('couchdb_conf_default')) do
+    it { should exist }
+  end
+  describe ini(input('couchdb_conf_default')) do
+  its('log.file') { should_not match 'journald'}
+  end
 end
 
