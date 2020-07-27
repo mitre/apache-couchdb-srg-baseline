@@ -1,5 +1,6 @@
 # encoding: UTF-8
 
+
 control "V-32157" do
   title "The DBMS must limit the number of concurrent sessions to an
 organization-defined number per user for all accounts and/or account types."
