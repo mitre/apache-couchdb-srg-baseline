@@ -54,7 +54,7 @@ data, with a minimum granularity of one second, this is a finding.
     it { should exist }
   end
   describe ini(input('couchdb_conf_default')) do
-  its('log.file') { should_not match 'journald'}
+  its('log.writer') { should_not match 'journald'}
   end
 end
 
