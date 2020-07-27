@@ -44,5 +44,12 @@ part of the audit record.
   tag "fix_id": nil
   tag "cci": ["CCI-000132"]
   tag "nist": ["AU-3", "Rev_4"]
+  
+  describe file(input('couchdb_conf_default')) do
+    it { should exist }
+  end
+  describe ini(input('couchdb_conf_default')) do
+  its('log.file') { should match './couch.log'}
+  end
 end
 
