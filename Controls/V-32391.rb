@@ -54,7 +54,7 @@ with the internal system clock used by the operating system.
     it { should exist }
   end
   describe ini(input('couchdb_conf_default')) do
-  its('log.file') { should match './couch.log'}
+  its('log.file') { should_not match 'journald'}
   end
 end
 
