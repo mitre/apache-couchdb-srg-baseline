@@ -43,5 +43,13 @@ time for user access to the database(s).
   tag "fix_id": nil
   tag "cci": ["CCI-000172"]
   tag "nist": ["AU-12 c", "Rev_4"]
+  
+  describe file(input('couchdb_conf_local')) do
+    it { should exist }
+  end
+
+  describe ini(input('couchdb_conf_local')) do
+    its('log.level') { should match 'info' }
+  end
 end
 
