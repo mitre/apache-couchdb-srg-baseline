@@ -30,5 +30,12 @@ servies."
   tag "fix_id": nil
   tag "cci": ["CCI-001762"]
   tag "nist": ["CM-7 (1) (b)", "Rev_4"]
+  
+  describe file(input('couchdb_conf_default')) do
+    it { should exist }
+  end
+  describe ini(input('couchdb_conf_default')) do
+  its('port') { should match 'authorized_ports'}
+  end
 end
 
