@@ -53,12 +53,11 @@ information to establish what type of events occurred.
   tag "cci": ["CCI-000130"]
   tag "nist": ["AU-3", "Rev_4"]
   
-  describe file(input('couchdb_conf_local')) do
+  describe file(input('couchdb_conf_default')) do
     it { should exist }
   end
-
-  describe ini(input('couchdb_conf_local')) do
-    its('log.level') { should match 'info' }
+  describe ini(input('couchdb_conf_default')) do
+    its('log.level') { should eq 'info' }
   end
 end
 

@@ -51,9 +51,9 @@ found:
   tag "cci": ["CCI-000381"]
   tag "nist": ["CM-7 a", "Rev_4"]
   
- describe command('find *. -r -type f -printf '%f\n' | grep -o '\..\+$' | sort | uniq -c | sort -rn') do
-  it { should exist }
-  its('stdout') { should_not eq 'unathorized_file_types' }
-end
+ #describe command('find *. -r -type f -printf '%f\n' | grep -o '\..\+$' | sort | uniq -c | sort -rn') do
+  #it { should exist }
+  #its('stdout') { should_not eq 'unathorized_file_types' }
+#end
 end
 
