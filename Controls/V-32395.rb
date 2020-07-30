@@ -65,10 +65,17 @@ files:
   tag "fix_id": nil
   tag "cci": ["CCI-000164"]
   tag "nist": ["AU-9", "Rev_4"]
-  
- describe command('ls -la /opt/couchdb/etc/default.ini') do
-  it { should exist }
-  its('stdout') { should eq 'authorized_users' }
+
+describe file(input('couchdb_conf_default')) do
+    it { should exist }
+  end  
+describe file('/opt/couchdb/etc/default.ini') do
+ its('mode') { should cmp '0600' }
+end
+
+describe file('/opt/couchdb/etc/default.ini') do
+  its('owner') { should eq input('admin_group') }
 end
 end
+
 
