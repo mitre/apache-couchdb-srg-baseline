@@ -56,5 +56,11 @@ to view them."
   tag "fix_id": nil
   tag "cci": ["CCI-001314"]
   tag "nist": ["SI-11 b", "Rev_4"]
+
+  describe "This test requires a Manual Review: Check DBMS settings and custom database code to determine if detailed error
+messages are ever displayed to unauthorized individuals." do
+    skip "This test requires a Manual Review: Check DBMS settings and custom database code to determine if detailed error
+messages are ever displayed to unauthorized individuals."
+  end
 end
 

@@ -37,5 +37,15 @@ executing process.
   tag "fix_id": nil
   tag "cci": ["CCI-002530"]
   tag "nist": ["SC-39", "Rev_4"]
+
+  describe "This test requires a Manual Review: Review CouchDB architecture to find out if and how it protects the private
+resources of one process (such as working memory, temporary tables, uncommitted
+data and, especially, executable code) from unauthorized access or modification
+by another user or process." do 
+    skip "This test requires a Manual Review: Review CouchDB architecture to find out if and how it protects the private
+resources of one process (such as working memory, temporary tables, uncommitted
+data and, especially, executable code) from unauthorized access or modification
+by another user or process."
+  end 
 end
 

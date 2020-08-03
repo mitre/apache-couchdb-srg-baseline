@@ -43,5 +43,10 @@ using a 3rd party encryption software"
   tag "fix_id": nil
   tag "cci": ["CCI-001199"]
   tag "nist": ["SC-28", "Rev_4"]
+  describe "This test requires a Manual Review: Review DBMS settings to determine whether controls exist to protect the
+confidentiality and integrity of data at rest in the database." do
+    skip "This test requires a Manual Review: Review DBMS settings to determine whether controls exist to protect the
+confidentiality and integrity of data at rest in the database."
+  end
 end
 

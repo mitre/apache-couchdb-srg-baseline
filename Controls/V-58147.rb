@@ -61,5 +61,11 @@ reauthorization occur.
   tag "fix_id": nil
   tag "cci": ["CCI-002038"]
   tag "nist": ["IA-11", "Rev_4"]
+
+  describe "This test requires a Manual Review: Review organization-defined circumstances or situations that would require
+re-authentication." do
+    skip "This test requires a Manual Review: Review organization-defined circumstances or situations that would require
+re-authentication."
+  end
 end
 

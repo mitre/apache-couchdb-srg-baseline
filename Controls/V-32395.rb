@@ -65,17 +65,17 @@ files:
   tag "fix_id": nil
   tag "cci": ["CCI-000164"]
   tag "nist": ["AU-9", "Rev_4"]
-
-describe file(input('couchdb_conf_default')) do
-    it { should exist }
-  end  
-describe file('/opt/couchdb/etc/default.ini') do
- its('mode') { should cmp '0600' }
-end
-
-describe file('/opt/couchdb/etc/default.ini') do
-  its('owner') { should eq input('admin_group') }
-end
+  
+  if file(input('couchdb_conf_default')).exist?
+    describe file(input('couchdb_conf_default')) do
+      its ('mode') { should be 0640 }
+      its ('owner') { should eq input('admin_group') }
+    end
+  else
+    describe "The #{input('couchdb_conf_default')} file is missing, we cannot test this control" do
+    skip "The input('couchdb_conf_default') file is missing, please restore the file and rerun the test"
+    end
+  end
 end
 
 

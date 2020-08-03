@@ -40,5 +40,11 @@ track use of CouchDB software installation account."
   tag "fix_id": nil
   tag "cci": ["CCI-001499"]
   tag "nist": ["CM-5 (6)", "Rev_4"]
+
+  describe "This test requires a Manual Review: Review procedures for controlling, granting access to, and tracking use of
+CouchDB software installation account." do
+    skip "This test requires a Manual Review: Review procedures for controlling, granting access to, and tracking use of
+CouchDB software installation account."
+  end
 end
 

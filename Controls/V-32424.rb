@@ -15,7 +15,7 @@ functionality exceeding requirements or mission objectives.
 only essential capabilities.
   "
   desc  "check", "
-    Review the list of components and features installed with the database.
+    Review the list of components and features installed with the database. 
 
     Use CouchDB product installation tool if supported and review the product
 installation documentation.
@@ -39,5 +39,9 @@ the configure script.
   tag "fix_id": nil
   tag "cci": ["CCI-000381"]
   tag "nist": ["CM-7 a", "Rev_4"]
+
+  describe "This test requires a Manual Review: Review the list of components and features installed with the database. There should be no unused components or features installed and are not documented and authorized." do
+    skip "This test requires a Manual Review: Review the list of components and features installed with the database. There should be no unused components or features installed and are not documented and authorized."
+  end
 end
 

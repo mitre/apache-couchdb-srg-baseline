@@ -61,5 +61,13 @@ system failure."
   tag "fix_id": nil
   tag "cci": ["CCI-001190"]
   tag "nist": ["SC-24", "Rev_4"]
+
+  describe "This test requires a Manual Review: Settings should be configured so in the event of a system failure, CouchDB will roll back open transactions to a consistent state, to 
+include a security configuration that is at least as restrictive as before the system failure." do
+    skip "This test requires a Manual Review: Settings should be configured so in the event of a system failure, CouchDB will roll back open transactions to a consistent state, to 
+include a security configuration that is at least as restrictive as before the system failure."
+  end
 end
+
+
 

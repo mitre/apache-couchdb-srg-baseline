@@ -51,5 +51,11 @@ authentication secrets."
   tag "fix_id": nil
   tag "cci": ["CCI-000206"]
   tag "nist": ["IA-6", "Rev_4"]
+
+  describe "This test requires a Manual Review: All interactions with the user for purposes of authentication should be handled
+by a software component separate from CouchDB." do
+    skip "This test requires a Manual Review: All interactions with the user for purposes of authentication should be handled
+by a software component separate from CouchDB"
+  end
 end
 

@@ -64,12 +64,8 @@ and/or account types.
   tag "cci": ["CCI-000054"]
   tag "nist": ["AC-10", "Rev_4"]
   
-  describe file(input('couchdb_conf_default')) do
-    it { should exist }
-  end
-  
   describe ini(input('couchdb_conf_default')) do
-    its('replicator.http_connections') { should eq input('max_connections') }
-  end
+    its ('replicator.http_connections') { should eq input('max_connections') }
+end
 end
 

@@ -39,5 +39,11 @@ system state information in the event of a system failure."
   tag "fix_id": nil
   tag "cci": ["CCI-001665"]
   tag "nist": ["SC-24", "Rev_4"]
+  
+  describe "This test requires a Manual Review: DBMS settings should be configured to preserve any organization-defined system state information in the event of a system failure." do
+    skip "This test requires a Manual Review: DBMS settings should be configured to preserve any organization-defined system state information in the event of a system failure."
+  end
 end
+
+
 

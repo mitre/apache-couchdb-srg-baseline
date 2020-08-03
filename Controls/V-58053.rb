@@ -45,5 +45,9 @@ accordance with organization-defined audit record storage requirements."
   tag "fix_id": nil
   tag "cci": ["CCI-001849"]
   tag "nist": ["AU-4", "Rev_4"]
+
+  describe "This test requires a Manual Review: Review the organization defined audit record storage requirements and ensure remaining disk space meets requirements." do
+    skip "This test requires a Manual Review: Review the organization defined audit record storage requirements and ensure remaining disk space meets requirements."
+  end
 end
 

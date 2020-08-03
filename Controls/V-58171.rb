@@ -59,5 +59,13 @@ physical protection.
   tag "fix_id": nil
   tag "cci": ["CCI-002476"]
   tag "nist": ["SC-28 (1)", "Rev_4"]
+
+  describe "This test requires a Manual Review: Review the system documentation to determine whether the organization has
+defined the information at rest that is to be protected from disclosure, which
+must include, at a minimum, PII and classified information." do
+    skip "This test requires a Manual Review: Review the system documentation to determine whether the organization has
+defined the information at rest that is to be protected from disclosure, which
+must include, at a minimum, PII and classified information."
+  end
 end
 

@@ -50,5 +50,11 @@ typed parameters, modify the code to do so."
   tag "fix_id": nil
   tag "cci": ["CCI-001310"]
   tag "nist": ["SI-10", "Rev_4"]
+
+  describe "This test requires a Manual Review: Dynamic code execution should not be employed in circumstances 
+  where the objective could practically be satisfied by static execution with strongly typed parameters." do
+    skip "This test requires a Manual Review: Dynamic code execution should not be employed in circumstances 
+  where the objective could practically be satisfied by static execution with strongly typed parameters."
+  end
 end
 

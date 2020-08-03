@@ -33,10 +33,7 @@ privileges/permissions are retrieved.
   tag "fix_id": nil
   tag "cci": ["CCI-001464"]
   tag "nist": ["AU-14 (1)", "Rev_4"]
-  
-  describe file(input('couchdb_conf_default')) do
-    it { should exist }
-  end
+
   describe ini(input('couchdb_conf_default')) do
     its('log.level') { should eq 'info' }
   end

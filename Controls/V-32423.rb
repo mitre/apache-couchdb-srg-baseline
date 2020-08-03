@@ -50,5 +50,13 @@ the configure script.
   tag "fix_id": nil
   tag "cci": ["CCI-000381"]
   tag "nist": ["CM-7 a", "Rev_4"]
+
+  describe "This test requires a Manual Review: Review vendor documentation and vendor websites to identify
+vendor-provided demonstration or sample databases, database applications,
+objects, and files." do 
+    skip "This test requires a Manual Review: Review vendor documentation and vendor websites to identify
+vendor-provided demonstration or sample databases, database applications,
+objects, and files."
+  end
 end
 

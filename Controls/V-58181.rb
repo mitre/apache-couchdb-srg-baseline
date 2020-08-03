@@ -84,5 +84,10 @@ implement protections against code injection."
   tag "fix_id": nil
   tag "cci": ["CCI-001310"]
   tag "nist": ["SI-10", "Rev_4"]
+
+  describe "This test requires a Manual Review: Dynamic code execution should be employed with protective measures against code injection." do
+    skip "This test requires a Manual Review: Dynamic code execution should be employed with protective measures against code injection."
+  end
 end
+
 

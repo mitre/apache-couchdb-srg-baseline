@@ -45,5 +45,14 @@ manually terminate a session initiated by that user."
   tag "fix_id": nil
   tag "cci": ["CCI-002363"]
   tag "nist": ["AC-12 (1)", "Rev_4"]
-end
 
+  describe "This test requires a Manual Review: Review the CouchDB documentation and/or inquiring of the
+vendor's technical support staff, whether CouchDB satisfies this requirement;
+and, if it does, determine whether this is inherent, unchangeable behavior, or
+a configurable feature." do
+    skip "This test requires a Manual Review: Review the CouchDB documentation and/or inquiring of the
+    vendor's technical support staff, whether CouchDB satisfies this requirement;
+    and, if it does, determine whether this is inherent, unchangeable behavior, or
+    a configurable feature." 
+  end
+end

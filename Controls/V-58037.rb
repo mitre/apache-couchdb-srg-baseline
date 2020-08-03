@@ -28,9 +28,7 @@ DBMS product, a third-party product, or custom application code.
   desc  "check", "
     If security labeling is not required, this is not a finding.
 
-    Review organization-defined types of security labels.
-
-    If security labeling is required and not implemented according to the
+    Review organization-defined types of security labels.If security labeling is required and not implemented according to the
 system documentation, such as SSP, this is a finding.
 
     If security labeling requirements have been specified, but the security
@@ -52,5 +50,13 @@ this should be implemented and recorded by organization in their defined plan.
   tag "fix_id": nil
   tag "cci": ["CCI-002262"]
   tag "nist": ["AC-16 a", "Rev_4"]
+
+  describe "This test requires a Manual Review: Review organization-defined types of security labels. 
+  If security labeling is required and not implemented according to the
+  system documentation, such as SSP, this is a finding." do
+    skip "This test requires a Manual Review: Review organization-defined types of security labels. 
+    If security labeling is required and not implemented according to the
+    system documentation, such as SSP, this is a finding."
+  end
 end
 

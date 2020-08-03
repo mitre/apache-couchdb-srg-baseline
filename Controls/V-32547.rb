@@ -42,5 +42,13 @@ locations."
   tag "fix_id": nil
   tag "cci": ["CCI-001090"]
   tag "nist": ["SC-4", "Rev_4"]
+
+  describe "This test requires a Manual Review: Review the procedures for the refreshing of development/test data from
+production and any scripts or code that exists for the movement of production data
+to development/test systems, or to any other location or for any other purpose." do
+    skip "This test requires a Manual Review: Review the procedures for the refreshing of development/test data from
+production and any scripts or code that exists for the movement of production data
+to development/test systems, or to any other location or for any other purpose."
+  end
 end
 

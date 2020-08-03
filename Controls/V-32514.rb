@@ -53,5 +53,11 @@ attributes to users that do not require it.
   tag "fix_id": nil
   tag "cci": ["CCI-001082"]
   tag "nist": ["SC-2", "Rev_4"]
+
+  describe "This test requires a Manual Review: Check DBMS settings and vendor documentation to verify that administrative
+functionality is separate from user functionality." do
+    skip "This test requires a Manual Review: Check DBMS settings and vendor documentation to verify that administrative
+functionality is separate from user functionality."
+  end
 end
 

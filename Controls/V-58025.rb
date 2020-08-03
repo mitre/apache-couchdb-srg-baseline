@@ -47,5 +47,15 @@ organization-defined conditions or trigger events requiring session termination.
   tag "fix_id": nil
   tag "cci": ["CCI-002361"]
   tag "nist": ["AC-12", "Rev_4"]
+
+  describe "This test requires a Manual Review: Review system documentation to obtain the organization's definition of
+circumstances requiring automatic session termination. If the documentation
+explicitly states that such termination is not required or is prohibited, this
+is not a finding." do
+    skip "This test requires a Manual Review: Review system documentation to obtain the organization's definition of
+circumstances requiring automatic session termination. If the documentation
+explicitly states that such termination is not required or is prohibited, this
+is not a finding."
+  end
 end
 

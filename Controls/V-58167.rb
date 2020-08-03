@@ -21,9 +21,9 @@ rather than for the network packet.
     Check for the following:
     # find . -name \"local.ini\"
 
-    #grep \x91ssl\x92 section
+    #grep  'ssl' section
     Verify \"enabled = true\"
-    #grep \"cert_file = /etc/couchdb/cert/couchdb.pem\"
+    #grep 'cert_file = /etc/couchdb/cert/couchdb.pem'
     Verify for certificates issued by DoD PKI or DoD-approved PKI Certification
 Authorities (CAs)
 
@@ -42,5 +42,20 @@ PKI end-entity certificates."
   tag "fix_id": nil
   tag "cci": ["CCI-002470"]
   tag "nist": ["SC-23 (5)", "Rev_4"]
-end
 
+  describe ini(input('couchdb_conf_local')) do
+    its('ssl.enable') { should eq 'true' }
+    its('ssl.cert_file') {should eq '/etc/couchdb/cert/couchdb.pem'}
+    its('ssl.key_file') {should eq '/etc/couchdb/cert/privkey.pem'}
+  end
+
+  describe file(input('couchdbpem')) do
+    it { should exist }
+    its ('mode') { should be 0600 }
+  end
+
+  describe file(input('privkeypem')) do
+    it { should exist }
+    its ('mode') { should be 0600 }
+  end 
+end

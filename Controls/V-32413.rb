@@ -60,5 +60,10 @@ files in separate DASD pools from other mainframe application
   tag "fix_id": nil
   tag "cci": ["CCI-001499"]
   tag "nist": ["CM-5 (6)", "Rev_4"]
+
+  describe "This test requires a Manual Review: Review the CouchDB software library directory and note other root
+directories located on the same disk directory or any subdirectories." do
+    skip "This test requires a Manual Review: Review the CouchDB software library directory and note other root
+directories located on the same disk directory or any subdirectories."
 end
 

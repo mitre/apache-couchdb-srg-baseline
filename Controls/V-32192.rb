@@ -72,5 +72,13 @@ methods."
   tag "fix_id": nil
   tag "cci": ["CCI-000015"]
   tag "nist": ["AC-2 (1)", "Rev_4"]
+
+  describe "This test requires a Manual Review: Check CouchDB settings and documentation and verify an organization-level
+authentication/access mechanism providing account management and automation for
+all users, groups, roles, and any other principals." do
+    skip "This test requires a Manual Review: Check CouchDB settings and documentation and verify an organization-level
+authentication/access mechanism providing account management and automation for
+all users, groups, roles, and any other principals."
+  end 
 end
 

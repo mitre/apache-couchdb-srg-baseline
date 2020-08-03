@@ -53,5 +53,12 @@ this should be implemented and recorded by organization in their defined plan.
   tag "fix_id": nil
   tag "cci": ["CCI-002264"]
   tag "nist": ["AC-16 a", "Rev_4"]
+  
+  describe "This test requires a Manual Review: Review organization-defined types of security labels. 
+  Security labeling requirements should be specified and the security labeling is should be implemented 
+  and reliably maintained." do
+    skip "This test requires a Manual Review: Interview the SA and ask for documentation on the 
+    disaster recovery methods for the NGINX web server in the event of the necessity for rollback."
+  end
 end
 

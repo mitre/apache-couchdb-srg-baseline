@@ -46,5 +46,9 @@ record storage capacity. "
   tag "fix_id": nil
   tag "cci": ["CCI-001855"]
   tag "nist": ["AU-5 (1)", "Rev_4"]
+
+  describe "This test requires a Manual Review: Review the organization defined audit record storage requirements and if used space is greater than 75% of available space, alert support staff." do
+    skip "This test requires a Manual Review: Review the organization defined audit record storage requirements and if used space is greater than 75% of available space, alert support staff."
+  end
 end
 

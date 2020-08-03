@@ -72,5 +72,13 @@ functionality."
   tag "fix_id": nil
   tag "cci": ["CCI-002235"]
   tag "nist": ["AC-6 (10)", "Rev_4"]
+
+  describe "This test requires a Manual Review: Review the system documentation to obtain the definition of the CouchDB
+functionality considered privileged in the context of the system in question and the CouchDB security configuration and/or other means used to
+protect privileged functionality from unauthorized use." do
+    skip "This test requires a Manual Review: Review the system documentation to obtain the definition of the CouchDB
+functionality considered privileged in the context of the system in question and the CouchDB security configuration and/or other means used to
+protect privileged functionality from unauthorized use."
+  end
 end
 

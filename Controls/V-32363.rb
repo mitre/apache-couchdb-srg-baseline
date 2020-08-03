@@ -21,8 +21,10 @@ should have permission to write to the file.
 ISSM (or individuals or roles appointed by the ISSM), this is a finding.
   "
   desc  "fix", "
-    # find . -name \"default.ini\"
-    # set level = info
+As the system administrator, change the permissions of the configuration files:
+
+  # sudo chown -R <Database Admin>:<Database Admin Group> <Configuration file>
+  # sudo chmod 600 <Configuration file>
   "
   impact 0.5
   tag "severity": "medium"
@@ -33,5 +35,17 @@ ISSM (or individuals or roles appointed by the ISSM), this is a finding.
   tag "fix_id": nil
   tag "cci": ["CCI-000171"]
   tag "nist": ["AU-12 b", "Rev_4"]
+
+  
+  if file(input('couchdb_conf_default')).exist?
+    describe file(input('couchdb_conf_default')) do
+      its ('mode') { should be 0640 }
+      its ('owner') { should eq input('admin_group') }
+    end
+  else
+    describe "The #{input('couchdb_conf_default')} file is missing, we cannot test this control" do
+    skip "The input('couchdb_conf_default') file is missing, please restore the file and rerun the test"
+    end
+  end
 end
 

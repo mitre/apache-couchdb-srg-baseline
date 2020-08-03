@@ -34,5 +34,13 @@ and DTMs and IAVMs."
   tag "fix_id": nil
   tag "cci": ["CCI-000366"]
   tag "nist": ["CM-6 b", "Rev_4"]
+
+  describe "This test requires a Manual Review: Review CouchDB documentation and configuration to determine if CouchDB is
+configured in accordance with DoD security configuration and implementation
+guidance, including STIGs, NSA configuration guides, CTOs, and DTMs and IAVMs." do
+    skip "This test requires a Manual Review: Review CouchDB documentation and configuration to determine if CouchDB is
+configured in accordance with DoD security configuration and implementation
+guidance, including STIGs, NSA configuration guides, CTOs, and DTMs and IAVMs."
+  end
 end
 

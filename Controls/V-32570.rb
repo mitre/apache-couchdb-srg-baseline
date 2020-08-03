@@ -53,5 +53,11 @@ system identification in error messages."
   tag "fix_id": nil
   tag "cci": ["CCI-001312"]
   tag "nist": ["SI-11 a", "Rev_4"]
+
+  describe "This test requires a Manual Review: Check DBMS settings and custom database code to verify that error messages
+do not contain information beyond what is needed for troubleshooting the issue." do
+    skip "This test requires a Manual Review: Check DBMS settings and custom database code to verify that error messages
+do not contain information beyond what is needed for troubleshooting the issue."
+  end
 end
 
