@@ -55,4 +55,4 @@ data, with a minimum granularity of one second, this is a finding.
   its('log.writer') { should_not eq 'journald'}
   end
 end
-
+ 
