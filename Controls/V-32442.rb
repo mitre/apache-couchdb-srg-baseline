@@ -26,7 +26,7 @@ identified and authenticated when logging on/connecting to the system.
     Check for the following:
 
     # find . -name \"local.ini\"
-    #grep \x91roles\x92 for a list of user roles.
+    #grep roles for a list of user roles.
     If users are not uniquely identified as per organizational documentation,
 this is a finding.
   "
