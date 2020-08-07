@@ -41,7 +41,7 @@ man-in-the-middle attacks that guess at session identifier values are enabled.
   tag "gid": "V-58165"
   tag "rid": "SV-72595r1_rule"
   tag "stig_id": "SRG-APP-000224-DB-000384"
-  tag "fix_id": nil
+  tag "fix_id": "F-63373r1_fix"
   tag "cci": ["CCI-001188"]
   tag "nist": ["SC-23 (3)", "Rev_4"]
 

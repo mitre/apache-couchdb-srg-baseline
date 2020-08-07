@@ -52,7 +52,7 @@ within the time frame defined for each patch.
   tag "nist": ["SI-2 c", "Rev_4"]
 
   describe command('curl http://127.0.0.1:5984/') do 
-    its('stdout') { should include 'version' }
+    its('stdout') { should include input('couchdb_version') }
     
   end
 

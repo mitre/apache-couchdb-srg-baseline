@@ -41,7 +41,7 @@ passwords are hashed and if it is not, then it is done then.
   tag "gid": "V-32468"
   tag "rid": "SV-42805r3_rule"
   tag "stig_id": "SRG-APP-000171-DB-000074"
-  tag "fix_id": nil
+  tag "fix_id": "F-36383r4_fix"
   tag "cci": ["CCI-000196"]
   tag "nist": ["IA-5 (1) (c)", "Rev_4"]
   describe file(input('couchdb_conf_local')) do

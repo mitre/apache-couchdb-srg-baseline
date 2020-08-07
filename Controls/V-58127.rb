@@ -43,13 +43,9 @@ configuration of database(s).
   tag "gid": "V-58127"
   tag "rid": "SV-72557r1_rule"
   tag "stig_id": "SRG-APP-000381-DB-000361"
-  tag "fix_id": nil
+  tag "fix_id": "F-63335r1_fix"
   tag "cci": ["CCI-001814"]
   tag "nist": ["CM-5 (1)", "Rev_4"]
-
-  describe file(input('couchdb_conf_default')) do
-    it { should exist }
-  end
 
   describe ini(input('couchdb_conf_default')) do
     its('log.level') { should eq 'info'}

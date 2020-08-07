@@ -35,7 +35,7 @@ infrastructure must leverage transmission protection mechanisms.
   tag "gid": "V-58153"
   tag "rid": "SV-72583r1_rule"
   tag "stig_id": "SRG-APP-000441-DB-000378"
-  tag "fix_id": nil
+  tag "fix_id": "F-63361r1_fix"
   tag "cci": ["CCI-002420"]
   tag "nist": ["SC-8 (2)", "Rev_4"]
 

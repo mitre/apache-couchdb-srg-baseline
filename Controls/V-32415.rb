@@ -59,5 +59,21 @@ manipulated by malicious users.
   tag "fix_id": nil
   tag "cci": ["CCI-001499"]
   tag "nist": ["CM-5 (6)", "Rev_4"]
+
+  roles = input('approved_users')
+
+  admin_name = input('couchdb_admin')
+
+  admin_pass = input ('couchdb_adminpass')
+
+  database = input('couchdb_db')
+
+  port = input('couch_port')
+  host = input('couch_host')
+  roles.each do |role|
+    describe command('curl -X GET ' + admin_name + ':' + admin_pass + '@' + host + ':' + port + '/' + database + '/_security') do
+    its('stdout') { should include role }
+    end
+  end
 end
 

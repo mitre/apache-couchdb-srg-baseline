@@ -35,13 +35,11 @@ database(s).
   tag "gid": "V-58123"
   tag "rid": "SV-72553r1_rule"
   tag "stig_id": "SRG-APP-000508-DB-000358"
-  tag "fix_id": nil
+  tag "fix_id": "F-63331r1_fix"
   tag "cci": ["CCI-000172"]
   tag "nist": ["AU-12 c", "Rev_4"]
 
-  describe file(input('couchdb_conf_default')) do
-    it { should exist }
-  end
+
 
   describe ini(input('couchdb_conf_default')) do
     its('log.level') { should eq 'info'}

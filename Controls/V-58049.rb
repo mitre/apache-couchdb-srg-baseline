@@ -43,12 +43,9 @@ a centralized log management system. Configure loging to be enabled"
   tag "cci": ["CCI-001844"]
   tag "nist": ["AU-3 (2)", "Rev_4"]
 
-  describe file(input('couchdb_conf_default')) do
-    it { should exist }
-  end
   describe ini(input('couchdb_conf_default')) do
-  its('log.syslog_facility') { should_not be 'nil' }
-  end
+    its('log.syslog_facility') { should cmp /local[0-7]/i }
+    end
 
 end
 

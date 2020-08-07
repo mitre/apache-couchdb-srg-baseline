@@ -9,7 +9,7 @@ holder to cryptographically prove possession of the corresponding private key.
 
     If the private key is stolen, an attacker can use the private key(s) to
 impersonate the certificate holder.  In cases where the DBMS-stored private
-keys are used to authenticate the DBMS to the system\xE2\x80\x99s clients, loss
+keys are used to authenticate the DBMS to the systems clients, loss
 of the corresponding private keys would allow an attacker to successfully
 perform undetected man in the middle attacks against the DBMS system and its
 clients.
@@ -27,7 +27,7 @@ unauthorized actions.
   "
   desc  "check", "
     Review CouchDB configuration to determine whether appropriate access
-controls exist to protect CouchDB's private key(s). If the CouchDB\x92s private
+controls exist to protect CouchDB's private key(s). If the CouchDBs private
 key(s) are not stored in a FIPS 140-2 validated cryptographic module, this is a
 finding.
 
@@ -65,15 +65,21 @@ and authorized users.
   tag "cci": ["CCI-000186"]
   tag "nist": ["IA-5 (2)", "Rev_4"]
 
-  describe file(input('couchdb_conf_local')) do
-    it { should exist }
-  end
   describe ini(input('couchdb_conf_local')) do
     its('ssl.secure_renegotiate') { should eq 'true' }
     its('ssl.cert_file') {should eq '/etc/couchdb/cert/couchdb.pem'}
     its('ssl.cacert_file') {should eq '/etc/ssl/certs/ca-certificates.crt'}
     its('ssl.key_file') {should eq '/etc/couchdb/cert/privkey.pem'}
-
   end
+  
+  describe file(input('couchdbpem')) do
+    it { should exist }
+    its ('mode') { should be 0600 }
+  end
+
+  describe file(input('privkeypem')) do
+    it { should exist }
+    its ('mode') { should be 0600 }
+  end 
 end
 

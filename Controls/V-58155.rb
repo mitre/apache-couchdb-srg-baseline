@@ -37,7 +37,7 @@ must leverage protection mechanisms.
   tag "gid": "V-58155"
   tag "rid": "SV-72585r1_rule"
   tag "stig_id": "SRG-APP-000442-DB-000379"
-  tag "fix_id": nil
+  tag "fix_id": "F-63363r1_fix"
   tag "cci": ["CCI-002422"]
   tag "nist": ["SC-8 (2)", "Rev_4"]
 

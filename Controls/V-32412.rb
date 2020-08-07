@@ -25,7 +25,7 @@ own database objects, this is a finding.
 
     Execute the command
      #GET /db/_security
-    #grep \x91names\x92 and verify that all users are authorized to own
+    #grep names and verify that all users are authorized to own
 database objects.
   "
   desc  "fix", "
@@ -44,5 +44,22 @@ database objects.
   tag "fix_id": nil
   tag "cci": ["CCI-001499"]
   tag "nist": ["CM-5 (6)", "Rev_4"]
+
+  admin_roles = input('approved_admin')
+
+  admin_name = input('couchdb_admin')
+
+  admin_pass = input ('couchdb_adminpass')
+
+  database = input('couchdb_db')
+
+  port = input('couch_port')
+  host = input('couch_host')
+  admin_roles.each do |role|
+    describe command('curl -X GET ' + admin_name + ':' + admin_pass + '@' + host + ':' + port + '/_node/_local/_config/admins') do
+    its('stdout') { should include role }
+    end
+  end
 end
+
 

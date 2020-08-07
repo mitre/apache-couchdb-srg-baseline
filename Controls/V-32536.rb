@@ -50,5 +50,21 @@ objects and code implementing application logic."
   tag "fix_id": nil
   tag "cci": ["CCI-001084"]
   tag "nist": ["SC-3", "Rev_4"]
+
+  admin_roles = input('approved_admin')
+
+  admin_name = input('couchdb_admin')
+
+  admin_pass = input ('couchdb_adminpass')
+
+  database = input('couchdb_db')
+
+  port = input('couch_port')
+  host = input('couch_host')
+  admin_roles.each do |role|
+    describe command('curl -X GET ' + admin_name + ':' + admin_pass + '@' + host + ':' + port + '/_node/_local/_config/admins') do
+    its('stdout') { should include role }
+    end
+  end
 end
 

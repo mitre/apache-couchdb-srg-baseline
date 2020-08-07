@@ -27,12 +27,12 @@ servies."
   tag "gid": "V-58133"
   tag "rid": "SV-72563r1_rule"
   tag "stig_id": "SRG-APP-000383-DB-000364"
-  tag "fix_id": nil
+  tag "fix_id": "F-63341r1_fix"
   tag "cci": ["CCI-001762"]
   tag "nist": ["CM-7 (1) (b)", "Rev_4"]
 
   describe ini(input('couchdb_conf_default')) do
-    its('httpd.port') { should be 'nil' }
+    its('httpd.port') { should be_in input('authorized_ports') }
   end
 end
 

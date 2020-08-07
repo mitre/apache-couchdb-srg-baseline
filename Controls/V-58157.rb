@@ -35,7 +35,7 @@ applicable (NA).
   tag "gid": "V-58157"
   tag "rid": "SV-72587r1_rule"
   tag "stig_id": "SRG-APP-000416-DB-000380"
-  tag "fix_id": nil
+  tag "fix_id": "F-63365r1_fix"
   tag "cci": ["CCI-002450"]
   tag "nist": ["SC-13", "Rev_4"]
 

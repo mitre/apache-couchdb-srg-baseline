@@ -34,7 +34,7 @@ process or user from unauthorized access by another user or process.
   tag "gid": "V-58149"
   tag "rid": "SV-72579r1_rule"
   tag "stig_id": "SRG-APP-000243-DB-000373"
-  tag "fix_id": nil
+  tag "fix_id": "F-63357r1_fix"
   tag "cci": ["CCI-001090"]
   tag "nist": ["SC-4", "Rev_4"]
 

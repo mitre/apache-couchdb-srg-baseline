@@ -34,13 +34,26 @@ administrators with a need to know are permitted to read/view these files.
   tag "gid": "V-58151"
   tag "rid": "SV-72581r1_rule"
   tag "stig_id": "SRG-APP-000243-DB-000374"
-  tag "fix_id": nil
+  tag "fix_id": "F-63359r1_fix"
   tag "cci": ["CCI-001090"]
   tag "nist": ["SC-4", "Rev_4"]
 
-  describe command('curl -X GET /db/_security') do
-    it { should exist }
+  roles = input('approved_users')
+
+  admin_name = input('couchdb_admin')
+
+  admin_pass = input ('couchdb_adminpass')
+
+  database = input('couchdb_db')
+
+  port = input('couch_port')
+  host = input('couch_host')
+  roles.each do |role|
+    describe command('curl -X GET ' + admin_name + ':' + admin_pass + '@' + host + ':' + port + '/' + database + '/_security') do
+    its('stdout') { should include role }
+    end
   end
+
   describe ini(input('couchdb_conf_default')) do
       its ('chttpd.admin_only_all_dbs') { should eq 'true'}
   end

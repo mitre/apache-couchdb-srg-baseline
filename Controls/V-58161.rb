@@ -31,12 +31,12 @@ modules must be validated and certified by NIST as FIPS-compliant.
   tag "gid": "V-58161"
   tag "rid": "SV-72591r1_rule"
   tag "stig_id": "SRG-APP-000514-DB-000382"
-  tag "fix_id": nil
+  tag "fix_id": "F-63369r2_fix"
   tag "cci": ["CCI-002450"]
   tag "nist": ["SC-13", "Rev_4"]
 
-  describe command('cat /proc/sys/crypto/fips_enabled') do
-    its('stdout') { should eq 1 }
-    end
+  describe kernel_parameter('crypto.fips_enabled') do
+    its('value') { should cmp 1 }
+  end
 end
 

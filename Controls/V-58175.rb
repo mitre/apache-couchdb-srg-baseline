@@ -37,11 +37,26 @@ Unused software is removed when updated."
   tag "gid": "V-58175"
   tag "rid": "SV-72605r1_rule"
   tag "stig_id": "SRG-APP-000454-DB-000389"
-  tag "fix_id": nil
+  tag "fix_id": "F-63383r1_fix"
   tag "cci": ["CCI-002617"]
   tag "nist": ["SI-2 (6)", "Rev_4"]
 
-  describe command('sudo rpm -qa | grep couchdb')
-  its('stdout') { should match }
+  if os.debian?
+    dpkg_packages = command("apt list --installed | grep \"couchdb\"").stdout.split("\n")
+    dpkg_packages.each do |packages|
+      describe(packages) do
+        it { should match input('couchdb_version') }
+      end
+    end
+
+  elsif os.linux? || os.redhat?
+    rpm_packages = command("rpm -qa | grep \"couchdb\"").stdout.split("\n")
+
+    rpm_packages.each do |packages|
+      describe(packages) do
+        it { should match input('couchdb_version') }
+      end
+    end
+  end
 end
 

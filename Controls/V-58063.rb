@@ -54,7 +54,7 @@ formerly GMT), this is a finding.
     it { should exist }
   end
   describe ini(input('couchdb_conf_default')) do
-  its('log.writer') { should eq 'journald'}
+  its('log.writer') { should_not eq 'journald'}
   end
 end
 

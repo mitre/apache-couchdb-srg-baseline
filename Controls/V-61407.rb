@@ -25,9 +25,9 @@ the following rules are enforced. If any are not, this is a finding.
     Review CouchDB settings relating to password lifetime. Determine whether
 the following rules are enforced. If any are not, this is a finding.
 
-    # find . -name \"default.ini\"
+    # find . -name \"local.ini\"
 
-    # grep \"file =\" <path to default.ini>
+    # grep \"file =\" <path to local.ini>
     if line does not exist or is commented out, this is a finding.
 
     #cat <path to local.ini>
@@ -56,9 +56,6 @@ following format:
   tag "nist": ["IA-5 (1) (a)", "Rev_4"]
 
   
-  describe file(input('couchdb_conf_local')) do
-    it { should exist }
-  end
 
   describe ini(input('couchdb_conf_local')) do
     its('admins.admin') { should match '-pbkdf2-' }

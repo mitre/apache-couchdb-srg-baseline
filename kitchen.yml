@@ -17,11 +17,18 @@ verifier:
     
     #Modify for specific control
   controls:
+    - V-32203
+    - V-32412
+    - V-32415
+    - V-32426
     - V-32468
     - V-32469
     - V-32475
+    - V-32476
     - V-32480
     - V-32523
+    - V-32536
+    - V-58019
     - V-58049
     - V-58051
     - V-58055
@@ -29,19 +36,28 @@ verifier:
     - V-58063
     - V-58065
     - V-58123
+    - V-58125
     - V-58127
+    - V-58129
+    - V-58133
+    - V-58135
     - V-58137
     - V-58149
     - V-58151
     - V-58153
     - V-58155
     - V-58157
+    - V-58161
     - V-58163
     - V-58165
     - V-58167
+    - V-58175
     - V-58177
     - V-58183
     - V-61407
+
+
+
   input_files:
     - ./inputs.yml
 
@@ -58,6 +74,7 @@ platforms:
       - remote: echo 'enabled=1' |sudo tee -a /etc/yum.repos.d/bintray-apache-couchdb-rpm.repo
       - remote: sudo yum -y install epel-release && sudo yum -y install couchdb
       - remote: sudo sed -i '/\[admins]/a admin = mysecretpassword' /opt/couchdb/etc/local.ini
+      - remote: sudo sed -i '$d' /opt/couchdb/etc/local.ini
       - remote: sudo sed -i '/\[couchdb]/a single_node = true' /opt/couchdb/etc/local.ini
       - remote: sudo systemctl restart couchdb
       - remote: sudo systemctl start couchdb

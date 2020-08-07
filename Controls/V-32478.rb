@@ -34,5 +34,10 @@ CouchDB user account."
   tag "fix_id": nil
   tag "cci": ["CCI-000187"]
   tag "nist": ["IA-5 (2) (c)", "Rev_4"]
+
+  describe "The cn  attribute of the certificate will be compared to the requested database user name, and if they match the login will be allowed." do
+    skip "If the cn and the username mapping do not match, this is a finding."
+    skip "If the cn does not match the users listed in CouchDB and no user mapping is used, this is a finding."
+  end
 end
 

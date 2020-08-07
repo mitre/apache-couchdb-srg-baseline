@@ -43,8 +43,24 @@ finding.
   tag "gid": "V-58129"
   tag "rid": "SV-72559r1_rule"
   tag "stig_id": "SRG-APP-000133-DB-000362"
-  tag "fix_id": nil
+  tag "fix_id": "F-63337r1_fix"
   tag "cci": ["CCI-001499"]
   tag "nist": ["CM-5 (6)", "Rev_4"]
+
+  roles = input('approved_users')
+
+  admin_name = input('couchdb_admin')
+
+  admin_pass = input ('couchdb_adminpass')
+
+  database = input('couchdb_db')
+
+  port = input('couch_port')
+  host = input('couch_host')
+  roles.each do |role|
+    describe command('curl -X GET ' + admin_name + ':' + admin_pass + '@' + host + ':' + port + '/' + database + '/_security') do
+    its('stdout') { should include role }
+    end
+  end
 end
 

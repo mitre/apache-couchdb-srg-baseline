@@ -30,7 +30,7 @@ lifetime of cached authenticators.
   tag "gid": "V-58137"
   tag "rid": "SV-72567r1_rule"
   tag "stig_id": "SRG-APP-000400-DB-000367"
-  tag "fix_id": nil
+  tag "fix_id": "F-63345r1_fix"
   tag "cci": ["CCI-002007"]
   tag "nist": ["IA-5 (13)", "Rev_4"]
 
