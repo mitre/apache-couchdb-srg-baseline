@@ -34,8 +34,8 @@ services deemed by to be nonsecure, in accord with the Ports, Protocols, and
 Services Management (PPSM) guidance.
 
     # find . -name \"default.ini\"\t
-    # grep \x91chttpd\x92 section
-    # grep \x91port\x92
+    # grep chttpd section
+    # grep port
     If the currently defined port configuration is deemed prohibited, this is a
 finding.
 
