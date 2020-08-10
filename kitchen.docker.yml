@@ -21,7 +21,7 @@ platforms:
 - name: ubuntu-18.04
   driver:
     image: couchdb:latest
-    platform: ubuntu-18.04
+    platform: ubuntu
     provision_command:
       - apt update
       - apt install -y systemd-sysv
