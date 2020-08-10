@@ -1,0 +1,54 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  #name: ansible_playbook
+  name: chef_solo
+
+verifier: 
+  name: inspec
+  sudo: true
+  load_plugins: true
+  inspec_tests: 
+    - path: ./controls
+    
+    #Modify for specific control
+  controls:
+    #- V-32475
+  input_files:
+    - ./inputs.yml
+
+
+platforms:
+  - name: centos-7
+    lifecycle:
+     post_create:
+      - remote: sudo touch /etc/yum.repos.d/bintray-apache-couchdb-rpm.repo
+      - remote: echo '[bintray--apache-couchdb-rpm]' |sudo tee -a /etc/yum.repos.d/bintray-apache-couchdb-rpm.repo
+      - remote: echo 'name=bintray--apache-couchdb-rpm' |sudo tee -a /etc/yum.repos.d/bintray-apache-couchdb-rpm.repo
+      - remote: echo 'baseurl=http://apache.bintray.com/couchdb-rpm/el$releasever/$basearch/' |sudo tee -a /etc/yum.repos.d/bintray-apache-couchdb-rpm.repo
+      - remote: echo 'gpgcheck=0' |sudo tee -a /etc/yum.repos.d/bintray-apache-couchdb-rpm.repo
+      - remote: echo 'repo_gpgcheck=0' |sudo tee -a /etc/yum.repos.d/bintray-apache-couchdb-rpm.repo
+      - remote: echo 'enabled=1' |sudo tee -a /etc/yum.repos.d/bintray-apache-couchdb-rpm.repo
+      - remote: sudo yum -y install epel-release && sudo yum -y install couchdb
+      - remote: sudo sed -i '/\[admins]/a admin = mysecretpassword' /opt/couchdb/etc/local.ini
+      - remote: sudo sed -i '/\[couchdb]/a single_node = true' /opt/couchdb/etc/local.ini
+      - remote: sudo systemctl restart couchdb
+      - remote: sudo systemctl start couchdb
+
+    driver: 
+      box: bento/centos-7
+
+suites:
+  - name: vanilla
+    verifier:
+      reporter:
+        - cli
+        - json:./results/couchdb-vanilla-results.json
+  - name: hardened
+    verifier:
+      reporter:
+        - cli
+        - json:./results/couchdb-hardened-results.json
+        
