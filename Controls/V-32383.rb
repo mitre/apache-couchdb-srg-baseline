@@ -47,5 +47,13 @@ in the case of an auditing failure.
   tag "fix_id": nil
   tag "cci": ["CCI-000140"]
   tag "nist": ["AU-5 b", "Rev_4"]
+
+  describe "This test requires a Manual Review: Review CouchDB logging application settings and/or documentation to
+  determine whether the system is capable of shutting down, rolling back all
+  in-flight transactions, in the case of an auditing failure. " do
+    skip "This test requires a Manual Review: Review CouchDB logging application settings and/or documentation to
+    determine whether the system is capable of shutting down, rolling back all
+    in-flight transactions, in the case of an auditing failure. "
+end
 end
 

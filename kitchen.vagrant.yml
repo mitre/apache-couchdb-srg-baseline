@@ -4,7 +4,6 @@ driver:
 
 provisioner:
   name: chef_solo
-
 verifier: 
   name: inspec
   sudo: true
@@ -16,45 +15,6 @@ verifier:
     - path: ./controls
     
     #Modify for specific control
-  controls:
-    - V-32203
-    - V-32412
-    - V-32415
-    - V-32426
-    - V-32468
-    - V-32469
-    - V-32475
-    - V-32476
-    - V-32480
-    - V-32523
-    - V-32536
-    - V-58019
-    - V-58049
-    - V-58051
-    - V-58055
-    - V-58059
-    - V-58063
-    - V-58065
-    - V-58123
-    - V-58125
-    - V-58127
-    - V-58129
-    - V-58133
-    - V-58135
-    - V-58137
-    - V-58149
-    - V-58151
-    - V-58153
-    - V-58155
-    - V-58157
-    - V-58161
-    - V-58163
-    - V-58165
-    - V-58167
-    - V-58175
-    - V-58177
-    - V-58183
-    - V-61407
 
 
 
@@ -83,6 +43,13 @@ platforms:
       box: bento/centos-7
 
 suites:
-  - name: couchdb
-    run_list:
-    attributes:
+  - name: hardened
+    verifier:
+      reporter:
+        - cli
+        - json:spec/results/hardened-test-result.json
+  - name: vanilla
+    verifer:
+      reporter:
+        - cli
+        - json:spec/results/vanilla-test-result.json

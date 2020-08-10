@@ -25,7 +25,7 @@ audit records.
     # find . -name \"default.ini\"
     # grep \"file =\" <path to default.ini>
     if line does not exist or is commented out, this is a finding.
-    #grep \x93file = /var/log/couchdb/couch.log\x94
+    #grep file = /var/log/couchdb/couch.log
 
     If line does not exist, this is a finding.
   "

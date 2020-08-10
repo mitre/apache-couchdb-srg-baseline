@@ -26,8 +26,8 @@ other .ini files. These files should be owned by the database administrator.
 
     Verify the permission of the .ini files with the following commands:
 
-    \xA0 # find . -name \"*.ini\"
-    \xA0 # ls -la <path of .ini file>
+     # find . -name \"*.ini\"
+     # ls -la <path of .ini file>
 
     If any of these .ini files are not owned by the database administrator,
 this is a finding.
@@ -36,9 +36,9 @@ this is a finding.
     As the system administrator, change the permissions of the configuration
 files:
 
-    \xA0 # sudo chown -R <Database Admin>:<Database Admin Group> <Configuration
+     # sudo chown -R <Database Admin>:<Database Admin Group> <Configuration
 file>
-    \xA0 # sudo chmod 600 <Configuration file>
+     # sudo chmod 600 <Configuration file>
   "
   impact 0.5
   tag "severity": "medium"

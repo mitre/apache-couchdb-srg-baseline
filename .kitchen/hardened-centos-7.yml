@@ -1,0 +1,7 @@
+---
+hostname: 127.0.0.1
+port: '2200'
+username: vagrant
+ssh_key: C:/Users/zhangc/git/apache-couchdb-srg-baseline/.kitchen/kitchen-vagrant/hardened-centos-7/.vagrant/machines/default/virtualbox/private_key
+last_action: setup
+last_error: Kitchen::ActionFailed

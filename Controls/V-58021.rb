@@ -60,5 +60,9 @@ to ensure privilege elevation is used only as required.
   tag "fix_id": nil
   tag "cci": ["CCI-002233"]
   tag "nist": ["AC-6 (8)", "Rev_4"]
+
+  describe "This is a Manual Check:  Review the system documentation, database and CouchDB security configuration, source code for DBMS internal logic, source code of external modules invoked by CouchDB, and source code of the application(s) using the database." do
+    skip "This is a Manual Check:  Review the system documentation, database and CouchDB security configuration, source code for DBMS internal logic, source code of external modules invoked by CouchDB, and source code of the application(s) using the database."
+  end
 end
 

@@ -38,20 +38,10 @@ identifiers that are system-generated."
   tag "cci": ["CCI-001664"]
   tag "nist": ["SC-23 (3)", "Rev_4"]
 
-  roles = input('approved_users')
-
-  admin_name = input('couchdb_admin')
-
-  admin_pass = input ('couchdb_adminpass')
-
-  database = input('couchdb_db')
-
-  port = input('couch_port')
-  host = input('couch_host')
-  roles.each do |role|
-    describe command('curl -X GET ' + admin_name + ':' + admin_pass + '@' + host + ':' + port + '/' + database + '/_security') do
-    its('stdout') { should include role }
-    end
+  describe "This is a Manual Check: Review the CouchDB settings and vendor documentation to determine whether
+  CouchDB recognizes session identifiers that are not system-generated." do
+    skip "This is a Manual Check: Review the CouchDB settings and vendor documentation to determine whether
+    CouchDB recognizes session identifiers that are not system-generated."
   end
 end
 
