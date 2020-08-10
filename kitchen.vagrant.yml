@@ -12,13 +12,6 @@ verifier:
   load_plugins: true
   inspec_tests: 
     - path: ./
-    
-    #Modify for specific control
-  controls:
-    #- V-32475
-  input_files:
-    - ./inputs.yml
-
 
 platforms:
   - name: centos-7
@@ -43,12 +36,16 @@ platforms:
 suites:
   - name: vanilla
     verifier:
+      input_files:
+        - ./inputs.vanilla.yml
       reporter:
         - cli
-        - json:./results/couchdb-vanilla-results.json
+        - json:.spec/results/vanilla-results.json
   - name: hardened
     verifier:
+      input_files:
+        - ./inputs.hardened.yml
       reporter:
         - cli
-        - json:./results/couchdb-hardened-results.json
+        - json:.spec/results/hardened-results.json
         
