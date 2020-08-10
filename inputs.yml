@@ -1,3 +1,22 @@
 
 #decription Path for CouchDB configuration file
-couchdb_conf: '/opt/couchdb/etc/local.ini'
+couchdb_conf_local: '/opt/couchdb/etc/local.ini'
+couchdb_conf_default: '/opt/couchdb/etc/default.ini'
+couchdbpem: '/etc/couchdb/cert/couchdb.pem'
+privkeypem: '/etc/couchdb/cert/privkey.pem'
+
+auth_ports: [
+'80',
+'443'
+]
+
+admin_group: 'couchdb'
+
+max_connections: '20'
+
+application_root: 
+
+server_cert_file:
+
+server_key_file:
+
