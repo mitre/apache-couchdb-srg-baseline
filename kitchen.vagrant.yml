@@ -40,12 +40,12 @@ suites:
         - inputs.vanilla.yml
       reporter:
         - cli
-        - json:spec/results/vanilla-results.json
+        - json:spec/results/vanilla-test-result.json
   - name: hardened
     verifier:
       input_files:
         - inputs.hardened.yml
       reporter:
         - cli
-        - json:spec/results/hardened-results.json
+        - json:spec/results/hardened-test-result.json
         

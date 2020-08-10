@@ -51,6 +51,9 @@ jobs:
       run: |
         mkdir results
         bundle exec kitchen test --destroy=always ${{ matrix.suite }}-ubuntu-1804 || true
+
+    - name: See Kitchen log file
+      run: cat .kitchen/logs/${{ matrix.suite }}-ubuntu-1804.log
     - name: Display our ${{ matrix.suite }} results summary
       run: bundle exec inspec_tools summary -j spec/results/${{ matrix.suite }}-test-result.json --json-counts | jq .
     - name: Ensure the scan meets our ${{ matrix.suite }} results threshold
