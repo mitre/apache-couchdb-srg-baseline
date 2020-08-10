@@ -11,7 +11,7 @@ verifier:
   sudo: true
   load_plugins: true
   inspec_tests: 
-    - path: ./controls
+    - path: ./
     
     #Modify for specific control
   controls:

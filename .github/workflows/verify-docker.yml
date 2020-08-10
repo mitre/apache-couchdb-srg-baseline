@@ -2,9 +2,9 @@ name: Verify the Baseline using Docker
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, feature/** ]
   pull_request:
-    branches: [ master ]
+    branches: [ master, feature/** ]
   release:
     types:
       - published
@@ -50,7 +50,7 @@ jobs:
     - name: Test-Kitchen
       run: |
         mkdir results
-        bundle exec kitchen test --destroy=always ${{ matrix.suite }}-debian10-nginx-latest || true
+        bundle exec kitchen test --destroy=always ${{ matrix.suite }}-ubuntu-1804 || true
     - name: Display our ${{ matrix.suite }} results summary
       run: bundle exec inspec_tools summary -j spec/results/${{ matrix.suite }}-test-result.json --json-counts | jq .
     - name: Ensure the scan meets our ${{ matrix.suite }} results threshold

@@ -2,9 +2,9 @@ name: Verify the Baseline using Vagrant
 
 on:
   push:
-    branches: [ master, feature/** ]
+    branches: [ master ]
   pull_request:
-    branches: [ master, feature/** ]
+    branches: [ master ]
   release:
     types:
       - published
@@ -49,7 +49,7 @@ jobs:
       - name: Lint the Inspec profile
         run: bundle exec inspec check .
       - name: Run kitchen test
-        run: bundle exec kitchen test --destroy=always ${{ matrix.suite }}-centos-7 || true
+        run: bundle exec kitchen test --destroy=always ${{ matrix.suite }}-ubuntu-1804 || true
       - name: Display our ${{ matrix.suite }} results summary
         run: bundle exec inspec_tools summary -j spec/results/${{ matrix.suite }}-test-result.json --json-counts | jq .
       - name: Ensure the scan meets our ${{ matrix.suite }} results threshold
