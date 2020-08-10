@@ -37,15 +37,15 @@ suites:
   - name: vanilla
     verifier:
       input_files:
-        - ./inputs.vanilla.yml
+        - inputs.vanilla.yml
       reporter:
         - cli
-        - json:.spec/results/vanilla-results.json
+        - json:spec/results/vanilla-results.json
   - name: hardened
     verifier:
       input_files:
-        - ./inputs.hardened.yml
+        - inputs.hardened.yml
       reporter:
         - cli
-        - json:.spec/results/hardened-results.json
+        - json:spec/results/hardened-results.json
         

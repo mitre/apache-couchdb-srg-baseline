@@ -31,14 +31,14 @@ suites:
   - name: hardened
     verifier:
       input_files:
-        - ./inputs.hardened.yml
+        - inputs.hardened.yml
       reporter:
         - cli
         - json:spec/results/hardened-test-result.json
   - name: vanilla
     verifier:
       input_files:
-        - ./inputs.vanilla.yml
+        - inputs.vanilla.yml
       reporter:
         - cli
         - json:spec/results/vanilla-test-result.json
