@@ -41,5 +41,9 @@ are deleted.
   tag "fix_id": nil
   tag "cci": ["CCI-000172"]
   tag "nist": ["AU-12 c", "Rev_4"]
+  
+  describe ini(input('couchdb_conf_defaultt')) do
+    its('log.level') { should eq 'info' }
+  end
 end
 
