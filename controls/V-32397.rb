@@ -60,7 +60,7 @@ file>
     if file(input('couchdb_conf_default')).exist?
     describe file(input('couchdb_conf_default')) do
       its ('mode') { should be 0640 }
-      its ('owner') { should eq input('admin_group') }
+      its ('owner') { should eq input('couchdb_owner') }
     end
   else
     describe "The #{input('couchdb_conf_default')} file is missing, we cannot test this control" do
@@ -71,7 +71,7 @@ file>
   if file(input('couchdb_conf_local')).exist?
     describe file(input('couchdb_conf_local')) do
       its ('mode') { should be 0640 }
-      its ('owner') { should eq input('admin_group') }
+      its ('owner') { should eq input('couchdb_owner') }
     end
   else
     describe "The #{input('couchdb_conf_local')} file is missing, we cannot test this control" do
