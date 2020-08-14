@@ -50,10 +50,7 @@ information to establish the sources (origins) of the events.
   tag "cci": ["CCI-000133"]
   tag "nist": ["AU-3", "Rev_4"]
   
-  describe file(input('couchdb_conf_default')) do
-    it { should exist }
-  end
-  describe ini(input('couchdb_conf_default')) do
+  describe ini(input('couchdb_conf_defaultt')) do
     its('log.level') { should eq 'info' }
   end
 end
