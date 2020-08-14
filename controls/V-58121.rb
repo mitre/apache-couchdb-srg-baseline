@@ -51,7 +51,7 @@ objects occur.
   tag "cci": ["CCI-000172"]
   tag "nist": ["AU-12 c", "Rev_4"]
   
-  describe ini(input('couchdb_conf_defaultt')) do
+  describe ini(input('couchdb_conf_default')) do
     its('log.level') { should eq 'info' }
   end
 end
