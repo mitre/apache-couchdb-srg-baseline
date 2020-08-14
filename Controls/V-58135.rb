@@ -64,7 +64,10 @@ finding.
   tag "cci": ["CCI-001812"]
   tag "nist": ["CM-11 (2)", "Rev_4"]
 
-  roles = input('approved_users')
+  members = input('approved_members')
+
+  admin = input('approved_admin')
+
 
   admin_name = input('couchdb_admin')
 
@@ -73,10 +76,14 @@ finding.
   database = input('couchdb_db')
 
   port = input('couch_port')
+
   host = input('couch_host')
-  roles.each do |role|
-    describe command('curl -X GET ' + admin_name + ':' + admin_pass + '@' + host + ':' + port + '/' + database + '/_security') do
-    its('stdout') { should include role }
+
+  output = command('curl -X GET ' + admin_name + ':' + admin_pass + '@' + host + ':' + port + '/' + database + '/_security')
+  priviliges = output.lines
+admin.each do |admin_role|
+    describe privileges do
+      it (should include admin_role)
     end
   end
 end

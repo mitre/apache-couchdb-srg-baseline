@@ -1,0 +1,49 @@
+I, [2020-08-13T14:19:38.183562 #15288]  INFO -- hardened-centos-7: -----> Converging <hardened-centos-7>...
+I, [2020-08-13T14:19:38.215915 #15288]  INFO -- hardened-centos-7: Preparing files for transfer
+I, [2020-08-13T14:19:38.218912 #15288]  INFO -- hardened-centos-7: Preparing dna.json
+I, [2020-08-13T14:19:38.240272 #15288]  INFO -- hardened-centos-7: Policyfile, Berksfile, cookbooks/, or metadata.rb not found so Chef Infra Client will run, but do nothing. Is this intended?
+I, [2020-08-13T14:19:38.296493 #15288]  INFO -- hardened-centos-7: Removing non-cookbook files before transfer
+I, [2020-08-13T14:19:38.374356 #15288]  INFO -- hardened-centos-7: Preparing solo.rb
+I, [2020-08-13T14:19:38.898628 #15288]  INFO -- hardened-centos-7: -----> Chef installation detected (install only if missing)
+I, [2020-08-13T14:19:39.001525 #15288]  INFO -- hardened-centos-7: Transferring files to <hardened-centos-7>
+I, [2020-08-13T14:19:48.247681 #15288]  INFO -- hardened-centos-7: Starting Chef Infra Client, version 16.3.45
+I, [2020-08-13T14:19:52.008512 #15288]  INFO -- hardened-centos-7: resolving cookbooks for run list: []
+I, [2020-08-13T14:19:52.037183 #15288]  INFO -- hardened-centos-7: Synchronizing Cookbooks:
+I, [2020-08-13T14:19:52.137613 #15288]  INFO -- hardened-centos-7: Installing Cookbook Gems:
+I, [2020-08-13T14:19:52.142334 #15288]  INFO -- hardened-centos-7: Compiling Cookbooks...
+I, [2020-08-13T14:19:52.146143 #15288]  INFO -- hardened-centos-7: [2020-08-13T18:19:50+00:00] WARN: Node hardened-centos-7 has an empty run list.
+I, [2020-08-13T14:19:52.146364 #15288]  INFO -- hardened-centos-7: Converging 0 resources
+I, [2020-08-13T14:19:52.344100 #15288]  INFO -- hardened-centos-7: 
+I, [2020-08-13T14:19:52.346819 #15288]  INFO -- hardened-centos-7: Running handlers:
+I, [2020-08-13T14:19:52.347324 #15288]  INFO -- hardened-centos-7: Running handlers complete
+I, [2020-08-13T14:19:52.347692 #15288]  INFO -- hardened-centos-7: Chef Infra Client finished, 0/0 resources updated in 04 seconds
+I, [2020-08-13T14:19:52.379766 #15288]  INFO -- hardened-centos-7: Downloading files from <hardened-centos-7>
+I, [2020-08-13T14:19:52.418419 #15288]  INFO -- hardened-centos-7: Finished converging <hardened-centos-7> (0m14.23s).
+I, [2020-08-13T14:19:52.454500 #15288]  INFO -- hardened-centos-7: -----> Setting up <hardened-centos-7>...
+I, [2020-08-13T14:19:52.474987 #15288]  INFO -- hardened-centos-7: Finished setting up <hardened-centos-7> (0m0.00s).
+I, [2020-08-13T14:19:52.505469 #15288]  INFO -- hardened-centos-7: -----> Verifying <hardened-centos-7>...
+I, [2020-08-13T14:19:55.593897 #15288]  INFO -- hardened-centos-7: Loaded final_CouchDB 
+E, [2020-08-13T14:20:09.853266 #15288] ERROR -- hardened-centos-7: Verify failed on instance <hardened-centos-7>.
+E, [2020-08-13T14:20:09.853794 #15288] ERROR -- hardened-centos-7: ------Exception-------
+E, [2020-08-13T14:20:09.853969 #15288] ERROR -- hardened-centos-7: Class: Kitchen::ActionFailed
+E, [2020-08-13T14:20:09.854141 #15288] ERROR -- hardened-centos-7: Message: InSpec Runner returns 1
+E, [2020-08-13T14:20:09.854270 #15288] ERROR -- hardened-centos-7: ----------------------
+E, [2020-08-13T14:20:09.854382 #15288] ERROR -- hardened-centos-7: ------Backtrace-------
+E, [2020-08-13T14:20:09.854492 #15288] ERROR -- hardened-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/kitchen-inspec-2.0.0/lib/kitchen/verifier/inspec.rb:108:in `call'
+E, [2020-08-13T14:20:09.854602 #15288] ERROR -- hardened-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:458:in `block in verify_action'
+E, [2020-08-13T14:20:09.854702 #15288] ERROR -- hardened-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:551:in `synchronize_or_call'
+E, [2020-08-13T14:20:09.854798 #15288] ERROR -- hardened-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:513:in `block in action'
+E, [2020-08-13T14:20:09.854902 #15288] ERROR -- hardened-centos-7: C:/Ruby26-x64/lib/ruby/2.6.0/benchmark.rb:293:in `measure'
+E, [2020-08-13T14:20:09.855009 #15288] ERROR -- hardened-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:512:in `action'
+E, [2020-08-13T14:20:09.855177 #15288] ERROR -- hardened-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:450:in `verify_action'
+E, [2020-08-13T14:20:09.855292 #15288] ERROR -- hardened-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:381:in `block (2 levels) in transition_to'
+E, [2020-08-13T14:20:09.855402 #15288] ERROR -- hardened-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/lifecycle_hooks.rb:44:in `run_with_hooks'
+E, [2020-08-13T14:20:09.855509 #15288] ERROR -- hardened-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:380:in `block in transition_to'
+E, [2020-08-13T14:20:09.855617 #15288] ERROR -- hardened-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:379:in `each'
+E, [2020-08-13T14:20:09.855725 #15288] ERROR -- hardened-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:379:in `transition_to'
+E, [2020-08-13T14:20:09.855836 #15288] ERROR -- hardened-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:161:in `verify'
+E, [2020-08-13T14:20:09.855947 #15288] ERROR -- hardened-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/command.rb:197:in `public_send'
+E, [2020-08-13T14:20:09.856055 #15288] ERROR -- hardened-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2020-08-13T14:20:09.856161 #15288] ERROR -- hardened-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/command.rb:168:in `block (2 levels) in run_action'
+E, [2020-08-13T14:20:09.856272 #15288] ERROR -- hardened-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/logging-2.3.0/lib/logging/diagnostic_context.rb:474:in `block in create_with_logging_context'
+E, [2020-08-13T14:20:09.856384 #15288] ERROR -- hardened-centos-7: ----End Backtrace-----

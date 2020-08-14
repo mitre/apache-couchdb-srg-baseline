@@ -1,65 +1,163 @@
-I, [2020-08-10T11:43:52.254405 #19220]  INFO -- Kitchen: -----> Starting Test Kitchen (v2.5.4)
-E, [2020-08-10T11:44:01.761569 #19220] ERROR -- Kitchen: ------Exception-------
-E, [2020-08-10T11:44:01.761767 #19220] ERROR -- Kitchen: Class: Kitchen::ClientError
-E, [2020-08-10T11:44:01.761862 #19220] ERROR -- Kitchen: Message: Could not load the 'inspec' verifier from the load path. Did you mean: busser, dummy, shell ? Please ensure that your verifier is installed as a gem or included in your Gemfile if using Bundler.
-E, [2020-08-10T11:44:01.761963 #19220] ERROR -- Kitchen: ----------------------
-E, [2020-08-10T11:44:01.762064 #19220] ERROR -- Kitchen: ------Backtrace-------
-E, [2020-08-10T11:44:01.762172 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/plugin.rb:55:in `rescue in load'
-E, [2020-08-10T11:44:01.762248 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/plugin.rb:33:in `load'
-E, [2020-08-10T11:44:01.762331 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/verifier.rb:36:in `for_plugin'
-E, [2020-08-10T11:44:01.762426 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/config.rb:338:in `new_verifier'
-E, [2020-08-10T11:44:01.762530 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/config.rb:255:in `new_instance'
-E, [2020-08-10T11:44:01.762641 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/config.rb:143:in `block in build_instances'
-E, [2020-08-10T11:44:01.762844 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/config.rb:142:in `map'
-E, [2020-08-10T11:44:01.762931 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/config.rb:142:in `with_index'
-E, [2020-08-10T11:44:01.763015 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/config.rb:142:in `build_instances'
-E, [2020-08-10T11:44:01.763107 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/config.rb:116:in `instances'
-E, [2020-08-10T11:44:01.763183 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/command.rb:111:in `filtered_instances'
-E, [2020-08-10T11:44:01.763402 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/command.rb:141:in `parse_subcommand'
-E, [2020-08-10T11:44:01.763476 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/command/action.rb:34:in `block in call'
-E, [2020-08-10T11:44:01.763570 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/2.6.0/benchmark.rb:293:in `measure'
-E, [2020-08-10T11:44:01.763680 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/command/action.rb:33:in `call'
-E, [2020-08-10T11:44:01.765535 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/cli.rb:51:in `perform'
-E, [2020-08-10T11:44:01.765688 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/cli.rb:197:in `block (2 levels) in <class:CLI>'
-E, [2020-08-10T11:44:01.765863 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/thor-1.0.1/lib/thor/command.rb:27:in `run'
-E, [2020-08-10T11:44:01.765941 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/thor-1.0.1/lib/thor/invocation.rb:127:in `invoke_command'
-E, [2020-08-10T11:44:01.766032 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/thor-1.0.1/lib/thor.rb:392:in `dispatch'
-E, [2020-08-10T11:44:01.766123 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/thor-1.0.1/lib/thor/base.rb:485:in `start'
-E, [2020-08-10T11:44:01.766208 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/bin/kitchen:11:in `block in <top (required)>'
-E, [2020-08-10T11:44:01.766281 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/errors.rb:170:in `with_friendly_errors'
-E, [2020-08-10T11:44:01.766398 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/bin/kitchen:11:in `<top (required)>'
-E, [2020-08-10T11:44:01.766474 #19220] ERROR -- Kitchen: C:/Ruby26-x64/bin/kitchen:23:in `load'
-E, [2020-08-10T11:44:01.766698 #19220] ERROR -- Kitchen: C:/Ruby26-x64/bin/kitchen:23:in `<main>'
-E, [2020-08-10T11:44:01.766816 #19220] ERROR -- Kitchen: ----End Backtrace-----
-E, [2020-08-10T11:44:01.766915 #19220] ERROR -- Kitchen: ---Nested Exception---
-E, [2020-08-10T11:44:01.767014 #19220] ERROR -- Kitchen: Class: LoadError
-E, [2020-08-10T11:44:01.767167 #19220] ERROR -- Kitchen: Message: cannot load such file -- kitchen/verifier/inspec
-E, [2020-08-10T11:44:01.767299 #19220] ERROR -- Kitchen: ----------------------
-E, [2020-08-10T11:44:01.767455 #19220] ERROR -- Kitchen: ------Backtrace-------
-E, [2020-08-10T11:44:01.767592 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/plugin.rb:55:in `rescue in load'
-E, [2020-08-10T11:44:01.767724 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/plugin.rb:33:in `load'
-E, [2020-08-10T11:44:01.767855 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/verifier.rb:36:in `for_plugin'
-E, [2020-08-10T11:44:01.767991 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/config.rb:338:in `new_verifier'
-E, [2020-08-10T11:44:01.768124 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/config.rb:255:in `new_instance'
-E, [2020-08-10T11:44:01.768284 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/config.rb:143:in `block in build_instances'
-E, [2020-08-10T11:44:01.768419 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/config.rb:142:in `map'
-E, [2020-08-10T11:44:01.768569 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/config.rb:142:in `with_index'
-E, [2020-08-10T11:44:01.768661 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/config.rb:142:in `build_instances'
-E, [2020-08-10T11:44:01.768765 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/config.rb:116:in `instances'
-E, [2020-08-10T11:44:01.768839 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/command.rb:111:in `filtered_instances'
-E, [2020-08-10T11:44:01.768941 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/command.rb:141:in `parse_subcommand'
-E, [2020-08-10T11:44:01.769010 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/command/action.rb:34:in `block in call'
-E, [2020-08-10T11:44:01.769080 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/2.6.0/benchmark.rb:293:in `measure'
-E, [2020-08-10T11:44:01.769230 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/command/action.rb:33:in `call'
-E, [2020-08-10T11:44:01.769315 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/cli.rb:51:in `perform'
-E, [2020-08-10T11:44:01.769416 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/cli.rb:197:in `block (2 levels) in <class:CLI>'
-E, [2020-08-10T11:44:01.769521 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/thor-1.0.1/lib/thor/command.rb:27:in `run'
-E, [2020-08-10T11:44:01.769591 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/thor-1.0.1/lib/thor/invocation.rb:127:in `invoke_command'
-E, [2020-08-10T11:44:01.769662 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/thor-1.0.1/lib/thor.rb:392:in `dispatch'
-E, [2020-08-10T11:44:01.769753 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/thor-1.0.1/lib/thor/base.rb:485:in `start'
-E, [2020-08-10T11:44:01.769825 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/bin/kitchen:11:in `block in <top (required)>'
-E, [2020-08-10T11:44:01.769894 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/errors.rb:170:in `with_friendly_errors'
-E, [2020-08-10T11:44:01.769968 #19220] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/bin/kitchen:11:in `<top (required)>'
-E, [2020-08-10T11:44:01.770055 #19220] ERROR -- Kitchen: C:/Ruby26-x64/bin/kitchen:23:in `load'
-E, [2020-08-10T11:44:01.770151 #19220] ERROR -- Kitchen: C:/Ruby26-x64/bin/kitchen:23:in `<main>'
-E, [2020-08-10T11:44:01.770222 #19220] ERROR -- Kitchen: ----End Backtrace-----
+I, [2020-08-13T14:19:04.601292 #15288]  INFO -- Kitchen: -----> Starting Test Kitchen (v2.5.4)
+I, [2020-08-13T14:19:15.793029 #15288]  INFO -- Kitchen: -----> Converging <vanilla-centos-7>...
+I, [2020-08-13T14:19:23.499272 #15288]  INFO -- Kitchen: -----> Setting up <vanilla-centos-7>...
+I, [2020-08-13T14:19:23.506630 #15288]  INFO -- Kitchen: -----> Verifying <vanilla-centos-7>...
+I, [2020-08-13T14:19:38.183416 #15288]  INFO -- Kitchen: -----> Converging <hardened-centos-7>...
+I, [2020-08-13T14:19:52.454173 #15288]  INFO -- Kitchen: -----> Setting up <hardened-centos-7>...
+I, [2020-08-13T14:19:52.504941 #15288]  INFO -- Kitchen: -----> Verifying <hardened-centos-7>...
+E, [2020-08-13T14:20:09.873854 #15288] ERROR -- Kitchen: ------Exception-------
+E, [2020-08-13T14:20:09.874536 #15288] ERROR -- Kitchen: Class: Kitchen::ActionFailed
+E, [2020-08-13T14:20:09.879476 #15288] ERROR -- Kitchen: Message: 2 actions failed.
+>>>>>>     Failed to complete #verify action: [Error reading InSpec inputs: (inputs.vanilla.yml): did not find expected ',' or ']' while parsing a flow sequence at line 30 column 19] on vanilla-centos-7
+>>>>>>     Verify failed on instance <hardened-centos-7>.  Please see .kitchen/logs/hardened-centos-7.log for more details
+E, [2020-08-13T14:20:09.879620 #15288] ERROR -- Kitchen: ----------------------
+E, [2020-08-13T14:20:09.879743 #15288] ERROR -- Kitchen: ------Backtrace-------
+E, [2020-08-13T14:20:09.879863 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/command.rb:183:in `report_errors'
+E, [2020-08-13T14:20:09.879980 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/command.rb:174:in `run_action'
+E, [2020-08-13T14:20:09.880093 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/command/action.rb:35:in `block in call'
+E, [2020-08-13T14:20:09.880216 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/2.6.0/benchmark.rb:293:in `measure'
+E, [2020-08-13T14:20:09.880328 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/command/action.rb:33:in `call'
+E, [2020-08-13T14:20:09.880436 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/cli.rb:51:in `perform'
+E, [2020-08-13T14:20:09.880545 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/cli.rb:197:in `block (2 levels) in <class:CLI>'
+E, [2020-08-13T14:20:09.880660 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/thor-1.0.1/lib/thor/command.rb:27:in `run'
+E, [2020-08-13T14:20:09.880768 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/thor-1.0.1/lib/thor/invocation.rb:127:in `invoke_command'
+E, [2020-08-13T14:20:09.880878 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/thor-1.0.1/lib/thor.rb:392:in `dispatch'
+E, [2020-08-13T14:20:09.880992 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/thor-1.0.1/lib/thor/base.rb:485:in `start'
+E, [2020-08-13T14:20:09.881104 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/bin/kitchen:11:in `block in <top (required)>'
+E, [2020-08-13T14:20:09.881218 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/errors.rb:170:in `with_friendly_errors'
+E, [2020-08-13T14:20:09.881327 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/bin/kitchen:11:in `<top (required)>'
+E, [2020-08-13T14:20:09.881437 #15288] ERROR -- Kitchen: C:/Ruby26-x64/bin/kitchen:23:in `load'
+E, [2020-08-13T14:20:09.881550 #15288] ERROR -- Kitchen: C:/Ruby26-x64/bin/kitchen:23:in `<main>'
+E, [2020-08-13T14:20:09.881668 #15288] ERROR -- Kitchen: ----End Backtrace-----
+E, [2020-08-13T14:20:09.881783 #15288] ERROR -- Kitchen: -Composite Exception--
+E, [2020-08-13T14:20:09.881898 #15288] ERROR -- Kitchen: Class: Kitchen::ActionFailed
+E, [2020-08-13T14:20:09.882019 #15288] ERROR -- Kitchen: Message: Failed to complete #verify action: [Error reading InSpec inputs: (inputs.vanilla.yml): did not find expected ',' or ']' while parsing a flow sequence at line 30 column 19] on vanilla-centos-7
+E, [2020-08-13T14:20:09.882206 #15288] ERROR -- Kitchen: ----------------------
+E, [2020-08-13T14:20:09.882322 #15288] ERROR -- Kitchen: ------Backtrace-------
+E, [2020-08-13T14:20:09.882442 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/secrets/yaml.rb:26:in `rescue in initialize'
+E, [2020-08-13T14:20:09.882559 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/secrets/yaml.rb:18:in `initialize'
+E, [2020-08-13T14:20:09.882673 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/secrets/yaml.rb:14:in `new'
+E, [2020-08-13T14:20:09.882791 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/secrets/yaml.rb:14:in `resolve'
+E, [2020-08-13T14:20:09.882903 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/plugin/v1/registry.rb:14:in `block in resolve'
+E, [2020-08-13T14:20:09.883014 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/plugin/v1/registry.rb:13:in `each'
+E, [2020-08-13T14:20:09.883173 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/plugin/v1/registry.rb:13:in `resolve'
+E, [2020-08-13T14:20:09.883483 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/input_registry.rb:241:in `block in bind_inputs_from_input_files'
+E, [2020-08-13T14:20:09.883742 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/input_registry.rb:237:in `each'
+E, [2020-08-13T14:20:09.884083 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/input_registry.rb:237:in `bind_inputs_from_input_files'
+E, [2020-08-13T14:20:09.884518 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/input_registry.rb:145:in `bind_profile_inputs'
+E, [2020-08-13T14:20:09.884878 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/input_registry.rb:344:in `block (2 levels) in <class:InputRegistry>'
+E, [2020-08-13T14:20:09.885237 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/profile.rb:136:in `initialize'
+E, [2020-08-13T14:20:09.885609 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/profile.rb:61:in `new'
+E, [2020-08-13T14:20:09.886832 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/profile.rb:61:in `for_path'
+E, [2020-08-13T14:20:09.887232 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/profile.rb:68:in `for_fetcher'
+E, [2020-08-13T14:20:09.887558 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/profile.rb:74:in `for_target'
+E, [2020-08-13T14:20:09.887862 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/runner.rb:198:in `add_target'
+E, [2020-08-13T14:20:09.888079 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/kitchen-inspec-2.0.0/lib/kitchen/verifier/inspec.rb:97:in `block in call'
+E, [2020-08-13T14:20:09.888226 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/kitchen-inspec-2.0.0/lib/kitchen/verifier/inspec.rb:96:in `each'
+E, [2020-08-13T14:20:09.888332 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/kitchen-inspec-2.0.0/lib/kitchen/verifier/inspec.rb:96:in `call'
+E, [2020-08-13T14:20:09.888430 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:458:in `block in verify_action'
+E, [2020-08-13T14:20:09.888526 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:551:in `synchronize_or_call'
+E, [2020-08-13T14:20:09.888719 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:513:in `block in action'
+E, [2020-08-13T14:20:09.888917 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/2.6.0/benchmark.rb:293:in `measure'
+E, [2020-08-13T14:20:09.889302 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:512:in `action'
+E, [2020-08-13T14:20:09.889785 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:450:in `verify_action'
+E, [2020-08-13T14:20:09.890224 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:381:in `block (2 levels) in transition_to'
+E, [2020-08-13T14:20:09.890741 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/lifecycle_hooks.rb:44:in `run_with_hooks'
+E, [2020-08-13T14:20:09.891195 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:380:in `block in transition_to'
+E, [2020-08-13T14:20:09.891673 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:379:in `each'
+E, [2020-08-13T14:20:09.892286 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:379:in `transition_to'
+E, [2020-08-13T14:20:09.892733 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:161:in `verify'
+E, [2020-08-13T14:20:09.892966 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/command.rb:197:in `public_send'
+E, [2020-08-13T14:20:09.893109 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2020-08-13T14:20:09.893237 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/command.rb:168:in `block (2 levels) in run_action'
+E, [2020-08-13T14:20:09.893384 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/logging-2.3.0/lib/logging/diagnostic_context.rb:474:in `block in create_with_logging_context'
+E, [2020-08-13T14:20:09.893870 #15288] ERROR -- Kitchen: ----End Backtrace-----
+E, [2020-08-13T14:20:09.894427 #15288] ERROR -- Kitchen: ---Nested Exception---
+E, [2020-08-13T14:20:09.894669 #15288] ERROR -- Kitchen: Class: Kitchen::ActionFailed
+E, [2020-08-13T14:20:09.895247 #15288] ERROR -- Kitchen: Message: Failed to complete #verify action: [Error reading InSpec inputs: (inputs.vanilla.yml): did not find expected ',' or ']' while parsing a flow sequence at line 30 column 19]
+E, [2020-08-13T14:20:09.895791 #15288] ERROR -- Kitchen: ----------------------
+E, [2020-08-13T14:20:09.896152 #15288] ERROR -- Kitchen: ------Backtrace-------
+E, [2020-08-13T14:20:09.896401 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/secrets/yaml.rb:26:in `rescue in initialize'
+E, [2020-08-13T14:20:09.896549 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/secrets/yaml.rb:18:in `initialize'
+E, [2020-08-13T14:20:09.896708 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/secrets/yaml.rb:14:in `new'
+E, [2020-08-13T14:20:09.896839 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/secrets/yaml.rb:14:in `resolve'
+E, [2020-08-13T14:20:09.896965 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/plugin/v1/registry.rb:14:in `block in resolve'
+E, [2020-08-13T14:20:09.897088 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/plugin/v1/registry.rb:13:in `each'
+E, [2020-08-13T14:20:09.897210 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/plugin/v1/registry.rb:13:in `resolve'
+E, [2020-08-13T14:20:09.897332 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/input_registry.rb:241:in `block in bind_inputs_from_input_files'
+E, [2020-08-13T14:20:09.897563 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/input_registry.rb:237:in `each'
+E, [2020-08-13T14:20:09.897693 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/input_registry.rb:237:in `bind_inputs_from_input_files'
+E, [2020-08-13T14:20:09.897872 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/input_registry.rb:145:in `bind_profile_inputs'
+E, [2020-08-13T14:20:09.897997 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/input_registry.rb:344:in `block (2 levels) in <class:InputRegistry>'
+E, [2020-08-13T14:20:09.898119 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/profile.rb:136:in `initialize'
+E, [2020-08-13T14:20:09.898242 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/profile.rb:61:in `new'
+E, [2020-08-13T14:20:09.898364 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/profile.rb:61:in `for_path'
+E, [2020-08-13T14:20:09.898518 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/profile.rb:68:in `for_fetcher'
+E, [2020-08-13T14:20:09.898643 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/profile.rb:74:in `for_target'
+E, [2020-08-13T14:20:09.898766 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/runner.rb:198:in `add_target'
+E, [2020-08-13T14:20:09.899091 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/kitchen-inspec-2.0.0/lib/kitchen/verifier/inspec.rb:97:in `block in call'
+E, [2020-08-13T14:20:09.900039 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/kitchen-inspec-2.0.0/lib/kitchen/verifier/inspec.rb:96:in `each'
+E, [2020-08-13T14:20:09.900407 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/kitchen-inspec-2.0.0/lib/kitchen/verifier/inspec.rb:96:in `call'
+E, [2020-08-13T14:20:09.900870 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:458:in `block in verify_action'
+E, [2020-08-13T14:20:09.901444 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:551:in `synchronize_or_call'
+E, [2020-08-13T14:20:09.901721 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:513:in `block in action'
+E, [2020-08-13T14:20:09.902032 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/2.6.0/benchmark.rb:293:in `measure'
+E, [2020-08-13T14:20:09.902180 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:512:in `action'
+E, [2020-08-13T14:20:09.902324 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:450:in `verify_action'
+E, [2020-08-13T14:20:09.902542 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:381:in `block (2 levels) in transition_to'
+E, [2020-08-13T14:20:09.902857 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/lifecycle_hooks.rb:44:in `run_with_hooks'
+E, [2020-08-13T14:20:09.903269 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:380:in `block in transition_to'
+E, [2020-08-13T14:20:09.903584 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:379:in `each'
+E, [2020-08-13T14:20:09.903824 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:379:in `transition_to'
+E, [2020-08-13T14:20:09.903963 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:161:in `verify'
+E, [2020-08-13T14:20:09.904065 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/command.rb:197:in `public_send'
+E, [2020-08-13T14:20:09.904163 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2020-08-13T14:20:09.905204 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/command.rb:168:in `block (2 levels) in run_action'
+E, [2020-08-13T14:20:09.905476 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/logging-2.3.0/lib/logging/diagnostic_context.rb:474:in `block in create_with_logging_context'
+E, [2020-08-13T14:20:09.905632 #15288] ERROR -- Kitchen: ----End Backtrace-----
+E, [2020-08-13T14:20:09.905800 #15288] ERROR -- Kitchen: -Composite Exception--
+E, [2020-08-13T14:20:09.906194 #15288] ERROR -- Kitchen: Class: Kitchen::InstanceFailure
+E, [2020-08-13T14:20:09.906656 #15288] ERROR -- Kitchen: Message: Verify failed on instance <hardened-centos-7>.  Please see .kitchen/logs/hardened-centos-7.log for more details
+E, [2020-08-13T14:20:09.906856 #15288] ERROR -- Kitchen: ----------------------
+E, [2020-08-13T14:20:09.906952 #15288] ERROR -- Kitchen: ------Backtrace-------
+E, [2020-08-13T14:20:09.907051 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/kitchen-inspec-2.0.0/lib/kitchen/verifier/inspec.rb:108:in `call'
+E, [2020-08-13T14:20:09.907145 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:458:in `block in verify_action'
+E, [2020-08-13T14:20:09.907240 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:551:in `synchronize_or_call'
+E, [2020-08-13T14:20:09.907334 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:513:in `block in action'
+E, [2020-08-13T14:20:09.907429 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/2.6.0/benchmark.rb:293:in `measure'
+E, [2020-08-13T14:20:09.907532 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:512:in `action'
+E, [2020-08-13T14:20:09.907623 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:450:in `verify_action'
+E, [2020-08-13T14:20:09.907725 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:381:in `block (2 levels) in transition_to'
+E, [2020-08-13T14:20:09.907843 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/lifecycle_hooks.rb:44:in `run_with_hooks'
+E, [2020-08-13T14:20:09.907960 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:380:in `block in transition_to'
+E, [2020-08-13T14:20:09.908076 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:379:in `each'
+E, [2020-08-13T14:20:09.908190 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:379:in `transition_to'
+E, [2020-08-13T14:20:09.908305 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:161:in `verify'
+E, [2020-08-13T14:20:09.908538 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/command.rb:197:in `public_send'
+E, [2020-08-13T14:20:09.908653 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2020-08-13T14:20:09.908766 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/command.rb:168:in `block (2 levels) in run_action'
+E, [2020-08-13T14:20:09.908877 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/logging-2.3.0/lib/logging/diagnostic_context.rb:474:in `block in create_with_logging_context'
+E, [2020-08-13T14:20:09.909004 #15288] ERROR -- Kitchen: ----End Backtrace-----
+E, [2020-08-13T14:20:09.909126 #15288] ERROR -- Kitchen: ---Nested Exception---
+E, [2020-08-13T14:20:09.909248 #15288] ERROR -- Kitchen: Class: Kitchen::ActionFailed
+E, [2020-08-13T14:20:09.909366 #15288] ERROR -- Kitchen: Message: InSpec Runner returns 1
+E, [2020-08-13T14:20:09.909548 #15288] ERROR -- Kitchen: ----------------------
+E, [2020-08-13T14:20:09.909665 #15288] ERROR -- Kitchen: ------Backtrace-------
+E, [2020-08-13T14:20:09.909789 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/kitchen-inspec-2.0.0/lib/kitchen/verifier/inspec.rb:108:in `call'
+E, [2020-08-13T14:20:09.909911 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:458:in `block in verify_action'
+E, [2020-08-13T14:20:09.910038 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:551:in `synchronize_or_call'
+E, [2020-08-13T14:20:09.910177 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:513:in `block in action'
+E, [2020-08-13T14:20:09.910294 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/2.6.0/benchmark.rb:293:in `measure'
+E, [2020-08-13T14:20:09.910428 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:512:in `action'
+E, [2020-08-13T14:20:09.910561 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:450:in `verify_action'
+E, [2020-08-13T14:20:09.910683 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:381:in `block (2 levels) in transition_to'
+E, [2020-08-13T14:20:09.910804 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/lifecycle_hooks.rb:44:in `run_with_hooks'
+E, [2020-08-13T14:20:09.910926 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:380:in `block in transition_to'
+E, [2020-08-13T14:20:09.911046 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:379:in `each'
+E, [2020-08-13T14:20:09.911168 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:379:in `transition_to'
+E, [2020-08-13T14:20:09.911326 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:161:in `verify'
+E, [2020-08-13T14:20:09.911442 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/command.rb:197:in `public_send'
+E, [2020-08-13T14:20:09.911583 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2020-08-13T14:20:09.911705 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/command.rb:168:in `block (2 levels) in run_action'
+E, [2020-08-13T14:20:09.911830 #15288] ERROR -- Kitchen: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/logging-2.3.0/lib/logging/diagnostic_context.rb:474:in `block in create_with_logging_context'
+E, [2020-08-13T14:20:09.911955 #15288] ERROR -- Kitchen: ----End Backtrace-----

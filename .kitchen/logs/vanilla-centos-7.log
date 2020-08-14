@@ -1,31 +1,68 @@
-I, [2020-08-10T11:24:49.134916 #21868]  INFO -- vanilla-centos-7: -----> Creating <vanilla-centos-7>...
-I, [2020-08-10T11:25:07.335332 #21868]  INFO -- vanilla-centos-7: Bringing machine 'default' up with 'virtualbox' provider...
-I, [2020-08-10T11:25:16.686425 #21868]  INFO -- vanilla-centos-7: ==> default: Importing base box 'bento/centos-7'...
-I, [2020-08-10T11:25:29.759802 #21868]  INFO -- vanilla-centos-7: [KProgress: 30%[KProgress: 50%[KProgress: 60%[K==> default: Matching MAC address for NAT networking...
-I, [2020-08-10T11:25:30.725854 #21868]  INFO -- vanilla-centos-7: ==> default: Checking if box 'bento/centos-7' version '202006.16.0' is up to date...
-I, [2020-08-10T11:25:33.744102 #21868]  INFO -- vanilla-centos-7: ==> default: Setting the name of the VM: kitchen-apache-couchdb-srg-baseline-vanilla-centos-7-edf05f71-72ef-4023-a6d5-7330b77cd67a
-I, [2020-08-10T11:25:38.977725 #21868]  INFO -- vanilla-centos-7: ==> default: Fixed port collision for 22 => 2222. Now on port 2201.
-I, [2020-08-10T11:25:40.674054 #21868]  INFO -- vanilla-centos-7: ==> default: Clearing any previously set network interfaces...
-I, [2020-08-10T11:25:40.945125 #21868]  INFO -- vanilla-centos-7: ==> default: Preparing network interfaces based on configuration...
-I, [2020-08-10T11:25:40.945952 #21868]  INFO -- vanilla-centos-7:     default: Adapter 1: nat
-I, [2020-08-10T11:25:41.261620 #21868]  INFO -- vanilla-centos-7: ==> default: Forwarding ports...
-I, [2020-08-10T11:25:41.666765 #21868]  INFO -- vanilla-centos-7:     default: 22 (guest) => 2201 (host) (adapter 1)
-I, [2020-08-10T11:25:42.413987 #21868]  INFO -- vanilla-centos-7: ==> default: Running 'pre-boot' VM customizations...
-I, [2020-08-10T11:25:42.615654 #21868]  INFO -- vanilla-centos-7: ==> default: Booting VM...
-I, [2020-08-10T11:25:53.085104 #21868]  INFO -- vanilla-centos-7: ==> default: Waiting for machine to boot. This may take a few minutes...
-I, [2020-08-10T11:25:57.155176 #21868]  INFO -- vanilla-centos-7:     default: SSH address: 127.0.0.1:2201
-I, [2020-08-10T11:25:57.155447 #21868]  INFO -- vanilla-centos-7:     default: SSH username: vagrant
-I, [2020-08-10T11:25:57.155559 #21868]  INFO -- vanilla-centos-7:     default: SSH auth method: private key
-I, [2020-08-10T11:26:20.322454 #21868]  INFO -- vanilla-centos-7:     default: 
-I, [2020-08-10T11:26:20.322914 #21868]  INFO -- vanilla-centos-7:     default: Vagrant insecure key detected. Vagrant will automatically replace
-I, [2020-08-10T11:26:20.323063 #21868]  INFO -- vanilla-centos-7:     default: this with a newly generated keypair for better security.
-I, [2020-08-10T11:26:22.916050 #21868]  INFO -- vanilla-centos-7:     default: 
-I, [2020-08-10T11:26:22.916292 #21868]  INFO -- vanilla-centos-7:     default: Inserting generated public key within guest...
-I, [2020-08-10T11:26:28.407071 #21868]  INFO -- vanilla-centos-7:     default: Removing insecure key from the guest if it's present...
-I, [2020-08-10T11:26:55.897986 #21868]  INFO -- vanilla-centos-7:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
-I, [2020-08-10T11:26:57.952782 #21868]  INFO -- vanilla-centos-7: ==> default: Machine booted and ready!
-I, [2020-08-10T11:26:57.952977 #21868]  INFO -- vanilla-centos-7: ==> default: Checking for guest additions in VM...
-I, [2020-08-10T11:26:58.184700 #21868]  INFO -- vanilla-centos-7: ==> default: Setting hostname...
-I, [2020-08-10T11:27:01.117055 #21868]  INFO -- vanilla-centos-7: ==> default: Mounting shared folders...
-I, [2020-08-10T11:27:01.117229 #21868]  INFO -- vanilla-centos-7:     default: /tmp/omnibus/cache => C:/Users/zhangc/.kitchen/cache
-I, [2020-08-10T11:27:02.836469 #21868]  INFO -- vanilla-centos-7: ==> default: Machine not provisioned because `--no-provision` is specified.
+I, [2020-08-13T14:19:15.793299 #15288]  INFO -- vanilla-centos-7: -----> Converging <vanilla-centos-7>...
+I, [2020-08-13T14:19:15.829006 #15288]  INFO -- vanilla-centos-7: Preparing files for transfer
+I, [2020-08-13T14:19:15.830938 #15288]  INFO -- vanilla-centos-7: Preparing dna.json
+I, [2020-08-13T14:19:15.840442 #15288]  INFO -- vanilla-centos-7: Policyfile, Berksfile, cookbooks/, or metadata.rb not found so Chef Infra Client will run, but do nothing. Is this intended?
+I, [2020-08-13T14:19:15.860778 #15288]  INFO -- vanilla-centos-7: Removing non-cookbook files before transfer
+I, [2020-08-13T14:19:15.903182 #15288]  INFO -- vanilla-centos-7: Preparing solo.rb
+I, [2020-08-13T14:19:16.354443 #15288]  INFO -- vanilla-centos-7: -----> Chef installation detected (install only if missing)
+I, [2020-08-13T14:19:16.437694 #15288]  INFO -- vanilla-centos-7: Transferring files to <vanilla-centos-7>
+I, [2020-08-13T14:19:21.187781 #15288]  INFO -- vanilla-centos-7: Starting Chef Infra Client, version 16.3.45
+I, [2020-08-13T14:19:23.369367 #15288]  INFO -- vanilla-centos-7: resolving cookbooks for run list: []
+I, [2020-08-13T14:19:23.369913 #15288]  INFO -- vanilla-centos-7: Synchronizing Cookbooks:
+I, [2020-08-13T14:19:23.371218 #15288]  INFO -- vanilla-centos-7: Installing Cookbook Gems:
+I, [2020-08-13T14:19:23.371356 #15288]  INFO -- vanilla-centos-7: Compiling Cookbooks...
+I, [2020-08-13T14:19:23.371455 #15288]  INFO -- vanilla-centos-7: [2020-08-13T18:19:22+00:00] WARN: Node vanilla-centos-7 has an empty run list.
+I, [2020-08-13T14:19:23.371551 #15288]  INFO -- vanilla-centos-7: Converging 0 resources
+I, [2020-08-13T14:19:23.481321 #15288]  INFO -- vanilla-centos-7: 
+I, [2020-08-13T14:19:23.481475 #15288]  INFO -- vanilla-centos-7: Running handlers:
+I, [2020-08-13T14:19:23.481576 #15288]  INFO -- vanilla-centos-7: Running handlers complete
+I, [2020-08-13T14:19:23.481667 #15288]  INFO -- vanilla-centos-7: Chef Infra Client finished, 0/0 resources updated in 02 seconds
+I, [2020-08-13T14:19:23.483409 #15288]  INFO -- vanilla-centos-7: Downloading files from <vanilla-centos-7>
+I, [2020-08-13T14:19:23.498890 #15288]  INFO -- vanilla-centos-7: Finished converging <vanilla-centos-7> (0m7.70s).
+I, [2020-08-13T14:19:23.499357 #15288]  INFO -- vanilla-centos-7: -----> Setting up <vanilla-centos-7>...
+I, [2020-08-13T14:19:23.505889 #15288]  INFO -- vanilla-centos-7: Finished setting up <vanilla-centos-7> (0m0.00s).
+I, [2020-08-13T14:19:23.512591 #15288]  INFO -- vanilla-centos-7: -----> Verifying <vanilla-centos-7>...
+E, [2020-08-13T14:19:38.171047 #15288] ERROR -- vanilla-centos-7: Verify failed on instance <vanilla-centos-7>.
+E, [2020-08-13T14:19:38.171331 #15288] ERROR -- vanilla-centos-7: ------Exception-------
+E, [2020-08-13T14:19:38.171448 #15288] ERROR -- vanilla-centos-7: Class: RuntimeError
+E, [2020-08-13T14:19:38.171546 #15288] ERROR -- vanilla-centos-7: Message: Error reading InSpec inputs: (inputs.vanilla.yml): did not find expected ',' or ']' while parsing a flow sequence at line 30 column 19
+E, [2020-08-13T14:19:38.171654 #15288] ERROR -- vanilla-centos-7: ----------------------
+E, [2020-08-13T14:19:38.171752 #15288] ERROR -- vanilla-centos-7: ------Backtrace-------
+E, [2020-08-13T14:19:38.171846 #15288] ERROR -- vanilla-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/secrets/yaml.rb:26:in `rescue in initialize'
+E, [2020-08-13T14:19:38.171937 #15288] ERROR -- vanilla-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/secrets/yaml.rb:18:in `initialize'
+E, [2020-08-13T14:19:38.172030 #15288] ERROR -- vanilla-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/secrets/yaml.rb:14:in `new'
+E, [2020-08-13T14:19:38.172122 #15288] ERROR -- vanilla-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/secrets/yaml.rb:14:in `resolve'
+E, [2020-08-13T14:19:38.172218 #15288] ERROR -- vanilla-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/plugin/v1/registry.rb:14:in `block in resolve'
+E, [2020-08-13T14:19:38.172309 #15288] ERROR -- vanilla-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/plugin/v1/registry.rb:13:in `each'
+E, [2020-08-13T14:19:38.172456 #15288] ERROR -- vanilla-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/plugin/v1/registry.rb:13:in `resolve'
+E, [2020-08-13T14:19:38.172548 #15288] ERROR -- vanilla-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/input_registry.rb:241:in `block in bind_inputs_from_input_files'
+E, [2020-08-13T14:19:38.172638 #15288] ERROR -- vanilla-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/input_registry.rb:237:in `each'
+E, [2020-08-13T14:19:38.172729 #15288] ERROR -- vanilla-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/input_registry.rb:237:in `bind_inputs_from_input_files'
+E, [2020-08-13T14:19:38.172821 #15288] ERROR -- vanilla-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/input_registry.rb:145:in `bind_profile_inputs'
+E, [2020-08-13T14:19:38.172956 #15288] ERROR -- vanilla-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/input_registry.rb:344:in `block (2 levels) in <class:InputRegistry>'
+E, [2020-08-13T14:19:38.173053 #15288] ERROR -- vanilla-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/profile.rb:136:in `initialize'
+E, [2020-08-13T14:19:38.173155 #15288] ERROR -- vanilla-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/profile.rb:61:in `new'
+E, [2020-08-13T14:19:38.173250 #15288] ERROR -- vanilla-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/profile.rb:61:in `for_path'
+E, [2020-08-13T14:19:38.173346 #15288] ERROR -- vanilla-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/profile.rb:68:in `for_fetcher'
+E, [2020-08-13T14:19:38.173441 #15288] ERROR -- vanilla-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/profile.rb:74:in `for_target'
+E, [2020-08-13T14:19:38.173537 #15288] ERROR -- vanilla-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/inspec-core-4.22.8/lib/inspec/runner.rb:198:in `add_target'
+E, [2020-08-13T14:19:38.173636 #15288] ERROR -- vanilla-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/kitchen-inspec-2.0.0/lib/kitchen/verifier/inspec.rb:97:in `block in call'
+E, [2020-08-13T14:19:38.173731 #15288] ERROR -- vanilla-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/kitchen-inspec-2.0.0/lib/kitchen/verifier/inspec.rb:96:in `each'
+E, [2020-08-13T14:19:38.173825 #15288] ERROR -- vanilla-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/kitchen-inspec-2.0.0/lib/kitchen/verifier/inspec.rb:96:in `call'
+E, [2020-08-13T14:19:38.173917 #15288] ERROR -- vanilla-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:458:in `block in verify_action'
+E, [2020-08-13T14:19:38.174008 #15288] ERROR -- vanilla-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:551:in `synchronize_or_call'
+E, [2020-08-13T14:19:38.174101 #15288] ERROR -- vanilla-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:513:in `block in action'
+E, [2020-08-13T14:19:38.174190 #15288] ERROR -- vanilla-centos-7: C:/Ruby26-x64/lib/ruby/2.6.0/benchmark.rb:293:in `measure'
+E, [2020-08-13T14:19:38.174281 #15288] ERROR -- vanilla-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:512:in `action'
+E, [2020-08-13T14:19:38.174371 #15288] ERROR -- vanilla-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:450:in `verify_action'
+E, [2020-08-13T14:19:38.174461 #15288] ERROR -- vanilla-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:381:in `block (2 levels) in transition_to'
+E, [2020-08-13T14:19:38.174551 #15288] ERROR -- vanilla-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/lifecycle_hooks.rb:44:in `run_with_hooks'
+E, [2020-08-13T14:19:38.174648 #15288] ERROR -- vanilla-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:380:in `block in transition_to'
+E, [2020-08-13T14:19:38.174739 #15288] ERROR -- vanilla-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:379:in `each'
+E, [2020-08-13T14:19:38.174829 #15288] ERROR -- vanilla-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:379:in `transition_to'
+E, [2020-08-13T14:19:38.174919 #15288] ERROR -- vanilla-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/instance.rb:161:in `verify'
+E, [2020-08-13T14:19:38.175010 #15288] ERROR -- vanilla-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/command.rb:197:in `public_send'
+E, [2020-08-13T14:19:38.175104 #15288] ERROR -- vanilla-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2020-08-13T14:19:38.175199 #15288] ERROR -- vanilla-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/test-kitchen-2.5.4/lib/kitchen/command.rb:168:in `block (2 levels) in run_action'
+E, [2020-08-13T14:19:38.175291 #15288] ERROR -- vanilla-centos-7: C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/logging-2.3.0/lib/logging/diagnostic_context.rb:474:in `block in create_with_logging_context'
+E, [2020-08-13T14:19:38.175387 #15288] ERROR -- vanilla-centos-7: ----End Backtrace-----

@@ -1,0 +1,45 @@
+
+#decription Path for local CouchDB configuration file
+couchdb_conf_local: '/opt/couchdb/etc/local.ini'
+
+#decription Path for default CouchDB configuration file
+couchdb_conf_default: '/opt/couchdb/etc/default.ini'
+
+couchdb_owner: 'couchdb'
+
+couchdb_group: 'couchdb'
+
+couchdb_version : '3.1.0'
+
+sys_admin : [ 'root ' ]
+
+couchdb_syslog_facility: ['local0']
+
+couchdb_host: ''
+login_user: ''
+couchdb_dba: ''
+couchdb_db: 'test_db'
+
+couchdb_admin: 'admin'
+couchdb_adminpass: 'mysecretpassword'
+
+couch_host: '127.0.0.1'
+couch_port: '5984'
+
+
+approved_members: [''couch_user'] 
+
+approved_admin: ['couchdba', 'admin']
+  
+  
+approved_packages: [
+  ''
+]
+
+couchdbpem: '/etc/couchdb/cert/couchdb.pem'
+privkeypem: '/etc/couchdb/cert/privkey.pem'
+
+authorized_ports: [
+  '80',
+  '443'
+]

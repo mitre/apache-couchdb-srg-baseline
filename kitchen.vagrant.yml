@@ -8,18 +8,9 @@ verifier:
   name: inspec
   sudo: true
   load_plugins: true
-  reporter: 
-    - cli
-    - json:./results/couchdb-vanilla-results.json
   inspec_tests: 
-    - path: ./controls
-    
-    #Modify for specific control
+    - path: ./
 
-
-
-  input_files:
-    - ./inputs.yml
 
 platforms:
   - name: centos-7
@@ -43,13 +34,17 @@ platforms:
       box: bento/centos-7
 
 suites:
-  - name: hardened
-    verifier:
-      reporter:
-        - cli
-        - json:spec/results/hardened-test-result.json
   - name: vanilla
-    verifer:
+    verifier:
+      input_files:
+        - inputs.vanilla.yml
       reporter:
         - cli
         - json:spec/results/vanilla-test-result.json
+  - name: hardened
+    verifier:
+      input_files:
+        - inputs.hardened.yml
+      reporter:
+        - cli
+        - json:spec/results/hardened-test-result.json

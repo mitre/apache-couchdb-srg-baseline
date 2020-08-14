@@ -1,0 +1,45 @@
+---
+driver:
+  name: docker
+  use_sudo: false
+  privileged: true
+
+transport:
+  name: docker
+
+provisioner:
+  name: chef_solo
+
+verifier:
+  name: inspec
+  sudo: true
+  load_plugins: true
+  inspec_tests:
+    - path: ./
+platforms:
+- name: ubuntu-18.04-nginx-latest
+  driver:
+    image: couchdb:latest
+    platform: ubuntu-18.04
+    provision_command:
+      - apt update
+      - apt install -y systemd-sysv
+      - systemctl enable ssh.service
+      
+suites:
+  - name: hardened
+
+    verifier:
+    input_files:
+        - ./inputs.hardened.yml
+      reporter:
+        - cli
+        - json:spec/results/hardened-test-result.json
+  - name: vanilla
+
+    verifier:
+    input_files:
+        - ./inputs.vanilla.yml
+      reporter:
+        - cli
+        - json:spec/results/vanilla-test-result.json
