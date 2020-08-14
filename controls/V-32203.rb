@@ -68,10 +68,8 @@ finding.
   tag "cci": ["CCI-000213"]
   tag "nist": ["AC-3", "Rev_4"]
   
-  describe "This test requires a Manual Review: Check CouchDB settings and documentation and verify that the DBMS enforces approved authorizations for logical access to
-information and system resources in accordance with applicable access control policies." do
-    skip "This test requires a Manual Review: Check CouchDB settings and documentation and verify that the DBMS enforces approved authorizations for logical access to
-information and system resources in accordance with applicable access control policies."
+  describe "This test is being skipped, but an automatic test is required" do
+    skip "This test is being skipped, but an automatic test is required"
   end 
 end
 
