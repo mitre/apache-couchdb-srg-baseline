@@ -16,11 +16,12 @@ verifier:
   load_plugins: true
   inspec_tests:
     - path: ./
+
 platforms:
-- name: ubuntu-18.04-nginx-latest
+- name: ubuntu-18.04
   driver:
     image: couchdb:latest
-    platform: ubuntu-18.04
+    platform: ubuntu
     provision_command:
       - apt update
       - apt install -y systemd-sysv
@@ -28,18 +29,16 @@ platforms:
       
 suites:
   - name: hardened
-
     verifier:
-    input_files:
-        - ./inputs.hardened.yml
+      input_files:
+        - inputs.hardened.yml
       reporter:
         - cli
         - json:spec/results/hardened-test-result.json
   - name: vanilla
-
     verifier:
-    input_files:
-        - ./inputs.vanilla.yml
+      input_files:
+        - inputs.vanilla.yml
       reporter:
         - cli
         - json:spec/results/vanilla-test-result.json

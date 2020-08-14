@@ -1,9 +1,10 @@
-
 #decription Path for local CouchDB configuration file
 couchdb_conf_local: '/opt/couchdb/etc/local.ini'
 
 #decription Path for default CouchDB configuration file
 couchdb_conf_default: '/opt/couchdb/etc/default.ini'
+
+max_connections: '20'
 
 couchdb_owner: 'couchdb'
 
@@ -27,9 +28,9 @@ couch_host: '127.0.0.1'
 couch_port: '5984'
 
 
-approved_users: ['couchdba', 'admin', 'couch_user'] 
+approved_members: ['couch_user'] 
 
-approved_admin: ['couchdba', 'admin']
+approved_admin: ['couchdba', 'admin'] 
   
   
 approved_packages: [
