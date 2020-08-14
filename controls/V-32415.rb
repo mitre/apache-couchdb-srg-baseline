@@ -59,5 +59,9 @@ manipulated by malicious users.
   tag "fix_id": nil
   tag "cci": ["CCI-001499"]
   tag "nist": ["CM-5 (6)", "Rev_4"]
+  
+  describe "This is an automatic test that needs to be added." do
+    skip "This is an automatic test that needs to be added."
+  end
 end
 
